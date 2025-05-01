@@ -195,6 +195,34 @@ export class GroupRouter extends RouterBroker {
         });
 
         res.status(HttpStatus.OK).json(response);
+      })
+      .get(this.routerPath('findByName'), ...guards, async (req, res) => {
+        const response = await this.getParticipantsValidate<GetParticipant>({
+          request: req,
+          schema: getParticipantsSchema,
+          ClassRef: GetParticipant,
+          execute: async (instance, data) => {
+            const name = req.query.name as string;
+            
+            if (!name) {
+              throw new Error('Group name is required');
+            }
+            
+            const groupResult = await groupController.findGroupByName(instance.instanceName, name, data);
+
+            if (!groupResult) {
+              return null;
+            }
+            
+            return groupResult;
+          },
+        });
+
+        if (response === null) {
+          res.status(HttpStatus.NOT_FOUND).json({ error: 'Group not found' });
+        } else {
+          res.status(HttpStatus.OK).json(response);
+        }
       });
   }
 

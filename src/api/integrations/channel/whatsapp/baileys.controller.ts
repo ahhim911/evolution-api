@@ -1,6 +1,15 @@
 import { InstanceDto } from '@api/dto/instance.dto';
 import { WAMonitoringService } from '@api/services/monitor.service';
+import {
+  Controller,
+  Get,
+  Body,  
+  Query,
+  Post,
+} from '@nestjs/common';
 
+
+@Controller('whatsapp')
 export class BaileysController {
   constructor(private readonly waMonitor: WAMonitoringService) {}
 
@@ -56,5 +65,15 @@ export class BaileysController {
     const instance = this.waMonitor.waInstances[instanceName];
 
     return instance.baileysGetAuthState();
+  }
+
+  @Post('group-jid')
+  public async getGroupJid(instance: InstanceDto) {
+    const waInstance = this.waMonitor.waInstances[instance.instanceName];
+    if (!waInstance) {
+      throw new Error(`Instance "${instance.instanceName}" not found`);
+    }
+    const groupJid = await waInstance.getGroupJidByName(instance.subject);
+    return { groupJid };
   }
 }

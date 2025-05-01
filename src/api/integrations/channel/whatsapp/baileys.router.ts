@@ -4,9 +4,10 @@ import { HttpStatus } from '@api/routes/index.router';
 import { baileysController } from '@api/server.module';
 import { instanceSchema } from '@validate/instance.schema';
 import { RequestHandler, Router } from 'express';
+import { WAMonitoringService } from '@services/wa-monitoring.service';
 
 export class BaileysRouter extends RouterBroker {
-  constructor(...guards: RequestHandler[]) {
+  constructor(private readonly waMonitor: WAMonitoringService, ...guards: RequestHandler[]) {
     super();
     this.router
       .post(this.routerPath('onWhatsapp'), ...guards, async (req, res) => {
@@ -29,6 +30,23 @@ export class BaileysRouter extends RouterBroker {
 
         res.status(HttpStatus.OK).json(response);
       })
+      .post(
+        this.routerPath('group-jid'),
+        ...guards,
+        async (req, res) => {
+          const response = await this.dataValidate<InstanceDto>({
+            request: req,
+            schema: instanceSchema,
+            ClassRef: InstanceDto,
+            execute: (instance) => baileysController.getGroupJid(
+              instance.instanceName,
+              req.body.subject
+            ),
+          });
+
+          res.status(HttpStatus.OK).json(response);
+        },
+      )
       .post(this.routerPath('assertSessions'), ...guards, async (req, res) => {
         const response = await this.dataValidate<InstanceDto>({
           request: req,
@@ -98,6 +116,26 @@ export class BaileysRouter extends RouterBroker {
         });
 
         res.status(HttpStatus.OK).json(response);
+      })
+      .get(this.routerPath('findByName/:instance'), ...guards, async (req, res) => {
+        try {
+          const { instance } = req.params;
+          const { name, getParticipants = 'false' } = req.query;
+          
+          const waInstance = this.waMonitor.waInstances[instance];
+          if (!waInstance) {
+            return res.status(HttpStatus.NOT_FOUND).json({
+              error: `Instance "${instance}" not found`
+            });
+          }
+          
+          const result = await waInstance.findGroupByName(name, { getParticipants });
+          return res.status(HttpStatus.OK).json(result);
+        } catch (error) {
+          return res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({
+            error: error.message
+          });
+        }
       });
   }
 
