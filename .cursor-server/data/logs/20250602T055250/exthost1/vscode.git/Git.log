@@ -192,3 +192,15 @@
 2025-06-02 10:55:18.222 [info] > git status -z -uall [83ms] (cancelled)
 2025-06-02 10:55:18.691 [info] > git check-ignore -v -z --stdin [3ms]
 2025-06-02 10:55:18.692 [info] > git check-ignore -v -z --stdin [1ms]
+2025-06-02 10:55:24.662 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [511ms]
+2025-06-02 10:55:24.669 [warning] [Git][getBranch] No such branch: master
+2025-06-02 10:55:24.670 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-06-02 10:55:24.709 [info] > git config --get commit.template [48ms]
+2025-06-02 10:55:24.730 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-06-02 10:55:24.730 [warning] [Git][getBranch] No such branch: master
+2025-06-02 10:55:24.763 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2025-06-02 10:55:24.924 [info] > git status -z -uall [182ms] (cancelled)
+2025-06-02 10:55:32.625 [info] > git ls-files --stage -- /root/evolution-api/.env [2ms]
+2025-06-02 10:55:32.684 [info] > git show --textconv :.env [1ms]
+2025-06-02 10:55:52.638 [info] > git ls-files --stage -- /root/evolution-api/.env [1ms]
+2025-06-02 10:55:52.666 [info] > git show --textconv :.env [1ms]

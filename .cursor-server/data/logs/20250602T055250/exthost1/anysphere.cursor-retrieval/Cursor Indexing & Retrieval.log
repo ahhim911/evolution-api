@@ -1241,3 +1241,4 @@ fatal: not a git repository (or any of the parent directories): .git
 2025-06-02 10:54:53.171 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
 2025-06-02 10:54:53.179 [error] We currently do not allow indexing the home directory.
 2025-06-02 10:54:53.179 [info] Indexing job successfully done or aborted.
+2025-06-02 10:55:24.780 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
