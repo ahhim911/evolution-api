@@ -1,0 +1,85 @@
+2025-05-29 03:00:24.758 [info] [main] Log level: Info
+2025-05-29 03:00:24.758 [info] [main] Validating found git in: "git"
+2025-05-29 03:00:24.758 [info] [main] Using git "2.43.0" from "git"
+2025-05-29 03:00:24.758 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-29 03:00:24.758 [info] > git rev-parse --show-toplevel [20ms]
+2025-05-29 03:00:24.758 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-29 03:00:24.758 [info] > git rev-parse --show-toplevel [0ms]
+2025-05-29 03:00:24.758 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-29 03:00:24.767 [info] > git rev-parse --show-toplevel [6ms]
+2025-05-29 03:00:24.767 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-29 03:00:24.772 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-29 03:00:24.772 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-29 03:00:24.776 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-29 03:00:24.776 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-29 03:00:24.779 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-29 03:00:24.779 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-29 03:00:24.782 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-29 03:00:24.785 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2025-05-29 03:00:24.791 [info] [Model][openRepository] Opened repository: /root/.nvm
+2025-05-29 03:00:24.803 [info] > git rev-parse --show-toplevel [6ms]
+2025-05-29 03:00:24.803 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-29 03:00:24.804 [info] > git config --get commit.template [8ms]
+2025-05-29 03:00:24.810 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-29 03:00:24.810 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-29 03:00:24.814 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-29 03:00:24.837 [info] > git rev-parse --git-dir --git-common-dir [19ms]
+2025-05-29 03:00:24.839 [info] [Model][openRepository] Opened repository: /root/evolution-api
+2025-05-29 03:00:24.841 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-29 03:00:24.841 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [31ms]
+2025-05-29 03:00:24.851 [info] > git config --get commit.template [1ms]
+2025-05-29 03:00:24.851 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-05-29 03:00:24.860 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-05-29 03:00:24.862 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/evolution-api/.git/refs/remotes/origin/main'
+2025-05-29 03:00:24.870 [info] > git rev-parse refs/remotes/origin/main [8ms]
+2025-05-29 03:00:24.886 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2025-05-29 03:00:24.908 [info] > git status -z -uall [63ms]
+2025-05-29 03:00:24.938 [info] > git config --get commit.template [1ms]
+2025-05-29 03:00:24.938 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2025-05-29 03:00:24.938 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-29 03:00:24.945 [info] > git rev-parse --verify origin/main [3ms]
+2025-05-29 03:00:24.945 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-29 03:00:24.947 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [2ms]
+2025-05-29 03:00:24.954 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-05-29 03:00:24.955 [info] > git rev-parse --verify origin/master [8ms]
+2025-05-29 03:00:24.955 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-29 03:00:24.957 [info] > git status -z -uall [7ms]
+2025-05-29 03:00:24.958 [info] > git rev-parse --verify origin/develop [1ms]
+2025-05-29 03:00:24.958 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-29 03:00:24.960 [info] > git branch -r [0ms]
+2025-05-29 03:00:24.960 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-29 03:00:24.963 [info] > git config --get init.defaultBranch [0ms]
+2025-05-29 03:00:24.966 [info] > git status -z -uall [92ms]
+2025-05-29 03:00:24.973 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-29 03:00:24.975 [info] > git config --get commit.template [3ms]
+2025-05-29 03:00:24.977 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2025-05-29 03:00:24.981 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2025-05-29 03:00:24.984 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-05-29 03:00:24.986 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/evolution-api/.git/refs/remotes/origin/main'
+2025-05-29 03:00:24.986 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2025-05-29 03:00:24.988 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-29 03:00:24.999 [info] > git diff --name-status -z --diff-filter=ADMR 427c99499394d3894e4b065626323c45e91022e4...refs/remotes/origin/main [11ms]
+2025-05-29 03:00:25.002 [info] > git status -z -uall [12ms]
+2025-05-29 03:00:25.002 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2025-05-29 03:00:25.386 [info] > git check-ignore -v -z --stdin [3ms]
+2025-05-29 03:00:25.386 [info] > git check-ignore -v -z --stdin [1ms]
+2025-05-29 03:00:34.177 [info] > git config --global user.name [1ms]
+2025-05-29 03:00:34.179 [info] > git config --global user.email [0ms]
+2025-05-29 03:00:34.179 [info] [main] Stored git author name in global state:  <>
+2025-05-29 03:00:35.078 [info] > git check-ignore -v -z --stdin [1ms]
+2025-05-29 03:00:39.839 [info] > git show --textconv :.env [3ms]
+2025-05-29 03:00:39.839 [info] > git ls-files --stage -- /root/evolution-api/.env [1ms]
+2025-05-29 03:00:40.769 [info] > git blame --root --incremental 427c99499394d3894e4b065626323c45e91022e4 -- /root/evolution-api/.env [1ms]
+2025-05-29 03:00:40.769 [info] fatal: no such path .env in 427c99499394d3894e4b065626323c45e91022e4
+2025-05-29 03:01:39.014 [info] > git config --get commit.template [2ms]
+2025-05-29 03:01:39.014 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-05-29 03:01:39.016 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/evolution-api/.git/refs/remotes/origin/main'
+2025-05-29 03:01:39.016 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2025-05-29 03:01:39.023 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [0ms]
+2025-05-29 03:01:39.030 [info] > git status -z -uall [12ms]
+2025-05-29 03:01:44.036 [info] > git config --get commit.template [3ms]
+2025-05-29 03:01:44.037 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2025-05-29 03:01:44.040 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/evolution-api/.git/refs/remotes/origin/main'
+2025-05-29 03:01:44.040 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2025-05-29 03:01:44.046 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [0ms]
+2025-05-29 03:01:44.053 [info] > git status -z -uall [11ms]

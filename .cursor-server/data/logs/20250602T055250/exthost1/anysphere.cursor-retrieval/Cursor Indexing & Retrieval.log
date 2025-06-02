@@ -1,0 +1,1243 @@
+2025-06-02 05:52:53.316 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-06-02 05:52:53.316 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-06-02 05:52:53.316 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:423:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-06-02 05:52:53.316 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-02 05:52:53.316 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-02 05:52:53.392 [info] Using existing keys for an index
+2025-06-02 05:52:53.392 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-06-02 05:52:53.408 [info] Using existing keys for an index
+2025-06-02 05:52:53.408 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-06-02 05:52:53.549 [info] Using existing keys for an index
+2025-06-02 05:52:53.549 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-06-02 05:52:53.637 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 05:52:53.639 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-02 05:52:53.639 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '/root/.git/HEAD')
+2025-06-02 05:52:53.649 [warning] Failed to get branches from remote: Failed to execute git
+2025-06-02 05:52:53.651 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-02 05:52:53.699 [error] We currently do not allow indexing the home directory.
+2025-06-02 05:52:53.699 [info] Indexing job successfully done or aborted.
+2025-06-02 05:52:54.150 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 05:52:54.395 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-02 05:52:54.395 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-02 05:52:54.395 [info] multiCodebaseIndexingJob dispose
+2025-06-02 05:52:54.395 [info] Aborting indexing job.
+2025-06-02 05:52:54.396 [info] Using existing keys for an index
+2025-06-02 05:52:54.396 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-06-02 05:52:54.405 [error] We currently do not allow indexing the home directory.
+2025-06-02 05:52:54.405 [info] Indexing job successfully done or aborted.
+2025-06-02 05:52:56.640 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 05:52:56.656 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 05:52:56.674 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 05:55:43.480 [error] Git command failed: git ls-files --others --exclude-standard Command failed: git ls-files --others --exclude-standard
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 05:55:43.480 [error] Error getting untracked files: Command failed: git ls-files --others --exclude-standard
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 05:55:43.480 [error] Git command failed: git diff --no-color Command failed: git diff --no-color
+warning: Not a git repository. Use --no-index to compare two paths outside a working tree
+usage: git diff --no-index [<options>] <path> <path>
+
+Diff output format options
+    -p, --patch           generate patch
+    -s, --no-patch        suppress diff output
+    -u                    generate patch
+    -U, --unified[=<n>]   generate diffs with <n> lines context
+    -W, --[no-]function-context
+                          generate diffs with <n> lines context
+    --raw                 generate the diff in raw format
+    --patch-with-raw      synonym for '-p --raw'
+    --patch-with-stat     synonym for '-p --stat'
+    --numstat             machine friendly --stat
+    --shortstat           output only the last line of --stat
+    -X, --dirstat[=<param1,param2>...]
+                          output the distribution of relative amount of changes for each sub-directory
+    --cumulative          synonym for --dirstat=cumulative
+    --dirstat-by-file[=<param1,param2>...]
+                          synonym for --dirstat=files,param1,param2...
+    --check               warn if changes introduce conflict markers or whitespace errors
+    --summary             condensed summary such as creations, renames and mode changes
+    --name-only           show only names of changed files
+    --name-status         show only names and status of changed files
+    --stat[=<width>[,<name-width>[,<count>]]]
+                          generate diffstat
+    --stat-width <width>  generate diffstat with a given width
+    --stat-name-width <width>
+                          generate diffstat with a given name width
+    --stat-graph-width <width>
+                          generate diffstat with a given graph width
+    --stat-count <count>  generate diffstat with limited lines
+    --[no-]compact-summary
+                          generate compact summary in diffstat
+    --binary              output a binary diff that can be applied
+    --[no-]full-index     show full pre- and post-image object names on the "index" lines
+    --[no-]color[=<when>] show colored diff
+    --ws-error-highlight <kind>
+                          highlight whitespace errors in the 'context', 'old' or 'new' lines in the diff
+    -z                    do not munge pathnames and use NULs as output field terminators in --raw or --numstat
+    --[no-]abbrev[=<n>]   use <n> digits to display object names
+    --src-prefix <prefix> show the given source prefix instead of "a/"
+    --dst-prefix <prefix> show the given destination prefix instead of "b/"
+    --line-prefix <prefix>
+                          prepend an additional prefix to every line of output
+    --no-prefix           do not show any source or destination prefix
+    --default-prefix      use default prefixes a/ and b/
+    --inter-hunk-context <n>
+                          show context between diff hunks up to the specified number of lines
+    --output-indicator-new <char>
+                          specify the character to indicate a new line instead of '+'
+    --output-indicator-old <char>
+                          specify the character to indicate an old line instead of '-'
+    --output-indicator-context <char>
+                          specify the character to indicate a context instead of ' '
+
+Diff rename options
+    -B, --break-rewrites[=<n>[/<m>]]
+                          break complete rewrite changes into pairs of delete and create
+    -M, --find-renames[=<n>]
+                          detect renames
+    -D, --irreversible-delete
+                          omit the preimage for deletes
+    -C, --find-copies[=<n>]
+                          detect copies
+    --[no-]find-copies-harder
+                          use unmodified files as source to find copies
+    --no-renames          disable rename detection
+    --[no-]rename-empty   use empty blobs as rename source
+    --[no-]follow         continue listing the history of a file beyond renames
+    -l <n>                prevent rename/copy detection if the number of rename/copy targets exceeds given limit
+
+Diff algorithm options
+    --minimal             produce the smallest possible diff
+    -w, --ignore-all-space
+                          ignore whitespace when comparing lines
+    -b, --ignore-space-change
+                          ignore changes in amount of whitespace
+    --ignore-space-at-eol ignore changes in whitespace at EOL
+    --ignore-cr-at-eol    ignore carrier-return at the end of line
+    --ignore-blank-lines  ignore changes whose lines are all blank
+    -I, --[no-]ignore-matching-lines <regex>
+                          ignore changes whose all lines match <regex>
+    --[no-]indent-heuristic
+                          heuristic to shift diff hunk boundaries for easy reading
+    --patience            generate diff using the "patience diff" algorithm
+    --histogram           generate diff using the "histogram diff" algorithm
+    --diff-algorithm <algorithm>
+                          choose a diff algorithm
+    --anchored <text>     generate diff using the "anchored diff" algorithm
+    --word-diff[=<mode>]  show word diff, using <mode> to delimit changed words
+    --word-diff-regex <regex>
+                          use <regex> to decide what a word is
+    --color-words[=<regex>]
+                          equivalent to --word-diff=color --word-diff-regex=<regex>
+    --[no-]color-moved[=<mode>]
+                          moved lines of code are colored differently
+    --[no-]color-moved-ws <mode>
+                          how white spaces are ignored in --color-moved
+
+Other diff options
+    --[no-]relative[=<prefix>]
+                          when run from subdir, exclude changes outside and show relative paths
+    -a, --[no-]text       treat all files as text
+    -R                    swap two inputs, reverse the diff
+    --[no-]exit-code      exit with 1 if there were differences, 0 otherwise
+    --[no-]quiet          disable all output of the program
+    --[no-]ext-diff       allow an external diff helper to be executed
+    --[no-]textconv       run external text conversion filters when comparing binary files
+    --ignore-submodules[=<when>]
+                          ignore changes to submodules in the diff generation
+    --submodule[=<format>]
+                          specify how differences in submodules are shown
+    --ita-invisible-in-index
+                          hide 'git add -N' entries from the index
+    --ita-visible-in-index
+                          treat 'git add -N' entries as real in the index
+    -S <string>           look for differences that change the number of occurrences of the specified string
+    -G <regex>            look for differences that change the number of occurrences of the specified regex
+    --pickaxe-all         show all changes in the changeset with -S or -G
+    --pickaxe-regex       treat <string> in -S as extended POSIX regular expression
+    -O <file>             control the order in which files appear in the output
+    --rotate-to <path>    show the change in the specified path first
+    --skip-to <path>      skip the output to the specified path
+    --find-object <object-id>
+                          look for differences that change the number of occurrences of the specified object
+    --diff-filter [(A|C|D|M|R|T|U|X|B)...[*]]
+                          select files by diff type
+    --output <file>       output to a specific file
+
+
+2025-06-02 05:55:44.008 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 05:55:53.555 [error] Git command failed: git ls-files --others --exclude-standard Command failed: git ls-files --others --exclude-standard
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 05:55:53.555 [error] Error getting untracked files: Command failed: git ls-files --others --exclude-standard
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 05:55:53.556 [error] Git command failed: git diff --no-color Command failed: git diff --no-color
+warning: Not a git repository. Use --no-index to compare two paths outside a working tree
+usage: git diff --no-index [<options>] <path> <path>
+
+Diff output format options
+    -p, --patch           generate patch
+    -s, --no-patch        suppress diff output
+    -u                    generate patch
+    -U, --unified[=<n>]   generate diffs with <n> lines context
+    -W, --[no-]function-context
+                          generate diffs with <n> lines context
+    --raw                 generate the diff in raw format
+    --patch-with-raw      synonym for '-p --raw'
+    --patch-with-stat     synonym for '-p --stat'
+    --numstat             machine friendly --stat
+    --shortstat           output only the last line of --stat
+    -X, --dirstat[=<param1,param2>...]
+                          output the distribution of relative amount of changes for each sub-directory
+    --cumulative          synonym for --dirstat=cumulative
+    --dirstat-by-file[=<param1,param2>...]
+                          synonym for --dirstat=files,param1,param2...
+    --check               warn if changes introduce conflict markers or whitespace errors
+    --summary             condensed summary such as creations, renames and mode changes
+    --name-only           show only names of changed files
+    --name-status         show only names and status of changed files
+    --stat[=<width>[,<name-width>[,<count>]]]
+                          generate diffstat
+    --stat-width <width>  generate diffstat with a given width
+    --stat-name-width <width>
+                          generate diffstat with a given name width
+    --stat-graph-width <width>
+                          generate diffstat with a given graph width
+    --stat-count <count>  generate diffstat with limited lines
+    --[no-]compact-summary
+                          generate compact summary in diffstat
+    --binary              output a binary diff that can be applied
+    --[no-]full-index     show full pre- and post-image object names on the "index" lines
+    --[no-]color[=<when>] show colored diff
+    --ws-error-highlight <kind>
+                          highlight whitespace errors in the 'context', 'old' or 'new' lines in the diff
+    -z                    do not munge pathnames and use NULs as output field terminators in --raw or --numstat
+    --[no-]abbrev[=<n>]   use <n> digits to display object names
+    --src-prefix <prefix> show the given source prefix instead of "a/"
+    --dst-prefix <prefix> show the given destination prefix instead of "b/"
+    --line-prefix <prefix>
+                          prepend an additional prefix to every line of output
+    --no-prefix           do not show any source or destination prefix
+    --default-prefix      use default prefixes a/ and b/
+    --inter-hunk-context <n>
+                          show context between diff hunks up to the specified number of lines
+    --output-indicator-new <char>
+                          specify the character to indicate a new line instead of '+'
+    --output-indicator-old <char>
+                          specify the character to indicate an old line instead of '-'
+    --output-indicator-context <char>
+                          specify the character to indicate a context instead of ' '
+
+Diff rename options
+    -B, --break-rewrites[=<n>[/<m>]]
+                          break complete rewrite changes into pairs of delete and create
+    -M, --find-renames[=<n>]
+                          detect renames
+    -D, --irreversible-delete
+                          omit the preimage for deletes
+    -C, --find-copies[=<n>]
+                          detect copies
+    --[no-]find-copies-harder
+                          use unmodified files as source to find copies
+    --no-renames          disable rename detection
+    --[no-]rename-empty   use empty blobs as rename source
+    --[no-]follow         continue listing the history of a file beyond renames
+    -l <n>                prevent rename/copy detection if the number of rename/copy targets exceeds given limit
+
+Diff algorithm options
+    --minimal             produce the smallest possible diff
+    -w, --ignore-all-space
+                          ignore whitespace when comparing lines
+    -b, --ignore-space-change
+                          ignore changes in amount of whitespace
+    --ignore-space-at-eol ignore changes in whitespace at EOL
+    --ignore-cr-at-eol    ignore carrier-return at the end of line
+    --ignore-blank-lines  ignore changes whose lines are all blank
+    -I, --[no-]ignore-matching-lines <regex>
+                          ignore changes whose all lines match <regex>
+    --[no-]indent-heuristic
+                          heuristic to shift diff hunk boundaries for easy reading
+    --patience            generate diff using the "patience diff" algorithm
+    --histogram           generate diff using the "histogram diff" algorithm
+    --diff-algorithm <algorithm>
+                          choose a diff algorithm
+    --anchored <text>     generate diff using the "anchored diff" algorithm
+    --word-diff[=<mode>]  show word diff, using <mode> to delimit changed words
+    --word-diff-regex <regex>
+                          use <regex> to decide what a word is
+    --color-words[=<regex>]
+                          equivalent to --word-diff=color --word-diff-regex=<regex>
+    --[no-]color-moved[=<mode>]
+                          moved lines of code are colored differently
+    --[no-]color-moved-ws <mode>
+                          how white spaces are ignored in --color-moved
+
+Other diff options
+    --[no-]relative[=<prefix>]
+                          when run from subdir, exclude changes outside and show relative paths
+    -a, --[no-]text       treat all files as text
+    -R                    swap two inputs, reverse the diff
+    --[no-]exit-code      exit with 1 if there were differences, 0 otherwise
+    --[no-]quiet          disable all output of the program
+    --[no-]ext-diff       allow an external diff helper to be executed
+    --[no-]textconv       run external text conversion filters when comparing binary files
+    --ignore-submodules[=<when>]
+                          ignore changes to submodules in the diff generation
+    --submodule[=<format>]
+                          specify how differences in submodules are shown
+    --ita-invisible-in-index
+                          hide 'git add -N' entries from the index
+    --ita-visible-in-index
+                          treat 'git add -N' entries as real in the index
+    -S <string>           look for differences that change the number of occurrences of the specified string
+    -G <regex>            look for differences that change the number of occurrences of the specified regex
+    --pickaxe-all         show all changes in the changeset with -S or -G
+    --pickaxe-regex       treat <string> in -S as extended POSIX regular expression
+    -O <file>             control the order in which files appear in the output
+    --rotate-to <path>    show the change in the specified path first
+    --skip-to <path>      skip the output to the specified path
+    --find-object <object-id>
+                          look for differences that change the number of occurrences of the specified object
+    --diff-filter [(A|C|D|M|R|T|U|X|B)...[*]]
+                          select files by diff type
+    --output <file>       output to a specific file
+
+
+2025-06-02 05:55:54.052 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 05:57:36.229 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 05:57:45.446 [error] Git command failed: git ls-files --others --exclude-standard Command failed: git ls-files --others --exclude-standard
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 05:57:45.446 [error] Error getting untracked files: Command failed: git ls-files --others --exclude-standard
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 05:57:45.447 [error] Git command failed: git diff --no-color Command failed: git diff --no-color
+warning: Not a git repository. Use --no-index to compare two paths outside a working tree
+usage: git diff --no-index [<options>] <path> <path>
+
+Diff output format options
+    -p, --patch           generate patch
+    -s, --no-patch        suppress diff output
+    -u                    generate patch
+    -U, --unified[=<n>]   generate diffs with <n> lines context
+    -W, --[no-]function-context
+                          generate diffs with <n> lines context
+    --raw                 generate the diff in raw format
+    --patch-with-raw      synonym for '-p --raw'
+    --patch-with-stat     synonym for '-p --stat'
+    --numstat             machine friendly --stat
+    --shortstat           output only the last line of --stat
+    -X, --dirstat[=<param1,param2>...]
+                          output the distribution of relative amount of changes for each sub-directory
+    --cumulative          synonym for --dirstat=cumulative
+    --dirstat-by-file[=<param1,param2>...]
+                          synonym for --dirstat=files,param1,param2...
+    --check               warn if changes introduce conflict markers or whitespace errors
+    --summary             condensed summary such as creations, renames and mode changes
+    --name-only           show only names of changed files
+    --name-status         show only names and status of changed files
+    --stat[=<width>[,<name-width>[,<count>]]]
+                          generate diffstat
+    --stat-width <width>  generate diffstat with a given width
+    --stat-name-width <width>
+                          generate diffstat with a given name width
+    --stat-graph-width <width>
+                          generate diffstat with a given graph width
+    --stat-count <count>  generate diffstat with limited lines
+    --[no-]compact-summary
+                          generate compact summary in diffstat
+    --binary              output a binary diff that can be applied
+    --[no-]full-index     show full pre- and post-image object names on the "index" lines
+    --[no-]color[=<when>] show colored diff
+    --ws-error-highlight <kind>
+                          highlight whitespace errors in the 'context', 'old' or 'new' lines in the diff
+    -z                    do not munge pathnames and use NULs as output field terminators in --raw or --numstat
+    --[no-]abbrev[=<n>]   use <n> digits to display object names
+    --src-prefix <prefix> show the given source prefix instead of "a/"
+    --dst-prefix <prefix> show the given destination prefix instead of "b/"
+    --line-prefix <prefix>
+                          prepend an additional prefix to every line of output
+    --no-prefix           do not show any source or destination prefix
+    --default-prefix      use default prefixes a/ and b/
+    --inter-hunk-context <n>
+                          show context between diff hunks up to the specified number of lines
+    --output-indicator-new <char>
+                          specify the character to indicate a new line instead of '+'
+    --output-indicator-old <char>
+                          specify the character to indicate an old line instead of '-'
+    --output-indicator-context <char>
+                          specify the character to indicate a context instead of ' '
+
+Diff rename options
+    -B, --break-rewrites[=<n>[/<m>]]
+                          break complete rewrite changes into pairs of delete and create
+    -M, --find-renames[=<n>]
+                          detect renames
+    -D, --irreversible-delete
+                          omit the preimage for deletes
+    -C, --find-copies[=<n>]
+                          detect copies
+    --[no-]find-copies-harder
+                          use unmodified files as source to find copies
+    --no-renames          disable rename detection
+    --[no-]rename-empty   use empty blobs as rename source
+    --[no-]follow         continue listing the history of a file beyond renames
+    -l <n>                prevent rename/copy detection if the number of rename/copy targets exceeds given limit
+
+Diff algorithm options
+    --minimal             produce the smallest possible diff
+    -w, --ignore-all-space
+                          ignore whitespace when comparing lines
+    -b, --ignore-space-change
+                          ignore changes in amount of whitespace
+    --ignore-space-at-eol ignore changes in whitespace at EOL
+    --ignore-cr-at-eol    ignore carrier-return at the end of line
+    --ignore-blank-lines  ignore changes whose lines are all blank
+    -I, --[no-]ignore-matching-lines <regex>
+                          ignore changes whose all lines match <regex>
+    --[no-]indent-heuristic
+                          heuristic to shift diff hunk boundaries for easy reading
+    --patience            generate diff using the "patience diff" algorithm
+    --histogram           generate diff using the "histogram diff" algorithm
+    --diff-algorithm <algorithm>
+                          choose a diff algorithm
+    --anchored <text>     generate diff using the "anchored diff" algorithm
+    --word-diff[=<mode>]  show word diff, using <mode> to delimit changed words
+    --word-diff-regex <regex>
+                          use <regex> to decide what a word is
+    --color-words[=<regex>]
+                          equivalent to --word-diff=color --word-diff-regex=<regex>
+    --[no-]color-moved[=<mode>]
+                          moved lines of code are colored differently
+    --[no-]color-moved-ws <mode>
+                          how white spaces are ignored in --color-moved
+
+Other diff options
+    --[no-]relative[=<prefix>]
+                          when run from subdir, exclude changes outside and show relative paths
+    -a, --[no-]text       treat all files as text
+    -R                    swap two inputs, reverse the diff
+    --[no-]exit-code      exit with 1 if there were differences, 0 otherwise
+    --[no-]quiet          disable all output of the program
+    --[no-]ext-diff       allow an external diff helper to be executed
+    --[no-]textconv       run external text conversion filters when comparing binary files
+    --ignore-submodules[=<when>]
+                          ignore changes to submodules in the diff generation
+    --submodule[=<format>]
+                          specify how differences in submodules are shown
+    --ita-invisible-in-index
+                          hide 'git add -N' entries from the index
+    --ita-visible-in-index
+                          treat 'git add -N' entries as real in the index
+    -S <string>           look for differences that change the number of occurrences of the specified string
+    -G <regex>            look for differences that change the number of occurrences of the specified regex
+    --pickaxe-all         show all changes in the changeset with -S or -G
+    --pickaxe-regex       treat <string> in -S as extended POSIX regular expression
+    -O <file>             control the order in which files appear in the output
+    --rotate-to <path>    show the change in the specified path first
+    --skip-to <path>      skip the output to the specified path
+    --find-object <object-id>
+                          look for differences that change the number of occurrences of the specified object
+    --diff-filter [(A|C|D|M|R|T|U|X|B)...[*]]
+                          select files by diff type
+    --output <file>       output to a specific file
+
+
+2025-06-02 05:57:45.949 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 05:57:54.406 [info] multiCodebaseIndexingJob dispose
+2025-06-02 05:57:54.406 [info] Aborting indexing job.
+2025-06-02 05:57:54.406 [error] We currently do not allow indexing the home directory.
+2025-06-02 05:57:54.406 [info] Indexing job successfully done or aborted.
+2025-06-02 05:58:51.272 [error] Git command failed: git diff --no-color Command failed: git diff --no-color
+warning: Not a git repository. Use --no-index to compare two paths outside a working tree
+usage: git diff --no-index [<options>] <path> <path>
+
+Diff output format options
+    -p, --patch           generate patch
+    -s, --no-patch        suppress diff output
+    -u                    generate patch
+    -U, --unified[=<n>]   generate diffs with <n> lines context
+    -W, --[no-]function-context
+                          generate diffs with <n> lines context
+    --raw                 generate the diff in raw format
+    --patch-with-raw      synonym for '-p --raw'
+    --patch-with-stat     synonym for '-p --stat'
+    --numstat             machine friendly --stat
+    --shortstat           output only the last line of --stat
+    -X, --dirstat[=<param1,param2>...]
+                          output the distribution of relative amount of changes for each sub-directory
+    --cumulative          synonym for --dirstat=cumulative
+    --dirstat-by-file[=<param1,param2>...]
+                          synonym for --dirstat=files,param1,param2...
+    --check               warn if changes introduce conflict markers or whitespace errors
+    --summary             condensed summary such as creations, renames and mode changes
+    --name-only           show only names of changed files
+    --name-status         show only names and status of changed files
+    --stat[=<width>[,<name-width>[,<count>]]]
+                          generate diffstat
+    --stat-width <width>  generate diffstat with a given width
+    --stat-name-width <width>
+                          generate diffstat with a given name width
+    --stat-graph-width <width>
+                          generate diffstat with a given graph width
+    --stat-count <count>  generate diffstat with limited lines
+    --[no-]compact-summary
+                          generate compact summary in diffstat
+    --binary              output a binary diff that can be applied
+    --[no-]full-index     show full pre- and post-image object names on the "index" lines
+    --[no-]color[=<when>] show colored diff
+    --ws-error-highlight <kind>
+                          highlight whitespace errors in the 'context', 'old' or 'new' lines in the diff
+    -z                    do not munge pathnames and use NULs as output field terminators in --raw or --numstat
+    --[no-]abbrev[=<n>]   use <n> digits to display object names
+    --src-prefix <prefix> show the given source prefix instead of "a/"
+    --dst-prefix <prefix> show the given destination prefix instead of "b/"
+    --line-prefix <prefix>
+                          prepend an additional prefix to every line of output
+    --no-prefix           do not show any source or destination prefix
+    --default-prefix      use default prefixes a/ and b/
+    --inter-hunk-context <n>
+                          show context between diff hunks up to the specified number of lines
+    --output-indicator-new <char>
+                          specify the character to indicate a new line instead of '+'
+    --output-indicator-old <char>
+                          specify the character to indicate an old line instead of '-'
+    --output-indicator-context <char>
+                          specify the character to indicate a context instead of ' '
+
+Diff rename options
+    -B, --break-rewrites[=<n>[/<m>]]
+                          break complete rewrite changes into pairs of delete and create
+    -M, --find-renames[=<n>]
+                          detect renames
+    -D, --irreversible-delete
+                          omit the preimage for deletes
+    -C, --find-copies[=<n>]
+                          detect copies
+    --[no-]find-copies-harder
+                          use unmodified files as source to find copies
+    --no-renames          disable rename detection
+    --[no-]rename-empty   use empty blobs as rename source
+    --[no-]follow         continue listing the history of a file beyond renames
+    -l <n>                prevent rename/copy detection if the number of rename/copy targets exceeds given limit
+
+Diff algorithm options
+    --minimal             produce the smallest possible diff
+    -w, --ignore-all-space
+                          ignore whitespace when comparing lines
+    -b, --ignore-space-change
+                          ignore changes in amount of whitespace
+    --ignore-space-at-eol ignore changes in whitespace at EOL
+    --ignore-cr-at-eol    ignore carrier-return at the end of line
+    --ignore-blank-lines  ignore changes whose lines are all blank
+    -I, --[no-]ignore-matching-lines <regex>
+                          ignore changes whose all lines match <regex>
+    --[no-]indent-heuristic
+                          heuristic to shift diff hunk boundaries for easy reading
+    --patience            generate diff using the "patience diff" algorithm
+    --histogram           generate diff using the "histogram diff" algorithm
+    --diff-algorithm <algorithm>
+                          choose a diff algorithm
+    --anchored <text>     generate diff using the "anchored diff" algorithm
+    --word-diff[=<mode>]  show word diff, using <mode> to delimit changed words
+    --word-diff-regex <regex>
+                          use <regex> to decide what a word is
+    --color-words[=<regex>]
+                          equivalent to --word-diff=color --word-diff-regex=<regex>
+    --[no-]color-moved[=<mode>]
+                          moved lines of code are colored differently
+    --[no-]color-moved-ws <mode>
+                          how white spaces are ignored in --color-moved
+
+Other diff options
+    --[no-]relative[=<prefix>]
+                          when run from subdir, exclude changes outside and show relative paths
+    -a, --[no-]text       treat all files as text
+    -R                    swap two inputs, reverse the diff
+    --[no-]exit-code      exit with 1 if there were differences, 0 otherwise
+    --[no-]quiet          disable all output of the program
+    --[no-]ext-diff       allow an external diff helper to be executed
+    --[no-]textconv       run external text conversion filters when comparing binary files
+    --ignore-submodules[=<when>]
+                          ignore changes to submodules in the diff generation
+    --submodule[=<format>]
+                          specify how differences in submodules are shown
+    --ita-invisible-in-index
+                          hide 'git add -N' entries from the index
+    --ita-visible-in-index
+                          treat 'git add -N' entries as real in the index
+    -S <string>           look for differences that change the number of occurrences of the specified string
+    -G <regex>            look for differences that change the number of occurrences of the specified regex
+    --pickaxe-all         show all changes in the changeset with -S or -G
+    --pickaxe-regex       treat <string> in -S as extended POSIX regular expression
+    -O <file>             control the order in which files appear in the output
+    --rotate-to <path>    show the change in the specified path first
+    --skip-to <path>      skip the output to the specified path
+    --find-object <object-id>
+                          look for differences that change the number of occurrences of the specified object
+    --diff-filter [(A|C|D|M|R|T|U|X|B)...[*]]
+                          select files by diff type
+    --output <file>       output to a specific file
+
+
+2025-06-02 05:58:51.272 [error] Git command failed: git ls-files --others --exclude-standard Command failed: git ls-files --others --exclude-standard
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 05:58:51.272 [error] Error getting untracked files: Command failed: git ls-files --others --exclude-standard
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 05:58:51.779 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 05:59:45.019 [error] Git command failed: git ls-files --others --exclude-standard Command failed: git ls-files --others --exclude-standard
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 05:59:45.020 [error] Error getting untracked files: Command failed: git ls-files --others --exclude-standard
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 05:59:45.030 [error] Git command failed: git diff --no-color Command failed: git diff --no-color
+warning: Not a git repository. Use --no-index to compare two paths outside a working tree
+usage: git diff --no-index [<options>] <path> <path>
+
+Diff output format options
+    -p, --patch           generate patch
+    -s, --no-patch        suppress diff output
+    -u                    generate patch
+    -U, --unified[=<n>]   generate diffs with <n> lines context
+    -W, --[no-]function-context
+                          generate diffs with <n> lines context
+    --raw                 generate the diff in raw format
+    --patch-with-raw      synonym for '-p --raw'
+    --patch-with-stat     synonym for '-p --stat'
+    --numstat             machine friendly --stat
+    --shortstat           output only the last line of --stat
+    -X, --dirstat[=<param1,param2>...]
+                          output the distribution of relative amount of changes for each sub-directory
+    --cumulative          synonym for --dirstat=cumulative
+    --dirstat-by-file[=<param1,param2>...]
+                          synonym for --dirstat=files,param1,param2...
+    --check               warn if changes introduce conflict markers or whitespace errors
+    --summary             condensed summary such as creations, renames and mode changes
+    --name-only           show only names of changed files
+    --name-status         show only names and status of changed files
+    --stat[=<width>[,<name-width>[,<count>]]]
+                          generate diffstat
+    --stat-width <width>  generate diffstat with a given width
+    --stat-name-width <width>
+                          generate diffstat with a given name width
+    --stat-graph-width <width>
+                          generate diffstat with a given graph width
+    --stat-count <count>  generate diffstat with limited lines
+    --[no-]compact-summary
+                          generate compact summary in diffstat
+    --binary              output a binary diff that can be applied
+    --[no-]full-index     show full pre- and post-image object names on the "index" lines
+    --[no-]color[=<when>] show colored diff
+    --ws-error-highlight <kind>
+                          highlight whitespace errors in the 'context', 'old' or 'new' lines in the diff
+    -z                    do not munge pathnames and use NULs as output field terminators in --raw or --numstat
+    --[no-]abbrev[=<n>]   use <n> digits to display object names
+    --src-prefix <prefix> show the given source prefix instead of "a/"
+    --dst-prefix <prefix> show the given destination prefix instead of "b/"
+    --line-prefix <prefix>
+                          prepend an additional prefix to every line of output
+    --no-prefix           do not show any source or destination prefix
+    --default-prefix      use default prefixes a/ and b/
+    --inter-hunk-context <n>
+                          show context between diff hunks up to the specified number of lines
+    --output-indicator-new <char>
+                          specify the character to indicate a new line instead of '+'
+    --output-indicator-old <char>
+                          specify the character to indicate an old line instead of '-'
+    --output-indicator-context <char>
+                          specify the character to indicate a context instead of ' '
+
+Diff rename options
+    -B, --break-rewrites[=<n>[/<m>]]
+                          break complete rewrite changes into pairs of delete and create
+    -M, --find-renames[=<n>]
+                          detect renames
+    -D, --irreversible-delete
+                          omit the preimage for deletes
+    -C, --find-copies[=<n>]
+                          detect copies
+    --[no-]find-copies-harder
+                          use unmodified files as source to find copies
+    --no-renames          disable rename detection
+    --[no-]rename-empty   use empty blobs as rename source
+    --[no-]follow         continue listing the history of a file beyond renames
+    -l <n>                prevent rename/copy detection if the number of rename/copy targets exceeds given limit
+
+Diff algorithm options
+    --minimal             produce the smallest possible diff
+    -w, --ignore-all-space
+                          ignore whitespace when comparing lines
+    -b, --ignore-space-change
+                          ignore changes in amount of whitespace
+    --ignore-space-at-eol ignore changes in whitespace at EOL
+    --ignore-cr-at-eol    ignore carrier-return at the end of line
+    --ignore-blank-lines  ignore changes whose lines are all blank
+    -I, --[no-]ignore-matching-lines <regex>
+                          ignore changes whose all lines match <regex>
+    --[no-]indent-heuristic
+                          heuristic to shift diff hunk boundaries for easy reading
+    --patience            generate diff using the "patience diff" algorithm
+    --histogram           generate diff using the "histogram diff" algorithm
+    --diff-algorithm <algorithm>
+                          choose a diff algorithm
+    --anchored <text>     generate diff using the "anchored diff" algorithm
+    --word-diff[=<mode>]  show word diff, using <mode> to delimit changed words
+    --word-diff-regex <regex>
+                          use <regex> to decide what a word is
+    --color-words[=<regex>]
+                          equivalent to --word-diff=color --word-diff-regex=<regex>
+    --[no-]color-moved[=<mode>]
+                          moved lines of code are colored differently
+    --[no-]color-moved-ws <mode>
+                          how white spaces are ignored in --color-moved
+
+Other diff options
+    --[no-]relative[=<prefix>]
+                          when run from subdir, exclude changes outside and show relative paths
+    -a, --[no-]text       treat all files as text
+    -R                    swap two inputs, reverse the diff
+    --[no-]exit-code      exit with 1 if there were differences, 0 otherwise
+    --[no-]quiet          disable all output of the program
+    --[no-]ext-diff       allow an external diff helper to be executed
+    --[no-]textconv       run external text conversion filters when comparing binary files
+    --ignore-submodules[=<when>]
+                          ignore changes to submodules in the diff generation
+    --submodule[=<format>]
+                          specify how differences in submodules are shown
+    --ita-invisible-in-index
+                          hide 'git add -N' entries from the index
+    --ita-visible-in-index
+                          treat 'git add -N' entries as real in the index
+    -S <string>           look for differences that change the number of occurrences of the specified string
+    -G <regex>            look for differences that change the number of occurrences of the specified regex
+    --pickaxe-all         show all changes in the changeset with -S or -G
+    --pickaxe-regex       treat <string> in -S as extended POSIX regular expression
+    -O <file>             control the order in which files appear in the output
+    --rotate-to <path>    show the change in the specified path first
+    --skip-to <path>      skip the output to the specified path
+    --find-object <object-id>
+                          look for differences that change the number of occurrences of the specified object
+    --diff-filter [(A|C|D|M|R|T|U|X|B)...[*]]
+                          select files by diff type
+    --output <file>       output to a specific file
+
+
+2025-06-02 05:59:45.507 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 06:00:15.665 [error] Git command failed: git ls-files --others --exclude-standard Command failed: git ls-files --others --exclude-standard
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 06:00:15.665 [error] Error getting untracked files: Command failed: git ls-files --others --exclude-standard
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 06:00:15.666 [error] Git command failed: git diff --no-color Command failed: git diff --no-color
+warning: Not a git repository. Use --no-index to compare two paths outside a working tree
+usage: git diff --no-index [<options>] <path> <path>
+
+Diff output format options
+    -p, --patch           generate patch
+    -s, --no-patch        suppress diff output
+    -u                    generate patch
+    -U, --unified[=<n>]   generate diffs with <n> lines context
+    -W, --[no-]function-context
+                          generate diffs with <n> lines context
+    --raw                 generate the diff in raw format
+    --patch-with-raw      synonym for '-p --raw'
+    --patch-with-stat     synonym for '-p --stat'
+    --numstat             machine friendly --stat
+    --shortstat           output only the last line of --stat
+    -X, --dirstat[=<param1,param2>...]
+                          output the distribution of relative amount of changes for each sub-directory
+    --cumulative          synonym for --dirstat=cumulative
+    --dirstat-by-file[=<param1,param2>...]
+                          synonym for --dirstat=files,param1,param2...
+    --check               warn if changes introduce conflict markers or whitespace errors
+    --summary             condensed summary such as creations, renames and mode changes
+    --name-only           show only names of changed files
+    --name-status         show only names and status of changed files
+    --stat[=<width>[,<name-width>[,<count>]]]
+                          generate diffstat
+    --stat-width <width>  generate diffstat with a given width
+    --stat-name-width <width>
+                          generate diffstat with a given name width
+    --stat-graph-width <width>
+                          generate diffstat with a given graph width
+    --stat-count <count>  generate diffstat with limited lines
+    --[no-]compact-summary
+                          generate compact summary in diffstat
+    --binary              output a binary diff that can be applied
+    --[no-]full-index     show full pre- and post-image object names on the "index" lines
+    --[no-]color[=<when>] show colored diff
+    --ws-error-highlight <kind>
+                          highlight whitespace errors in the 'context', 'old' or 'new' lines in the diff
+    -z                    do not munge pathnames and use NULs as output field terminators in --raw or --numstat
+    --[no-]abbrev[=<n>]   use <n> digits to display object names
+    --src-prefix <prefix> show the given source prefix instead of "a/"
+    --dst-prefix <prefix> show the given destination prefix instead of "b/"
+    --line-prefix <prefix>
+                          prepend an additional prefix to every line of output
+    --no-prefix           do not show any source or destination prefix
+    --default-prefix      use default prefixes a/ and b/
+    --inter-hunk-context <n>
+                          show context between diff hunks up to the specified number of lines
+    --output-indicator-new <char>
+                          specify the character to indicate a new line instead of '+'
+    --output-indicator-old <char>
+                          specify the character to indicate an old line instead of '-'
+    --output-indicator-context <char>
+                          specify the character to indicate a context instead of ' '
+
+Diff rename options
+    -B, --break-rewrites[=<n>[/<m>]]
+                          break complete rewrite changes into pairs of delete and create
+    -M, --find-renames[=<n>]
+                          detect renames
+    -D, --irreversible-delete
+                          omit the preimage for deletes
+    -C, --find-copies[=<n>]
+                          detect copies
+    --[no-]find-copies-harder
+                          use unmodified files as source to find copies
+    --no-renames          disable rename detection
+    --[no-]rename-empty   use empty blobs as rename source
+    --[no-]follow         continue listing the history of a file beyond renames
+    -l <n>                prevent rename/copy detection if the number of rename/copy targets exceeds given limit
+
+Diff algorithm options
+    --minimal             produce the smallest possible diff
+    -w, --ignore-all-space
+                          ignore whitespace when comparing lines
+    -b, --ignore-space-change
+                          ignore changes in amount of whitespace
+    --ignore-space-at-eol ignore changes in whitespace at EOL
+    --ignore-cr-at-eol    ignore carrier-return at the end of line
+    --ignore-blank-lines  ignore changes whose lines are all blank
+    -I, --[no-]ignore-matching-lines <regex>
+                          ignore changes whose all lines match <regex>
+    --[no-]indent-heuristic
+                          heuristic to shift diff hunk boundaries for easy reading
+    --patience            generate diff using the "patience diff" algorithm
+    --histogram           generate diff using the "histogram diff" algorithm
+    --diff-algorithm <algorithm>
+                          choose a diff algorithm
+    --anchored <text>     generate diff using the "anchored diff" algorithm
+    --word-diff[=<mode>]  show word diff, using <mode> to delimit changed words
+    --word-diff-regex <regex>
+                          use <regex> to decide what a word is
+    --color-words[=<regex>]
+                          equivalent to --word-diff=color --word-diff-regex=<regex>
+    --[no-]color-moved[=<mode>]
+                          moved lines of code are colored differently
+    --[no-]color-moved-ws <mode>
+                          how white spaces are ignored in --color-moved
+
+Other diff options
+    --[no-]relative[=<prefix>]
+                          when run from subdir, exclude changes outside and show relative paths
+    -a, --[no-]text       treat all files as text
+    -R                    swap two inputs, reverse the diff
+    --[no-]exit-code      exit with 1 if there were differences, 0 otherwise
+    --[no-]quiet          disable all output of the program
+    --[no-]ext-diff       allow an external diff helper to be executed
+    --[no-]textconv       run external text conversion filters when comparing binary files
+    --ignore-submodules[=<when>]
+                          ignore changes to submodules in the diff generation
+    --submodule[=<format>]
+                          specify how differences in submodules are shown
+    --ita-invisible-in-index
+                          hide 'git add -N' entries from the index
+    --ita-visible-in-index
+                          treat 'git add -N' entries as real in the index
+    -S <string>           look for differences that change the number of occurrences of the specified string
+    -G <regex>            look for differences that change the number of occurrences of the specified regex
+    --pickaxe-all         show all changes in the changeset with -S or -G
+    --pickaxe-regex       treat <string> in -S as extended POSIX regular expression
+    -O <file>             control the order in which files appear in the output
+    --rotate-to <path>    show the change in the specified path first
+    --skip-to <path>      skip the output to the specified path
+    --find-object <object-id>
+                          look for differences that change the number of occurrences of the specified object
+    --diff-filter [(A|C|D|M|R|T|U|X|B)...[*]]
+                          select files by diff type
+    --output <file>       output to a specific file
+
+
+2025-06-02 06:00:16.164 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 06:02:35.620 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 06:02:35.620 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 06:02:36.222 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 06:02:54.406 [info] multiCodebaseIndexingJob dispose
+2025-06-02 06:02:54.406 [info] Aborting indexing job.
+2025-06-02 06:02:54.406 [error] We currently do not allow indexing the home directory.
+2025-06-02 06:02:54.406 [info] Indexing job successfully done or aborted.
+2025-06-02 06:06:02.872 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-02 06:06:02.873 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '/root/.git/HEAD')
+2025-06-02 06:06:02.881 [warning] Failed to get branches from remote: Failed to execute git
+2025-06-02 06:06:02.884 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-02 06:06:05.608 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-02 06:06:05.608 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '/root/.git/HEAD')
+2025-06-02 06:06:05.617 [warning] Failed to get branches from remote: Failed to execute git
+2025-06-02 06:06:05.620 [warning] Failed to get default branch from git config: Failed to execute git
+2025-06-02 06:07:36.212 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 06:07:54.406 [info] multiCodebaseIndexingJob dispose
+2025-06-02 06:07:54.407 [info] Aborting indexing job.
+2025-06-02 06:07:54.407 [error] We currently do not allow indexing the home directory.
+2025-06-02 06:07:54.407 [info] Indexing job successfully done or aborted.
+2025-06-02 06:12:35.603 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 06:12:35.603 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 06:12:36.212 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 06:12:54.406 [info] multiCodebaseIndexingJob dispose
+2025-06-02 06:12:54.406 [info] Aborting indexing job.
+2025-06-02 06:12:54.406 [error] We currently do not allow indexing the home directory.
+2025-06-02 06:12:54.406 [info] Indexing job successfully done or aborted.
+2025-06-02 06:17:36.196 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 06:17:54.407 [info] multiCodebaseIndexingJob dispose
+2025-06-02 06:17:54.407 [info] Aborting indexing job.
+2025-06-02 06:17:54.407 [error] We currently do not allow indexing the home directory.
+2025-06-02 06:17:54.407 [info] Indexing job successfully done or aborted.
+2025-06-02 06:22:35.568 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 06:22:35.568 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 06:22:36.188 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 06:22:54.408 [info] multiCodebaseIndexingJob dispose
+2025-06-02 06:22:54.408 [info] Aborting indexing job.
+2025-06-02 06:22:54.408 [error] We currently do not allow indexing the home directory.
+2025-06-02 06:22:54.408 [info] Indexing job successfully done or aborted.
+2025-06-02 06:27:36.166 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 06:27:54.408 [info] multiCodebaseIndexingJob dispose
+2025-06-02 06:27:54.408 [info] Aborting indexing job.
+2025-06-02 06:27:54.408 [error] We currently do not allow indexing the home directory.
+2025-06-02 06:27:54.408 [info] Indexing job successfully done or aborted.
+2025-06-02 06:32:35.549 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 06:32:35.549 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 06:32:36.159 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 06:32:54.407 [info] multiCodebaseIndexingJob dispose
+2025-06-02 06:32:54.407 [info] Aborting indexing job.
+2025-06-02 06:32:54.407 [error] We currently do not allow indexing the home directory.
+2025-06-02 06:32:54.407 [info] Indexing job successfully done or aborted.
+2025-06-02 06:37:36.147 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 06:37:54.409 [info] multiCodebaseIndexingJob dispose
+2025-06-02 06:37:54.409 [info] Aborting indexing job.
+2025-06-02 06:37:54.409 [error] We currently do not allow indexing the home directory.
+2025-06-02 06:37:54.409 [info] Indexing job successfully done or aborted.
+2025-06-02 06:42:37.079 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 06:42:37.081 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 06:42:37.081 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 06:42:54.409 [info] multiCodebaseIndexingJob dispose
+2025-06-02 06:42:54.409 [info] Aborting indexing job.
+2025-06-02 06:42:54.409 [error] We currently do not allow indexing the home directory.
+2025-06-02 06:42:54.409 [info] Indexing job successfully done or aborted.
+2025-06-02 06:47:36.130 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 06:47:54.410 [info] multiCodebaseIndexingJob dispose
+2025-06-02 06:47:54.410 [info] Aborting indexing job.
+2025-06-02 06:47:54.410 [error] We currently do not allow indexing the home directory.
+2025-06-02 06:47:54.410 [info] Indexing job successfully done or aborted.
+2025-06-02 06:52:35.501 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 06:52:35.501 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 06:52:36.114 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 06:52:54.410 [info] multiCodebaseIndexingJob dispose
+2025-06-02 06:52:54.410 [info] Aborting indexing job.
+2025-06-02 06:52:54.410 [error] We currently do not allow indexing the home directory.
+2025-06-02 06:52:54.410 [info] Indexing job successfully done or aborted.
+2025-06-02 06:57:36.098 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 06:57:54.410 [info] multiCodebaseIndexingJob dispose
+2025-06-02 06:57:54.410 [info] Aborting indexing job.
+2025-06-02 06:57:54.410 [error] We currently do not allow indexing the home directory.
+2025-06-02 06:57:54.410 [info] Indexing job successfully done or aborted.
+2025-06-02 07:02:35.479 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 07:02:35.479 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 07:02:36.080 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 07:02:54.410 [info] multiCodebaseIndexingJob dispose
+2025-06-02 07:02:54.410 [info] Aborting indexing job.
+2025-06-02 07:02:54.410 [error] We currently do not allow indexing the home directory.
+2025-06-02 07:02:54.410 [info] Indexing job successfully done or aborted.
+2025-06-02 07:07:36.084 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 07:07:54.411 [info] multiCodebaseIndexingJob dispose
+2025-06-02 07:07:54.411 [info] Aborting indexing job.
+2025-06-02 07:07:54.411 [error] We currently do not allow indexing the home directory.
+2025-06-02 07:07:54.411 [info] Indexing job successfully done or aborted.
+2025-06-02 07:12:35.454 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 07:12:35.454 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 07:12:36.060 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 07:12:54.413 [info] multiCodebaseIndexingJob dispose
+2025-06-02 07:12:54.413 [info] Aborting indexing job.
+2025-06-02 07:12:54.413 [error] We currently do not allow indexing the home directory.
+2025-06-02 07:12:54.413 [info] Indexing job successfully done or aborted.
+2025-06-02 07:13:09.994 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-02 07:13:09.994 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-02 07:13:09.997 [info] multiCodebaseIndexingJob dispose
+2025-06-02 07:13:09.997 [info] Aborting indexing job.
+2025-06-02 07:13:09.998 [info] Using existing keys for an index
+2025-06-02 07:13:09.998 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-06-02 07:13:10.011 [error] We currently do not allow indexing the home directory.
+2025-06-02 07:13:10.011 [info] Indexing job successfully done or aborted.
+2025-06-02 07:17:36.053 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 07:18:10.011 [info] multiCodebaseIndexingJob dispose
+2025-06-02 07:18:10.011 [info] Aborting indexing job.
+2025-06-02 07:18:10.011 [error] We currently do not allow indexing the home directory.
+2025-06-02 07:18:10.011 [info] Indexing job successfully done or aborted.
+2025-06-02 07:22:35.428 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 07:22:35.428 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 07:22:36.043 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 07:23:10.011 [info] multiCodebaseIndexingJob dispose
+2025-06-02 07:23:10.011 [info] Aborting indexing job.
+2025-06-02 07:23:10.011 [error] We currently do not allow indexing the home directory.
+2025-06-02 07:23:10.011 [info] Indexing job successfully done or aborted.
+2025-06-02 07:27:36.016 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 07:28:10.013 [info] multiCodebaseIndexingJob dispose
+2025-06-02 07:28:10.013 [info] Aborting indexing job.
+2025-06-02 07:28:10.013 [error] We currently do not allow indexing the home directory.
+2025-06-02 07:28:10.013 [info] Indexing job successfully done or aborted.
+2025-06-02 07:32:35.407 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 07:32:35.407 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 07:32:36.007 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 07:33:10.013 [info] multiCodebaseIndexingJob dispose
+2025-06-02 07:33:10.013 [info] Aborting indexing job.
+2025-06-02 07:33:10.013 [error] We currently do not allow indexing the home directory.
+2025-06-02 07:33:10.013 [info] Indexing job successfully done or aborted.
+2025-06-02 07:37:36.007 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 07:38:10.014 [info] multiCodebaseIndexingJob dispose
+2025-06-02 07:38:10.014 [info] Aborting indexing job.
+2025-06-02 07:38:10.014 [error] We currently do not allow indexing the home directory.
+2025-06-02 07:38:10.014 [info] Indexing job successfully done or aborted.
+2025-06-02 07:42:35.382 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 07:42:35.382 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 07:42:35.993 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 07:43:10.015 [info] multiCodebaseIndexingJob dispose
+2025-06-02 07:43:10.015 [info] Aborting indexing job.
+2025-06-02 07:43:10.015 [error] We currently do not allow indexing the home directory.
+2025-06-02 07:43:10.015 [info] Indexing job successfully done or aborted.
+2025-06-02 07:47:35.979 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 07:48:10.016 [info] multiCodebaseIndexingJob dispose
+2025-06-02 07:48:10.016 [info] Aborting indexing job.
+2025-06-02 07:48:10.016 [error] We currently do not allow indexing the home directory.
+2025-06-02 07:48:10.016 [info] Indexing job successfully done or aborted.
+2025-06-02 07:52:35.352 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 07:52:35.352 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 07:52:35.971 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 07:53:10.016 [info] multiCodebaseIndexingJob dispose
+2025-06-02 07:53:10.016 [info] Aborting indexing job.
+2025-06-02 07:53:10.016 [error] We currently do not allow indexing the home directory.
+2025-06-02 07:53:10.016 [info] Indexing job successfully done or aborted.
+2025-06-02 07:57:35.946 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 07:58:10.017 [info] multiCodebaseIndexingJob dispose
+2025-06-02 07:58:10.017 [info] Aborting indexing job.
+2025-06-02 07:58:10.017 [error] We currently do not allow indexing the home directory.
+2025-06-02 07:58:10.017 [info] Indexing job successfully done or aborted.
+2025-06-02 08:03:10.017 [info] multiCodebaseIndexingJob dispose
+2025-06-02 08:03:10.017 [info] Aborting indexing job.
+2025-06-02 08:03:10.017 [error] We currently do not allow indexing the home directory.
+2025-06-02 08:03:10.017 [info] Indexing job successfully done or aborted.
+2025-06-02 08:08:10.018 [info] multiCodebaseIndexingJob dispose
+2025-06-02 08:08:10.018 [info] Aborting indexing job.
+2025-06-02 08:08:10.018 [error] We currently do not allow indexing the home directory.
+2025-06-02 08:08:10.018 [info] Indexing job successfully done or aborted.
+2025-06-02 08:13:10.019 [info] multiCodebaseIndexingJob dispose
+2025-06-02 08:13:10.019 [info] Aborting indexing job.
+2025-06-02 08:13:10.019 [error] We currently do not allow indexing the home directory.
+2025-06-02 08:13:10.019 [info] Indexing job successfully done or aborted.
+2025-06-02 08:18:10.019 [info] multiCodebaseIndexingJob dispose
+2025-06-02 08:18:10.019 [info] Aborting indexing job.
+2025-06-02 08:18:10.019 [error] We currently do not allow indexing the home directory.
+2025-06-02 08:18:10.019 [info] Indexing job successfully done or aborted.
+2025-06-02 08:23:10.020 [info] multiCodebaseIndexingJob dispose
+2025-06-02 08:23:10.020 [info] Aborting indexing job.
+2025-06-02 08:23:10.020 [error] We currently do not allow indexing the home directory.
+2025-06-02 08:23:10.020 [info] Indexing job successfully done or aborted.
+2025-06-02 08:28:10.019 [info] multiCodebaseIndexingJob dispose
+2025-06-02 08:28:10.019 [info] Aborting indexing job.
+2025-06-02 08:28:10.019 [error] We currently do not allow indexing the home directory.
+2025-06-02 08:28:10.019 [info] Indexing job successfully done or aborted.
+2025-06-02 08:33:10.019 [info] multiCodebaseIndexingJob dispose
+2025-06-02 08:33:10.019 [info] Aborting indexing job.
+2025-06-02 08:33:10.019 [error] We currently do not allow indexing the home directory.
+2025-06-02 08:33:10.019 [info] Indexing job successfully done or aborted.
+2025-06-02 08:38:10.020 [info] multiCodebaseIndexingJob dispose
+2025-06-02 08:38:10.020 [info] Aborting indexing job.
+2025-06-02 08:38:10.020 [error] We currently do not allow indexing the home directory.
+2025-06-02 08:38:10.020 [info] Indexing job successfully done or aborted.
+2025-06-02 08:43:10.020 [info] multiCodebaseIndexingJob dispose
+2025-06-02 08:43:10.020 [info] Aborting indexing job.
+2025-06-02 08:43:10.020 [error] We currently do not allow indexing the home directory.
+2025-06-02 08:43:10.020 [info] Indexing job successfully done or aborted.
+2025-06-02 08:48:10.022 [info] multiCodebaseIndexingJob dispose
+2025-06-02 08:48:10.022 [info] Aborting indexing job.
+2025-06-02 08:48:10.022 [error] We currently do not allow indexing the home directory.
+2025-06-02 08:48:10.022 [info] Indexing job successfully done or aborted.
+2025-06-02 08:53:10.023 [info] multiCodebaseIndexingJob dispose
+2025-06-02 08:53:10.023 [info] Aborting indexing job.
+2025-06-02 08:53:10.023 [error] We currently do not allow indexing the home directory.
+2025-06-02 08:53:10.023 [info] Indexing job successfully done or aborted.
+2025-06-02 08:58:10.024 [info] multiCodebaseIndexingJob dispose
+2025-06-02 08:58:10.024 [info] Aborting indexing job.
+2025-06-02 08:58:10.024 [error] We currently do not allow indexing the home directory.
+2025-06-02 08:58:10.024 [info] Indexing job successfully done or aborted.
+2025-06-02 09:03:10.024 [info] multiCodebaseIndexingJob dispose
+2025-06-02 09:03:10.024 [info] Aborting indexing job.
+2025-06-02 09:03:10.024 [error] We currently do not allow indexing the home directory.
+2025-06-02 09:03:10.024 [info] Indexing job successfully done or aborted.
+2025-06-02 09:08:10.026 [info] multiCodebaseIndexingJob dispose
+2025-06-02 09:08:10.026 [info] Aborting indexing job.
+2025-06-02 09:08:10.026 [error] We currently do not allow indexing the home directory.
+2025-06-02 09:08:10.026 [info] Indexing job successfully done or aborted.
+2025-06-02 09:13:10.028 [info] multiCodebaseIndexingJob dispose
+2025-06-02 09:13:10.028 [info] Aborting indexing job.
+2025-06-02 09:13:10.028 [error] We currently do not allow indexing the home directory.
+2025-06-02 09:13:10.028 [info] Indexing job successfully done or aborted.
+2025-06-02 09:18:10.028 [info] multiCodebaseIndexingJob dispose
+2025-06-02 09:18:10.028 [info] Aborting indexing job.
+2025-06-02 09:18:10.028 [error] We currently do not allow indexing the home directory.
+2025-06-02 09:18:10.028 [info] Indexing job successfully done or aborted.
+2025-06-02 09:23:10.028 [info] multiCodebaseIndexingJob dispose
+2025-06-02 09:23:10.028 [info] Aborting indexing job.
+2025-06-02 09:23:10.028 [error] We currently do not allow indexing the home directory.
+2025-06-02 09:23:10.028 [info] Indexing job successfully done or aborted.
+2025-06-02 09:28:10.029 [info] multiCodebaseIndexingJob dispose
+2025-06-02 09:28:10.029 [info] Aborting indexing job.
+2025-06-02 09:28:10.029 [error] We currently do not allow indexing the home directory.
+2025-06-02 09:28:10.029 [info] Indexing job successfully done or aborted.
+2025-06-02 09:33:10.030 [info] multiCodebaseIndexingJob dispose
+2025-06-02 09:33:10.030 [info] Aborting indexing job.
+2025-06-02 09:33:10.030 [error] We currently do not allow indexing the home directory.
+2025-06-02 09:33:10.030 [info] Indexing job successfully done or aborted.
+2025-06-02 09:38:10.031 [info] multiCodebaseIndexingJob dispose
+2025-06-02 09:38:10.031 [info] Aborting indexing job.
+2025-06-02 09:38:10.031 [error] We currently do not allow indexing the home directory.
+2025-06-02 09:38:10.031 [info] Indexing job successfully done or aborted.
+2025-06-02 09:43:10.033 [info] multiCodebaseIndexingJob dispose
+2025-06-02 09:43:10.033 [info] Aborting indexing job.
+2025-06-02 09:43:10.033 [error] We currently do not allow indexing the home directory.
+2025-06-02 09:43:10.033 [info] Indexing job successfully done or aborted.
+2025-06-02 09:48:10.033 [info] multiCodebaseIndexingJob dispose
+2025-06-02 09:48:10.033 [info] Aborting indexing job.
+2025-06-02 09:48:10.033 [error] We currently do not allow indexing the home directory.
+2025-06-02 09:48:10.033 [info] Indexing job successfully done or aborted.
+2025-06-02 09:53:10.034 [info] multiCodebaseIndexingJob dispose
+2025-06-02 09:53:10.034 [info] Aborting indexing job.
+2025-06-02 09:53:10.034 [error] We currently do not allow indexing the home directory.
+2025-06-02 09:53:10.034 [info] Indexing job successfully done or aborted.
+2025-06-02 09:58:10.035 [info] multiCodebaseIndexingJob dispose
+2025-06-02 09:58:10.035 [info] Aborting indexing job.
+2025-06-02 09:58:10.035 [error] We currently do not allow indexing the home directory.
+2025-06-02 09:58:10.035 [info] Indexing job successfully done or aborted.
+2025-06-02 10:03:10.035 [info] multiCodebaseIndexingJob dispose
+2025-06-02 10:03:10.035 [info] Aborting indexing job.
+2025-06-02 10:03:10.035 [error] We currently do not allow indexing the home directory.
+2025-06-02 10:03:10.035 [info] Indexing job successfully done or aborted.
+2025-06-02 10:08:10.036 [info] multiCodebaseIndexingJob dispose
+2025-06-02 10:08:10.036 [info] Aborting indexing job.
+2025-06-02 10:08:10.036 [error] We currently do not allow indexing the home directory.
+2025-06-02 10:08:10.036 [info] Indexing job successfully done or aborted.
+2025-06-02 10:13:10.036 [info] multiCodebaseIndexingJob dispose
+2025-06-02 10:13:10.036 [info] Aborting indexing job.
+2025-06-02 10:13:10.036 [error] We currently do not allow indexing the home directory.
+2025-06-02 10:13:10.036 [info] Indexing job successfully done or aborted.
+2025-06-02 10:18:10.036 [info] multiCodebaseIndexingJob dispose
+2025-06-02 10:18:10.036 [info] Aborting indexing job.
+2025-06-02 10:18:10.036 [error] We currently do not allow indexing the home directory.
+2025-06-02 10:18:10.036 [info] Indexing job successfully done or aborted.
+2025-06-02 10:23:10.036 [info] multiCodebaseIndexingJob dispose
+2025-06-02 10:23:10.036 [info] Aborting indexing job.
+2025-06-02 10:23:10.036 [error] We currently do not allow indexing the home directory.
+2025-06-02 10:23:10.036 [info] Indexing job successfully done or aborted.
+2025-06-02 10:28:10.036 [info] multiCodebaseIndexingJob dispose
+2025-06-02 10:28:10.036 [info] Aborting indexing job.
+2025-06-02 10:28:10.036 [error] We currently do not allow indexing the home directory.
+2025-06-02 10:28:10.036 [info] Indexing job successfully done or aborted.
+2025-06-02 10:33:10.036 [info] multiCodebaseIndexingJob dispose
+2025-06-02 10:33:10.036 [info] Aborting indexing job.
+2025-06-02 10:33:10.036 [error] We currently do not allow indexing the home directory.
+2025-06-02 10:33:10.036 [info] Indexing job successfully done or aborted.
+2025-06-02 10:38:10.037 [info] multiCodebaseIndexingJob dispose
+2025-06-02 10:38:10.037 [info] Aborting indexing job.
+2025-06-02 10:38:10.037 [error] We currently do not allow indexing the home directory.
+2025-06-02 10:38:10.037 [info] Indexing job successfully done or aborted.
+2025-06-02 10:43:10.037 [info] multiCodebaseIndexingJob dispose
+2025-06-02 10:43:10.037 [info] Aborting indexing job.
+2025-06-02 10:43:10.037 [error] We currently do not allow indexing the home directory.
+2025-06-02 10:43:10.037 [info] Indexing job successfully done or aborted.
+2025-06-02 10:48:10.037 [info] multiCodebaseIndexingJob dispose
+2025-06-02 10:48:10.038 [info] Aborting indexing job.
+2025-06-02 10:48:10.038 [error] We currently do not allow indexing the home directory.
+2025-06-02 10:48:10.038 [info] Indexing job successfully done or aborted.
+2025-06-02 10:52:56.786 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 10:52:56.791 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 10:52:56.791 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-06-02 10:53:10.037 [info] multiCodebaseIndexingJob dispose
+2025-06-02 10:53:10.037 [info] Aborting indexing job.
+2025-06-02 10:53:10.037 [error] We currently do not allow indexing the home directory.
+2025-06-02 10:53:10.037 [info] Indexing job successfully done or aborted.
+2025-06-02 10:54:53.170 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-02 10:54:53.170 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-02 10:54:53.170 [info] multiCodebaseIndexingJob dispose
+2025-06-02 10:54:53.170 [info] Aborting indexing job.
+2025-06-02 10:54:53.171 [info] Using existing keys for an index
+2025-06-02 10:54:53.171 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-06-02 10:54:53.179 [error] We currently do not allow indexing the home directory.
+2025-06-02 10:54:53.179 [info] Indexing job successfully done or aborted.

@@ -1,0 +1,42 @@
+2025-05-29T00:41:30: PM2 log: ===============================================================================
+2025-05-29T00:41:30: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-29T00:41:30: PM2 log: Time                 : Thu May 29 2025 00:41:30 GMT+0000 (Coordinated Universal Time)
+2025-05-29T00:41:30: PM2 log: PM2 version          : 6.0.6
+2025-05-29T00:41:30: PM2 log: Node.js version      : 20.10.0
+2025-05-29T00:41:30: PM2 log: Current arch         : x64
+2025-05-29T00:41:30: PM2 log: PM2 home             : /root/.pm2
+2025-05-29T00:41:30: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2025-05-29T00:41:30: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2025-05-29T00:41:30: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2025-05-29T00:41:30: PM2 log: Application log path : /root/.pm2/logs
+2025-05-29T00:41:30: PM2 log: Worker Interval      : 30000
+2025-05-29T00:41:30: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2025-05-29T00:41:30: PM2 log: Concurrent actions   : 2
+2025-05-29T00:41:30: PM2 log: SIGTERM timeout      : 1600
+2025-05-29T00:41:30: PM2 log: Runtime Binary       : /root/.nvm/versions/node/v20.10.0/bin/node
+2025-05-29T00:41:30: PM2 log: ===============================================================================
+2025-05-29T00:41:30: PM2 log: App [evolution-api:0] starting in -fork mode-
+2025-05-29T00:41:30: PM2 log: App [evolution-api:0] online
+2025-05-29T00:41:30: PM2 log: Stopping app:evolution-api id:0
+2025-05-29T00:41:30: PM2 log: App [evolution-api:0] exited with code [0] via signal [SIGINT]
+2025-05-29T00:41:30: PM2 log: pid=39805 msg=process killed
+2025-05-29T00:41:30: PM2 log: App [evolution-api:0] starting in -fork mode-
+2025-05-29T00:41:30: PM2 log: App [evolution-api:0] online
+2025-05-29T00:44:30: PM2 log: App [evolution-api:0] exited with code [0] via signal [SIGINT]
+2025-05-29T00:44:30: PM2 log: App [evolution-api:0] starting in -fork mode-
+2025-05-29T00:44:30: PM2 log: App [evolution-api:0] online
+2025-05-29T00:45:20: PM2 log: App [evolution-api:0] exited with code [0] via signal [SIGINT]
+2025-05-29T00:45:20: PM2 log: App [evolution-api:0] starting in -fork mode-
+2025-05-29T00:45:20: PM2 log: App [evolution-api:0] online
+2025-05-29T01:13:10: PM2 log: App [evolution-api:0] exited with code [0] via signal [SIGINT]
+2025-05-29T01:13:10: PM2 log: App [evolution-api:0] starting in -fork mode-
+2025-05-29T01:13:10: PM2 log: App [evolution-api:0] online
+2025-05-29T01:17:09: PM2 log: App [evolution-api:0] exited with code [0] via signal [SIGINT]
+2025-05-29T01:17:09: PM2 log: App [evolution-api:0] starting in -fork mode-
+2025-05-29T01:17:09: PM2 log: App [evolution-api:0] online
+2025-05-29T01:17:33: PM2 log: pm2 has been killed by signal, dumping process list before exit...
+2025-05-29T01:17:33: PM2 log: Deleting process 0
+2025-05-29T01:17:33: PM2 log: Stopping app:evolution-api id:0
+2025-05-29T01:17:33: PM2 log: App [evolution-api:0] exited with code [0] via signal [SIGHUP]
+2025-05-29T01:17:33: PM2 log: pid=46078 msg=process killed
+2025-05-29T01:17:33: PM2 log: Exited peacefully
