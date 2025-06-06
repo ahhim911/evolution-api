@@ -13,6 +13,7 @@ import {
   SendStickerDto,
   SendTemplateDto,
   SendTextDto,
+  SendTypingDto,
 } from '@api/dto/sendMessage.dto';
 import { WAMonitoringService } from '@api/services/monitor.service';
 import { BadRequestException } from '@exceptions';
@@ -93,5 +94,9 @@ export class SendMessageController {
 
   public async sendStatus({ instanceName }: InstanceDto, data: SendStatusDto, file?: any) {
     return await this.waMonitor.waInstances[instanceName].statusMessage(data, file);
+  }
+
+  public async sendTyping({ instanceName }: InstanceDto, data: SendTypingDto) {
+    return await this.waMonitor.waInstances[instanceName].sendTypingAction(data);
   }
 }

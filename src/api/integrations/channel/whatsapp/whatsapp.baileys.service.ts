@@ -48,6 +48,7 @@ import {
   SendStatusDto,
   SendStickerDto,
   SendTextDto,
+  SendTypingDto,
   StatusMessage,
   TypeButton,
 } from '@api/dto/sendMessage.dto';
@@ -2395,6 +2396,37 @@ export class BaileysStartupService extends ChannelStartupService {
       await this.client.sendPresenceUpdate(data.presence);
 
       return { presence: data.presence };
+    } catch (error) {
+      this.logger.error(error);
+      throw new BadRequestException(error.toString());
+    }
+  }
+
+  // Typing Action Controller
+  public async sendTypingAction(data: SendTypingDto) {
+    try {
+      const { number, action } = data;
+
+      const isWA = (await this.whatsappNumber({ numbers: [number] }))?.shift();
+
+      if (!isWA.exists && !isJidGroup(isWA.jid) && !isWA.jid.includes('@broadcast')) {
+        throw new BadRequestException(isWA);
+      }
+
+      const sender = isWA.jid;
+
+      if (action === 'start') {
+        await this.client.presenceSubscribe(sender);
+        await this.client.sendPresenceUpdate('composing', sender);
+      } else if (action === 'stop') {
+        await this.client.sendPresenceUpdate('paused', sender);
+      }
+
+      return { 
+        number: sender,
+        action: action,
+        status: 'success'
+      };
     } catch (error) {
       this.logger.error(error);
       throw new BadRequestException(error.toString());

@@ -13,6 +13,7 @@ import {
   SendStickerDto,
   SendTemplateDto,
   SendTextDto,
+  SendTypingDto,
 } from '@api/dto/sendMessage.dto';
 import { sendMessageController } from '@api/server.module';
 import {
@@ -29,6 +30,7 @@ import {
   stickerMessageSchema,
   templateMessageSchema,
   textMessageSchema,
+  typingActionSchema,
 } from '@validate/validate.schema';
 import { RequestHandler, Router } from 'express';
 import multer from 'multer';
@@ -178,6 +180,16 @@ export class MessageRouter extends RouterBroker {
           schema: buttonsMessageSchema,
           ClassRef: SendButtonsDto,
           execute: (instance, data) => sendMessageController.sendButtons(instance, data),
+        });
+
+        return res.status(HttpStatus.CREATED).json(response);
+      })
+      .post(this.routerPath('sendTyping'), ...guards, async (req, res) => {
+        const response = await this.dataValidate<SendTypingDto>({
+          request: req,
+          schema: typingActionSchema,
+          ClassRef: SendTypingDto,
+          execute: (instance, data) => sendMessageController.sendTyping(instance, data),
         });
 
         return res.status(HttpStatus.CREATED).json(response);

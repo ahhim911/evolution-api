@@ -166,3 +166,7 @@ export class SendReactionDto {
   key: proto.IMessageKey;
   reaction: string;
 }
+
+export class SendTypingDto extends Metadata {
+  action: 'start' | 'stop';
+}

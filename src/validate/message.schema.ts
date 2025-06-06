@@ -447,3 +447,33 @@ export const buttonsMessageSchema: JSONSchema7 = {
   },
   required: ['number'],
 };
+
+export const typingActionSchema: JSONSchema7 = {
+  $id: v4(),
+  type: 'object',
+  properties: {
+    number: { ...numberDefinition },
+    action: { 
+      type: 'string', 
+      enum: ['start', 'stop'],
+      description: 'The typing action to perform: start or stop typing indicator'
+    },
+    delay: {
+      type: 'integer',
+      description: 'Enter a value in milliseconds',
+    },
+    quoted: { ...quotedOptionsSchema },
+    everyOne: { type: 'boolean', enum: [true, false] },
+    mentioned: {
+      type: 'array',
+      minItems: 1,
+      uniqueItems: true,
+      items: {
+        type: 'string',
+        pattern: '^\\d+',
+        description: '"mentioned" must be an array of numeric strings',
+      },
+    },
+  },
+  required: ['number', 'action'],
+};
