@@ -4155,34 +4155,50 @@ export class BaileysStartupService extends ChannelStartupService {
 
   public async fetchAllGroups(getParticipants: GetParticipant) {
     const fetch = Object.values(await this?.client?.groupFetchAllParticipating());
-
+    
     let groups = [];
     for (const group of fetch) {
-      const picture = await this.profilePicture(group.id);
+      // Add a longer delay (e.g., 1500ms or more) between each group processing
+      await new Promise(resolve => setTimeout(resolve, 1500)); // Increased delay
+      
+      try {
+        // Add delay before fetching profile picture
+        await new Promise(resolve => setTimeout(resolve, 1000));
+        const picture = await this.profilePicture(group.id);
 
-      const result = {
-        id: group.id,
-        subject: group.subject,
-        subjectOwner: group.subjectOwner,
-        subjectTime: group.subjectTime,
-        pictureUrl: picture?.profilePictureUrl,
-        size: group.participants.length,
-        creation: group.creation,
-        owner: group.owner,
-        desc: group.desc,
-        descId: group.descId,
-        restrict: group.restrict,
-        announce: group.announce,
-        isCommunity: group.isCommunity,
-        isCommunityAnnounce: group.isCommunityAnnounce,
-        linkedParent: group.linkedParent,
-      };
+        const result = {
+          id: group.id,
+          subject: group.subject,
+          subjectOwner: group.subjectOwner,
+          subjectTime: group.subjectTime,
+          pictureUrl: picture?.profilePictureUrl,
+          size: group.participants.length,
+          creation: group.creation,
+          owner: group.owner,
+          desc: group.desc,
+          descId: group.descId,
+          restrict: group.restrict,
+          announce: group.announce,
+          isCommunity: group.isCommunity,
+          isCommunityAnnounce: group.isCommunityAnnounce,
+          linkedParent: group.linkedParent,
+        };
 
-      if (getParticipants.getParticipants == 'true') {
-        result['participants'] = group.participants;
+        if (getParticipants.getParticipants == 'true') {
+          // Add delay before fetching participants if needed
+          await new Promise(resolve => setTimeout(resolve, 1000));
+          result['participants'] = group.participants;
+        }
+
+        groups = [...groups, result];
+        this.logger.info(`Successfully processed group: ${group.subject}`); // Add logging
+        
+      } catch (error) {
+        this.logger.error(`Error processing group ${group.id}: ${error.message}`);
+        // Add delay even after error to maintain rate limiting
+        await new Promise(resolve => setTimeout(resolve, 2000));
+        continue;
       }
-
-      groups = [...groups, result];
     }
 
     return groups;
@@ -4565,5 +4581,58 @@ export class BaileysStartupService extends ChannelStartupService {
     };
 
     return response;
+  }
+
+  /**
+   * Retrieves the JID (unique identifier) of a WhatsApp group by its name by fetching all groups.
+   * WARNING: This can cause rate-limiting if the instance is in many groups.
+   * @param subject - The name of the WhatsApp group to find
+   * @returns Promise containing the group's JID
+   * @throws {Error} If no group with the given name is found or fetch fails.
+   */
+  public async getGroupJidByName(subject: string): Promise<string> { // Return string, throw if not found
+    // Note: No delay added here, delay should be before calling this potentially heavy function
+    const all = await this.client.groupFetchAllParticipating();
+    const entry = Object.entries(all).find(([, meta]: [string, { subject: string }]) => 
+      meta?.subject?.toLowerCase() === subject.toLowerCase()
+    );
+    
+    if (!entry) {
+      // Throw a specific error to be caught upstream
+      throw new Error(`Group named "${subject}" not found`);
+    }
+    
+    const [groupJid] = entry;
+    this.logger.info(`Live fetch found group JID "${groupJid}" for name "${subject}".`);
+    return groupJid;
+  }
+
+  /**
+   * Finds a WhatsApp group's JID by its name (performs live fetch).
+   * @param groupName - The name of the WhatsApp group to find
+   * @param _getParticipants - Ignored in this slim version
+   * @returns Promise containing { groupJid: string } or null if not found/error.
+   */
+  public async findGroupByName(groupName: string, _getParticipants: GetParticipant) {
+    try {
+      // Add delay before the potentially heavy getGroupJidByName call
+      await new Promise(resolve => setTimeout(resolve, 2000)); // 2-second delay
+
+      const groupJid = await this.getGroupJidByName(groupName);
+      return { groupJid }; // Return only the JID in an object
+
+    } catch (error) {
+      // Catch the specific 'not found' error from getGroupJidByName
+      if (error.message?.includes('not found')) {
+         this.logger.warn(`Group named "${groupName}" not found during live fetch.`);
+         return null; // Return null to indicate not found
+      }
+      
+      // Log other errors (like rate limits)
+      this.logger.error(`Error in findGroupByName for "${groupName}": ${error.message}`);
+      
+      // Re-throw other errors to be handled by the calling route
+      throw error; 
+    }
   }
 }

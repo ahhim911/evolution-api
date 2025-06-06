@@ -14,7 +14,9 @@ import {
 } from '@api/dto/group.dto';
 import { InstanceDto } from '@api/dto/instance.dto';
 import { WAMonitoringService } from '@api/services/monitor.service';
+import { Controller, Get, Param, Query } from '@nestjs/common';
 
+@Controller('group')
 export class GroupController {
   constructor(private readonly waMonitor: WAMonitoringService) {}
 
@@ -80,5 +82,14 @@ export class GroupController {
 
   public async leaveGroup(instance: InstanceDto, groupJid: GroupJid) {
     return await this.waMonitor.waInstances[instance.instanceName].leaveGroup(groupJid);
+  }
+  public async findGroupByName(instanceName: string, name: string, options: GetParticipant) {
+    const waInstance = this.waMonitor.waInstances[instanceName];
+    if (!waInstance) {
+      throw new Error(`Instance "${instanceName}" not found`);
+    }
+    
+    const result = await waInstance.findGroupByName(name, options);
+    return result;
   }
 }

@@ -20,6 +20,23 @@ Evolution API began as a WhatsApp controller API based on [CodeChat](https://git
 
 Today, Evolution API is not limited to WhatsApp. It integrates with various platforms such as Typebot, Chatwoot, Dify, and OpenAI, offering a broad array of functionalities beyond messaging. Evolution API supports both the Baileys-based WhatsApp API and the official WhatsApp Business API, with upcoming support for Instagram and Messenger.
 
+## Installation
+```
+# Clone the repository
+git clone https://github.com/ahhim911/evolution-api.git
+
+# Navigate to the project directory
+cd your-repo-name
+
+# Install dependencies
+npm install
+
+# Start the service
+npm start
+```
+
+
+
 ## Looking for a Lightweight Version?
 For those who need a more streamlined and performance-optimized version, check out [Evolution API Lite](https://github.com/EvolutionAPI/evolution-api-lite). It's designed specifically for microservices, focusing solely on connectivity without integrations or audio conversion features. Ideal for environments that prioritize simplicity and efficiency.
 
