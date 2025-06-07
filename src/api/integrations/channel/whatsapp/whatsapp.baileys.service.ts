@@ -1908,10 +1908,13 @@ export class BaileysStartupService extends ChannelStartupService {
     const jid = createJid(number);
 
     try {
-      const call = await this.client.offerCall(jid, isVideo);
-      setTimeout(() => this.client.terminateCall(call.id, call.to), callDuration * 1000);
-
-      return call;
+      // Voice call functionality temporarily disabled due to Baileys compatibility
+      // TODO: Re-implement when compatible voice call methods are available
+      throw new BadRequestException('Voice call functionality is temporarily unavailable');
+      
+      // const call = await this.client.offerCall(jid, isVideo);
+      // setTimeout(() => this.client.terminateCall(call.id, call.to), callDuration * 1000);
+      // return call;
     } catch (error) {
       return error;
     }

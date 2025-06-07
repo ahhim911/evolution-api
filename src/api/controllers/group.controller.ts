@@ -14,9 +14,7 @@ import {
 } from '@api/dto/group.dto';
 import { InstanceDto } from '@api/dto/instance.dto';
 import { WAMonitoringService } from '@api/services/monitor.service';
-import { Controller, Get, Param, Query } from '@nestjs/common';
 
-@Controller('group')
 export class GroupController {
   constructor(private readonly waMonitor: WAMonitoringService) {}
 

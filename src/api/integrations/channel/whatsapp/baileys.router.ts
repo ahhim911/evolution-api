@@ -4,7 +4,7 @@ import { HttpStatus } from '@api/routes/index.router';
 import { baileysController } from '@api/server.module';
 import { instanceSchema } from '@validate/instance.schema';
 import { RequestHandler, Router } from 'express';
-import { WAMonitoringService } from '@services/wa-monitoring.service';
+import { WAMonitoringService } from '@api/services/monitor.service';
 
 export class BaileysRouter extends RouterBroker {
   constructor(private readonly waMonitor: WAMonitoringService, ...guards: RequestHandler[]) {
@@ -39,7 +39,7 @@ export class BaileysRouter extends RouterBroker {
             schema: instanceSchema,
             ClassRef: InstanceDto,
             execute: (instance) => baileysController.getGroupJid(
-              instance.instanceName,
+              instance,
               req.body.subject
             ),
           });
