@@ -294,3 +294,182 @@ cd /root/evolution-api && rm -rf instances/* && NODE_ENV=production SERVER_URL=h
 cd evolution-api/
 npm start
 journalctl -f
+git init
+git remote add origin https://github.com/ahhim911/evolution-api.git
+git add .
+git commit -m "add typing action API"
+git push
+git push -u origin master
+git remote set-url origin https://github.com/ahhim911/evolution-api.git
+git push -u origin master
+systemctl status evolution-api
+systemctl restart evolution-api
+systemctl status evolution-api
+. "\root\.cursor-server\cli\servers\Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600\server\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration-bash.sh"
+cd evolution-api && npm run build
+. "\root\.cursor-server\cli\servers\Stable-53b99ce608cba35127ae3a050c1738a959750860\server\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration-bash.sh"
+git --version && git config --list
+. "\root\.cursor-server\cli\servers\Stable-53b99ce608cba35127ae3a050c1738a959750860\server\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration-bash.sh"
+ps aux | grep -i evolution
+netstat -tlnp | grep :8080
+curl -I http://192.168.1.111:8080/health 2>&1
+curl -I http://192.168.1.111:8080/ 2>&1
+curl http://192.168.1.111:8080/group/findByName/Edmond 2>&1
+curl "http://192.168.1.111:8080/group/findByName/YOUR_INSTANCE_NAME?name=Edmond&getParticipants=true" -H "apikey: YOUR_API_KEY" 2>&1
+curl "http://192.168.1.111:8080/instance/fetchInstances" 2>&1
+curl -v "http://192.168.1.111:8080/instance/fetchInstances" 2>&1
+ip addr show | grep -E "inet.*192\.168\.1\."
+. "\root\.cursor-server\cli\servers\Stable-53b99ce608cba35127ae3a050c1738a959750860\server\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration-bash.sh"
+curl -H "apikey: YOUR_API_KEY" "http://192.168.1.111:8080/group/findByName/YOUR_INSTANCE_NAME?name=Edmond&getParticipants=true" 2>&1
+find /root/evolution-api -name "*.env*" -type f 2>/dev/null
+head -20 /root/evolution-api/.env
+grep -i "api.*key\|authentication" /root/evolution-api/.env
+curl -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" "http://192.168.1.111:8080/instance/fetchInstances" 2>&1
+curl -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" "http://192.168.1.111:8080/group/findByName/Edmond?name=Perface%20Test%20group&getParticipants=true" 2>&1
+curl -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" "http://192.168.1.111:8080/group/fetchAllGroups/Edmond?getParticipants=true" 2>&1
+curl -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" "http://192.168.1.111:8080/group/findByName/Edmond?name=Perface%20Test%20group&getParticipants=false" 2>&1
+. "\root\.cursor-server\cli\servers\Stable-53b99ce608cba35127ae3a050c1738a959750860\server\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration-bash.sh"
+cd /root/evolution-api && npm start
+. "\root\.cursor-server\cli\servers\Stable-53b99ce608cba35127ae3a050c1738a959750860\server\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration-bash.sh"
+ps aux | grep -i evolution | grep -v grep
+kill 220449
+sleep 5 && curl -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" "http://192.168.1.111:8080/group/findByName/Edmond?name=Testgroup&getParticipants=false" 2>&1
+curl -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" "http://192.168.1.111:8080/group/findByName/Edmond?name=Testgroup&getParticipants=true" 2>&1
+curl -I http://192.168.1.111:8080/ 2>&1
+curl -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" "http://192.168.1.111:8080/instance/fetchInstances" 2>&1
+curl -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" "http://192.168.1.111:8080/instance/connectionState/Edmond" 2>&1
+curl -X POST -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" -H "Content-Type: application/json" -d '{"number":"85261478244147","text":"Test message"}' "http://192.168.1.111:8080/message/sendText/Edmond" 2>&1
+curl -X POST -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" "http://192.168.1.111:8080/instance/restart/Edmond" 2>&1
+sleep 10 && curl -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" "http://192.168.1.111:8080/instance/connect/Edmond" 2>&1
+curl -X POST -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" -H "Content-Type: application/json" -d '{"number":"120363401340275086@g.us","text":"Test group message"}' "http://192.168.1.111:8080/message/sendText/Edmond" 2>&1
+ps aux | grep -i evolution | grep -v grep
+curl -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" "http://192.168.1.111:8080/instance/connect/Edmond" 2>&1
+curl -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" "http://192.168.1.111:8080/instance/delete/Edmond" 2>&1
+curl -X DELETE -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" "http://192.168.1.111:8080/instance/delete/Edmond" 2>&1
+curl -X POST -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" -H "Content-Type: application/json" -d '{"instanceName":"Edmond","qrcode":true}' "http://192.168.1.111:8080/instance/create" 2>&1
+curl -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" "http://192.168.1.111:8080/instance/fetchInstances" 2>&1
+curl -X POST -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" -H "Content-Type: application/json" -d '{"instanceName":"Edmond","qrcode":true}' "http://192.168.1.111:8080/instance/create" 2>&1
+curl -H "apikey: jbaf9Vf6METJW2EQSzOi5NV3lhabp7sb" "http://192.168.1.111:8080/group/findByName/Steven%20Sing%20Ho?name=Testgroup&getParticipants=false" 2>&1
+. "\root\.cursor-server\cli\servers\Stable-53b99ce608cba35127ae3a050c1738a959750860\server\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration-bash.sh"
+curl -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" "http://192.168.1.111:8080/group/fetchAllGroups/Edmond?getParticipants=false" 2>&1
+. "\root\.cursor-server\cli\servers\Stable-53b99ce608cba35127ae3a050c1738a959750860\server\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration-bash.sh"
+curl -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" "http://192.168.1.111:8080/instance/fetchInstances" 2>&1
+curl -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" "http://192.168.1.111:8080/group/fetchAllGroups/Edmond?getParticipants=false" 2>&1
+. "\root\.cursor-server\cli\servers\Stable-53b99ce608cba35127ae3a050c1738a959750860\server\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration-bash.sh"
+ps aux | grep -i "npm\|tsc\|tsup" | grep -v grep
+ps aux | grep -i evolution | grep -v grep
+curl -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" "http://192.168.1.111:8080/group/findByName/Edmond?name=Perface%20Test%20group&getParticipants=false" 2>&1
+grep -n "findByName" /root/evolution-api/dist/api/routes/group.router.js
+curl -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" "http://192.168.1.111:8080/group/findByName/Edmond?name=Perface%20Test%20group&getParticipants=false" 2>&1
+systemctl start evolution-api
+systemctl status evolution-api
+curl -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" "http://192.168.1.111:8080/group/findByName/Edmond?name=Perface%20Test%20group&getParticipants=false" 2>&1
+journalctl -f
+. "\root\.cursor-server\cli\servers\Stable-53b99ce608cba35127ae3a050c1738a959750860\server\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration-bash.sh"
+ps aux | grep -i "npm\|tsc\|tsup" | grep -v grep
+cd /root/evolution-api && npm run build 2>&1 | head -50
+cd /root/evolution-api && npm run build
+. "\root\.cursor-server\cli\servers\Stable-53b99ce608cba35127ae3a050c1738a959750860\server\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration-bash.sh"
+cd /root/evolution-api && pm2 restart all
+ps aux | grep -i evolution
+curl -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" "http://192.168.1.111:8080/group/findByName/Edmond?name=Perface%20Test%20group&getParticipants=false" 2>&1
+cd /root/evolution-api && npm run build
+grep -n "findByName" /root/evolution-api/dist/api/routes/group.router.js
+grep -n "routerPath" /root/evolution-api/dist/api/routes/group.router.js | head -10
+cd /root/evolution-api && npm run build
+. "\root\.cursor-server\cli\servers\Stable-53b99ce608cba35127ae3a050c1738a959750860\server\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration-bash.sh"
+curl -I "http://192.168.1.111:8080/" 2>&1
+curl -X POST -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" -H "Content-Type: application/json" -d '{"number":"120363401340275086@g.us","text":"Test message"}' "http://192.168.1.111:8080/message/sendText/Edmond" 2>&1
+curl -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" "http://192.168.1.111:8080/group/findByName/Edmond?name=Testgroup&getParticipants=false" 2>&1
+curl -X POST -H "apikey: jbaf9Vf6METJW2EQSzOi5NV3lhabp7sb" -H "Content-Type: application/json" -d '{"number":"120363401340275086@g.us","text":"Test message from Steven"}' "http://192.168.1.111:8080/message/sendText/Steven%20Sing%20Ho" 2>&1
+curl -X POST -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" "http://192.168.1.111:8080/instance/restart/Edmond" 2>&1
+sleep 15 && curl -X POST -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" -H "Content-Type: application/json" -d '{"number":"120363401340275086@g.us","text":"Test message after restart"}' "http://192.168.1.111:8080/message/sendText/Edmond" 2>&1
+. "\root\.cursor-server\cli\servers\Stable-53b99ce608cba35127ae3a050c1738a959750860\server\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration-bash.sh"
+curl -X POST -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" -H "Content-Type: application/json" -d '{"number":"120363401340275086@g.us","text":"Test message after restart"}' "http://192.168.1.111:8080/message/sendText/Edmond" 2>&1
+curl -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" "http://192.168.1.111:8080/instance/connectionState/Edmond" 2>&1
+curl -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" "http://192.168.1.111:8080/group/fetchAllGroups/Edmond?getParticipants=false" 2>&1 | head -20
+curl -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" "http://192.168.1.111:8080/instance/fetchInstances" 2>&1 | grep -A5 -B5 "Edmond"
+curl -X POST -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" -H "Content-Type: application/json" -d '{"number":"85261478244147","text":"Self test message"}' "http://192.168.1.111:8080/message/sendText/Edmond" 2>&1
+curl -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" "http://192.168.1.111:8080/instance/connect/Edmond" 2>&1
+sleep 5 && curl -X POST -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" -H "Content-Type: application/json" -d '{"where":{}}' "http://192.168.1.111:8080/chat/findContacts/Edmond" 2>&1
+. "\root\.cursor-server\cli\servers\Stable-53b99ce608cba35127ae3a050c1738a959750860\server\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration-bash.sh"
+curl -X POST -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" -H "Content-Type: application/json" -d '{"number":"120363401340275086@g.us","text":"Test group message from API"}' "http://192.168.1.111:8080/message/sendText/Edmond" 2>&1
+curl -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" "http://192.168.1.111:8080/group/fetchAllGroups/Edmond?getParticipants=false" 2>&1 | jq '.[0:3]' 2>/dev/null || curl -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" "http://192.168.1.111:8080/group/fetchAllGroups/Edmond?getParticipants=false" 2>&1 | head -20
+. "\root\.cursor-server\cli\servers\Stable-53b99ce608cba35127ae3a050c1738a959750860\server\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration-bash.sh"
+curl -X GET "http://192.168.1.111:8080/instance/fetchInstances" -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" | jq '.'
+curl -X GET "http://192.168.1.111:8080/instance/fetchInstances" -H "apikey: 429683C4C977415CAAFCCE10F7D57E11"
+curl -X GET "http://192.168.1.111:8080/instance/connectionState/test-bot" -H "apikey: 429683C4C977415CAAFCCE10F7D57E11"
+curl -X PUT "http://192.168.1.111:8080/instance/restart/test-bot" -H "apikey: 429683C4C977415CAAFCCE10F7D57E11"
+curl -X GET "http://192.168.1.111:8080/instance/connect/test-bot" -H "apikey: 429683C4C977415CAAFCCE10F7D57E11"
+journalctl -u evolution-api --no-pager -n 20
+journalctl -u evolution-api --no-pager -n 50 | grep -i "test-bot"
+curl -X DELETE "http://192.168.1.111:8080/instance/delete/test-bot" -H "apikey: 429683C4C977415CAAFCCE10F7D57E11"
+curl -X POST "http://192.168.1.111:8080/instance/create" -H "Content-Type: application/json" -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" -d '{"instanceName": "test-bot", "integration": "WHATSAPP-BAILEYS"}'
+curl -X GET "http://192.168.1.111:8080/instance/connect/test-bot" -H "apikey: 429683C4C977415CAAFCCE10F7D57E11"
+. "\root\.cursor-server\cli\servers\Stable-53b99ce608cba35127ae3a050c1738a959750860\server\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration-bash.sh"
+curl -X GET "http://192.168.1.111:8080/instance/fetchInstances" -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" | grep -A 5 -B 5 "test-bot"
+curl -X POST "http://192.168.1.111:8080/message/sendText/test-bot" -H "Content-Type: application/json" -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" -d '{"number": "85269080613", "text": "Test message - connection working!"}'
+curl -X GET "http://192.168.1.111:8080/instance/connectionState/test-bot" -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" | head -20
+curl -X GET "http://192.168.1.111:8080/instance/connectionState/test-bot" -H "apikey: 429683C4C977415CAAFCCE10F7D57E11"
+find /root/evolution-api -name "*test-bot*" -type f 2>/dev/null
+ls -la /root/evolution-api/instances/
+ls -la /root/evolution-api/instances/5c5fb270-91a8-448e-9436-878fb35e2f5d/
+journalctl -u evolution-api --no-pager -n 100 | grep -E "(test-bot|session|Session|connect|5c5fb270)" | tail -20
+curl -X DELETE "http://192.168.1.111:8080/instance/logout/test-bot" -H "apikey: 429683C4C977415CAAFCCE10F7D57E11"
+curl -X GET "http://192.168.1.111:8080/instance/connect/test-bot" -H "apikey: 429683C4C977415CAAFCCE10F7D57E11"
+find /root/evolution-api -name "*.env*" -type f 2>/dev/null
+cat /root/evolution-api/.env | grep -E "(CACHE|REDIS)" | head -10
+cd /root/evolution-api && sed -i 's/CACHE_REDIS_PREFIX_KEY=evolution/CACHE_REDIS_PREFIX_KEY=evolution_v2/' .env
+grep "CACHE_REDIS_PREFIX_KEY" /root/evolution-api/.env
+systemctl restart evolution-api
+sleep 5 && systemctl status evolution-api --no-pager
+curl -X GET "http://192.168.1.111:8080/instance/fetchInstances" -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" | grep -E "name|connectionStatus" | grep -A1 "name"
+curl -X GET "http://192.168.1.111:8080/instance/connect/test-bot" -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" | grep -o '"base64":"[^"]*"' | head -1
+curl -X POST "http://192.168.1.111:8080/message/sendText/Edmond" -H "Content-Type: application/json" -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" -d '{"number": "61478244147", "text": "Test after Redis cache prefix change - SessionError fix"}'
+curl -X POST "http://192.168.1.111:8080/message/sendText/Edmond" -H "Content-Type: application/json" -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" -d '{"number": "120363418478986376@g.us", "text": "Group test after Redis cache prefix change - SessionError should be fixed!"}'
+journalctl -u evolution-api --no-pager -n 20 | grep -E "(SessionError|session|Session)"
+cd /root/evolution-api && npm list baileys
+cd /root/evolution-api && npm uninstall baileys
+cd /root/evolution-api && npm install @whiskeysockets/baileys@nightly
+cd /root/evolution-api && npm install baileys@6.7.19-alpha.0
+cd /root/evolution-api && npm install https://github.com/WhiskeySockets/Baileys/releases/download/nightly/package.tgz
+cd /root/evolution-api && npm install github:WhiskeySockets/Baileys#nightly
+cd /root/evolution-api && npm list baileys
+cd /root/evolution-api && npm run build
+systemctl restart evolution-api
+systemctl restart evolution-api && sleep 3 && systemctl status evolution-api --no-pager
+systemctl restart evolution-api
+. "\root\.cursor-server\cli\servers\Stable-53b99ce608cba35127ae3a050c1738a959750860\server\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration-bash.sh"
+sleep 5 && systemctl status evolution-api --no-pager
+curl -X POST "http://192.168.1.111:8080/message/sendText/Edmond" -H "Content-Type: application/json" -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" -d '{"number": "120363418478986376@g.us", "text": "🎉 GROUP MESSAGE TEST - SessionError fix with updated Baileys v6.7.18! This should work now without any session errors."}'
+journalctl -u evolution-api --no-pager -n 10 | grep -E "(SessionError|session|Session|Baileys|baileys)"
+cd /root/evolution-api && npm list baileys
+redis-cli -p 6379 -n 6 FLUSHDB
+systemctl restart evolution-api && sleep 5
+systemctl status evolution-api --no-pager | head -10
+curl -X POST "http://192.168.1.111:8080/message/sendText/Edmond" -H "Content-Type: application/json" -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" -d '{"number": "61478244147", "text": "Individual message test after cache clear and Baileys update"}'
+curl -X POST "http://192.168.1.111:8080/message/sendText/Edmond" -H "Content-Type: application/json" -H "apikey: 429683C4C977415CAAFCCE10F7D57E11" -d '{"number": "120363418478986376@g.us", "text": "GROUP TEST - Baileys 6.7.18 with fresh cache - SessionError should be fixed!"}'
+. "\root\.cursor-server\cli\servers\Stable-53b99ce608cba35127ae3a050c1738a959750860\server\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration-bash.sh"
+curl -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" "http://192.168.1.111:8080/group/fetchAllGroups/Edmond?getParticipants=true" 2>&1 | head -50
+curl -X POST -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" -H "Content-Type: application/json" -d '{"where":{}}' "http://192.168.1.111:8080/chat/findChats/Edmond" 2>&1 | grep -o '"remoteJid":"[^"]*@g.us"' | head -5
+curl -X POST -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" -H "Content-Type: application/json" -d '{"number":"120363418331703847@g.us","text":"Test message to different group"}' "http://192.168.1.111:8080/message/sendText/Edmond" 2>&1
+curl -X POST -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" -H "Content-Type: application/json" -d '{"number":"120363401340275086","text":"Test without @g.us suffix"}' "http://192.168.1.111:8080/message/sendText/Edmond" 2>&1
+curl -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" "http://192.168.1.111:8080/group/findGroupInfos/Edmond?groupJid=120363401340275086@g.us" 2>&1
+curl -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" "http://192.168.1.111:8080/instance/fetchInstances" 2>&1 | grep -A2 -B2 "ownerJid"
+curl -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" "http://192.168.1.111:8080/group/findGroupInfos/Edmond?groupJid=85290938408-1456471165@g.us" 2>&1
+curl -X POST -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" -H "Content-Type: application/json" -d '{"number":"85290938408-1456471165@g.us","text":"Test message to team group"}' "http://192.168.1.111:8080/message/sendText/Edmond" 2>&1
+curl -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" "http://192.168.1.111:8080/group/findGroupInfos/Edmond?groupJid=85251950954-1589860754@g.us" 2>&1
+curl -X POST -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" -H "Content-Type: application/json" -d '{"number":"85251950954-1589860754@g.us","text":"Test message to 31/5 週會準備 group"}' "http://192.168.1.111:8080/message/sendText/Edmond" 2>&1
+curl -X POST -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" -H "Content-Type: application/json" -d '{"number":"61478244147","text":"Self test message"}' "http://192.168.1.111:8080/message/sendText/Edmond" 2>&1
+curl -X POST -H "apikey: 253F9230935C-4AAC-870E-CF259A5A3E93" -H "Content-Type: application/json" -d '{"number": "120363401581050740@g.us","text":"Test message to team group"}' "http://192.168.1.111:8080/message/sendText/test-bot" 2>&1
+curl -X POST -H "apikey: 253F9230935C-4AAC-870E-CF259A5A3E93" -H "Content-Type: application/json" -d '{"number": "120363401581050740","text":"Test message to team group"}' "http://192.168.1.111:8080/message/sendText/test-bot" 2>&1
+curl -X POST -H "apikey: 253F9230935C-4AAC-870E-CF259A5A3E93" -H "Content-Type: application/json" -d '{"number": "120363401581050740@g.us","text":"Test message to team group"}' "http://192.168.1.111:8080/message/sendText/test-bot" 2>&1
+curl -X POST -H "apikey: cBopjEYOHuqSZHsOwDs2k15gAXdwDAyp" -H "Content-Type: application/json" -d '{"number":"120363401340275086@g.us","text":"Test group message from API"}' "http://192.168.1.111:8080/message/sendText/Edmond" 2>&1
+systemctl restart evolution-api
+systemctl restart evolultion-api
+systemctl restart evolution-api
+. "\root\.cursor-server\cli\servers\Stable-53b99ce608cba35127ae3a050c1738a959750860\server\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration-bash.sh"
+cd evolution-api && git rm --cached .cursor/mcp.json
+cd evolution-api && git status
+git status
+git log --oneline -5

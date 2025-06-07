@@ -1,0 +1,18 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[user]
+	name = ahhim911
+	email = edhim911@gmail.com
+[remote "origin"]
+	url = https://github.com/ahhim911/evolution-api.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "upstream"]
+	url = https://github.com/EvolutionAPI/evolution-api.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+	vscode-merge-base = origin/main

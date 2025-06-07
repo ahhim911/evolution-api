@@ -5,3 +5,26 @@
 2025-06-02 07:13:09.994 [info] Git graph is disabled. shouldIndex: true isEnabled: false
 2025-06-02 10:54:53.170 [info] Using repo backend url https://repo42.cursor.sh
 2025-06-02 10:54:53.170 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2025-06-03 02:59:02.437 [info] Using repo backend url https://repo42.cursor.sh
+2025-06-03 02:59:02.437 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2025-06-03 03:00:02.466 [info] Using repo backend url https://repo42.cursor.sh
+2025-06-03 03:00:02.466 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2025-06-03 04:07:56.545 [error] Failed to check if git graph is enabled [aborted] read ECONNRESET
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.598 [error] Error getting server config, using proto default config Canceled

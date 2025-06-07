@@ -1,43 +1,18 @@
-Server bound to /tmp/cursor-3774feca-20ae-4ce4-99d9-892bd40b9fe5
-Extension host agent listening on /tmp/cursor-3774feca-20ae-4ce4-99d9-892bd40b9fe5
+Server bound to /tmp/cursor-e2c08c27-268a-4731-997d-1b205b744b56
+Extension host agent listening on /tmp/cursor-e2c08c27-268a-4731-997d-1b205b744b56
 
-[05:52:50] 
-
-
+[00:24:40] 
 
 
-[05:52:50] Extension host agent started.
-[05:52:50] [<unknown>][aadec225][ExtensionHostConnection] New connection established.
-[05:52:50] [<unknown>][09f91d16][ManagementConnection] New connection established.
-[05:52:50] [<unknown>][aadec225][ExtensionHostConnection] <22297> Launched Extension Host Process.
-rejected promise not handled within 1 second: CodeExpectedError: Could not find pty 7 on pty host
-stack trace: CodeExpectedError: Could not find pty 7 on pty host
-    at A.W (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/platform/terminal/node/ptyHostMain.js:45:12235)
-    at A.updateTitle (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/platform/terminal/node/ptyHostMain.js:45:7724)
-    at N.s.<computed> (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2962)
-    at Object.call (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4203)
-    at Qc.s (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/platform/terminal/node/ptyHostMain.js:26:81166)
-    at Qc.q (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80689)
-    at ds.value (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80091)
-    at _.B (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
-    at _.fire (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
-    at process.w (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29161)
-    at process.emit (node:events:518:28)
-    at emit (node:internal/child_process:950:14)
-    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
-[05:52:52] Error [CodeExpectedError]: Could not find pty 7 on pty host
-    at A.W (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/platform/terminal/node/ptyHostMain.js:45:12235)
-    at A.updateTitle (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/platform/terminal/node/ptyHostMain.js:45:7724)
-    at N.s.<computed> (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2962)
-    at Object.call (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4203)
-    at Qc.s (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/platform/terminal/node/ptyHostMain.js:26:81166)
-    at Qc.q (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80689)
-    at ds.value (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80091)
-    at _.B (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
-    at _.fire (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
-    at process.w (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29161)
-    at process.emit (node:events:518:28)
-    at emit (node:internal/child_process:950:14)
-    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+
+[00:24:40] Extension host agent started.
+[00:24:40] [<unknown>][6be318e0][ExtensionHostConnection] New connection established.
+[00:24:40] [<unknown>][fbe66bc2][ManagementConnection] New connection established.
+[00:24:40] [<unknown>][6be318e0][ExtensionHostConnection] <146203> Launched Extension Host Process.
 New EH opened, aborting shutdown
-[05:57:50] New EH opened, aborting shutdown
+[00:29:40] New EH opened, aborting shutdown
+[06:43:02] [<unknown>][fbe66bc2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[06:43:02] [<unknown>][6be318e0][ExtensionHostConnection] <146203> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[06:43:02] Last EH closed, waiting before shutting down

@@ -1,0 +1,10 @@
+2025-06-05 23:58:28.806 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-05 23:58:28.806 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-05 23:58:29.077 [info] Skipping PR indexing as user has opted out via configuration
+2025-06-06 03:24:41.313 [error] Error getting server config, using proto default config Canceled
+2025-06-06 03:24:41.313 [error] Error getting server config, using proto default config Canceled
+2025-06-06 03:24:41.313 [error] Error getting server config, using proto default config Canceled
+2025-06-06 03:24:41.314 [error] Error getting server config, using proto default config Canceled
+2025-06-06 03:24:41.314 [error] Error getting server config, using proto default config Canceled
+2025-06-06 03:24:41.314 [error] Error getting server config, using proto default config Canceled
+2025-06-06 03:24:41.314 [error] Error getting server config, using proto default config Canceled

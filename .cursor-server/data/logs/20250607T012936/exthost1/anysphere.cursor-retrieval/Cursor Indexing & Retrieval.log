@@ -1,0 +1,121 @@
+2025-06-07 01:29:38.917 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-07 01:29:38.917 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-07 01:29:38.970 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:29:38.997 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-07 01:29:38.997 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-07 01:29:39.029 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-07 01:29:39.077 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-07 01:29:39.083 [info] Using existing keys for an index
+2025-06-07 01:29:39.084 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-06-07 01:29:39.101 [info] Picked default branch from method 1.
+2025-06-07 01:29:39.101 [info] Picked default branch from method 1.
+2025-06-07 01:29:39.109 [info] Picked default branch from method 1.
+2025-06-07 01:29:39.109 [info] Picked default branch from method 1.
+2025-06-07 01:29:39.115 [info] Using existing keys for an index
+2025-06-07 01:29:39.115 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-06-07 01:29:39.809 [error] We currently do not allow indexing the home directory.
+2025-06-07 01:29:39.809 [info] Indexing job successfully done or aborted.
+2025-06-07 01:29:39.815 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:29:40.994 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:29:44.990 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:29:45.018 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:29:45.050 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:29:49.039 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:33:37.107 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:34:11.161 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:34:39.808 [info] multiCodebaseIndexingJob dispose
+2025-06-07 01:34:39.808 [info] Aborting indexing job.
+2025-06-07 01:34:39.808 [error] We currently do not allow indexing the home directory.
+2025-06-07 01:34:39.808 [info] Indexing job successfully done or aborted.
+2025-06-07 01:39:10.296 [info] Get user commits took 4.704843999934383ms for 10 commits
+2025-06-07 01:39:11.147 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:39:39.810 [info] multiCodebaseIndexingJob dispose
+2025-06-07 01:39:39.810 [info] Aborting indexing job.
+2025-06-07 01:39:39.810 [error] We currently do not allow indexing the home directory.
+2025-06-07 01:39:39.810 [info] Indexing job successfully done or aborted.
+2025-06-07 01:39:54.798 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '\root/.gitmodules')
+2025-06-07 01:40:59.037 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '\root/.gitmodules')
+2025-06-07 01:41:07.966 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '\root/.gitmodules')
+2025-06-07 01:41:10.835 [error] Error while computing closest remote ref spawn git ENOENT
+2025-06-07 01:41:10.837 [error] Error while getting fallback commit spawn git ENOENT
+2025-06-07 01:41:13.049 [error] Error while computing closest remote ref spawn git ENOENT
+2025-06-07 01:41:13.052 [error] Error while getting fallback commit spawn git ENOENT
+2025-06-07 01:41:15.189 [error] Error while computing closest remote ref spawn git ENOENT
+2025-06-07 01:41:15.192 [error] Error while getting fallback commit spawn git ENOENT
+2025-06-07 01:41:36.877 [error] Error while computing closest remote ref spawn git ENOENT
+2025-06-07 01:41:36.879 [error] Error while getting fallback commit spawn git ENOENT
+2025-06-07 01:41:37.731 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '\root/.gitmodules')
+2025-06-07 01:41:38.986 [error] Error while computing closest remote ref spawn git ENOENT
+2025-06-07 01:41:38.988 [error] Error while getting fallback commit spawn git ENOENT
+2025-06-07 01:41:41.148 [error] Error while computing closest remote ref spawn git ENOENT
+2025-06-07 01:41:41.150 [error] Error while getting fallback commit spawn git ENOENT
+2025-06-07 01:41:50.226 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:41:52.534 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:41:53.165 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-07 01:41:53.168 [info] Picked default branch from method 1.
+2025-06-07 01:41:53.171 [error] Git command failed: git cat-file -e origin/master:.cursor/environment.json Command failed: git cat-file -e origin/master:.cursor/environment.json
+fatal: path '.cursor/environment.json' exists on disk, but not in 'origin/master'
+
+2025-06-07 01:41:54.157 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '\root/.gitmodules')
+2025-06-07 01:42:08.808 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:42:09.917 [error] Error while computing closest remote ref spawn git ENOENT
+2025-06-07 01:42:09.919 [error] Error while getting fallback commit spawn git ENOENT
+2025-06-07 01:42:10.765 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '\root/.gitmodules')
+2025-06-07 01:42:12.045 [error] Error while computing closest remote ref spawn git ENOENT
+2025-06-07 01:42:12.047 [error] Error while getting fallback commit spawn git ENOENT
+2025-06-07 01:42:14.147 [error] Error while computing closest remote ref spawn git ENOENT
+2025-06-07 01:42:14.149 [error] Error while getting fallback commit spawn git ENOENT
+2025-06-07 01:42:17.207 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:44:11.131 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:44:39.811 [info] multiCodebaseIndexingJob dispose
+2025-06-07 01:44:39.811 [info] Aborting indexing job.
+2025-06-07 01:44:39.811 [error] We currently do not allow indexing the home directory.
+2025-06-07 01:44:39.811 [info] Indexing job successfully done or aborted.
+2025-06-07 01:45:48.526 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:45:51.597 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:45:57.922 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:46:11.359 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:46:21.833 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:46:29.393 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '\root/.gitmodules')
+2025-06-07 01:46:34.871 [error] Error while computing closest remote ref spawn git ENOENT
+2025-06-07 01:46:34.874 [error] Error while getting fallback commit spawn git ENOENT
+2025-06-07 01:46:35.732 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '\root/.gitmodules')
+2025-06-07 01:46:37.594 [error] Error while computing closest remote ref spawn git ENOENT
+2025-06-07 01:46:37.596 [error] Error while getting fallback commit spawn git ENOENT
+2025-06-07 01:46:39.718 [error] Error while computing closest remote ref spawn git ENOENT
+2025-06-07 01:46:39.720 [error] Error while getting fallback commit spawn git ENOENT
+2025-06-07 01:46:45.445 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:46:45.709 [error] Error while computing closest remote ref spawn git ENOENT
+2025-06-07 01:46:45.711 [error] Error while getting fallback commit spawn git ENOENT
+2025-06-07 01:46:46.628 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '\root/.gitmodules')
+2025-06-07 01:46:47.812 [error] Error while computing closest remote ref spawn git ENOENT
+2025-06-07 01:46:47.814 [error] Error while getting fallback commit spawn git ENOENT
+2025-06-07 01:46:50.172 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:46:50.284 [error] Error while computing closest remote ref spawn git ENOENT
+2025-06-07 01:46:50.286 [error] Error while getting fallback commit spawn git ENOENT
+2025-06-07 01:46:51.828 [error] Error while computing closest remote ref spawn git ENOENT
+2025-06-07 01:46:51.830 [error] Error while getting fallback commit spawn git ENOENT
+2025-06-07 01:46:54.007 [error] Error while computing closest remote ref spawn git ENOENT
+2025-06-07 01:46:54.009 [error] Error while getting fallback commit spawn git ENOENT
+2025-06-07 01:46:56.128 [error] Error while computing closest remote ref spawn git ENOENT
+2025-06-07 01:46:56.130 [error] Error while getting fallback commit spawn git ENOENT
+2025-06-07 01:48:29.242 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '\root/.gitmodules')
+2025-06-07 01:48:38.273 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '\root/.gitmodules')
+2025-06-07 01:49:04.529 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:49:10.261 [info] Get user commits took 5.096784999826923ms for 10 commits
+2025-06-07 01:49:11.147 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:49:23.622 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:49:39.811 [info] multiCodebaseIndexingJob dispose
+2025-06-07 01:49:39.812 [info] Aborting indexing job.
+2025-06-07 01:49:39.812 [error] We currently do not allow indexing the home directory.
+2025-06-07 01:49:39.812 [info] Indexing job successfully done or aborted.
+2025-06-07 01:50:27.575 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:50:54.920 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '\root/.gitmodules')
+2025-06-07 01:50:55.536 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:50:58.015 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:51:06.735 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:51:07.129 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '\root/.gitmodules')
+2025-06-07 01:51:12.670 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:51:17.327 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:51:19.818 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-07 01:52:36.432 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)

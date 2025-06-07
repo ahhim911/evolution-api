@@ -1,0 +1,615 @@
+2025-06-05 00:19:39.255 [info] Extension host with pid 186269 started
+2025-06-05 00:19:39.260 [info] Lock '/root/.cursor-server/data/User/workspaceStorage/6cff2fadbb261528f91ee4f787fadc39/vscode.lock': Lock acquired.
+2025-06-05 00:19:39.327 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-05 00:19:39.569 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-05 00:19:39.644 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-05 00:19:39.644 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-05 00:19:39.918 [info] Eager extensions activated
+2025-06-05 00:19:39.919 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-06-05 00:19:39.919 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-06-05 00:19:39.919 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-06-05 00:19:39.919 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-05 00:19:39.919 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-05 00:19:40.805 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3996
+2025-06-05 00:19:41.366 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.366 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.366 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.366 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.366 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.366 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.366 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.366 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.366 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.366 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.366 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.367 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:41.421 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3996
+2025-06-05 00:19:42.368 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.369 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.369 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.370 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.370 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.370 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.370 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.370 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.371 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.371 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.371 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.371 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.376 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.376 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.376 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.376 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.376 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.376 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.376 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.376 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.376 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.377 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.377 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.377 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.377 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.377 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.377 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.377 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.377 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.377 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.377 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.377 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.378 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.378 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.378 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.378 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.378 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:19:42.378 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-05 00:20:01.715 [info] Extension host terminating: received terminate message from renderer
+2025-06-05 00:20:01.715 [info] Lock '/root/.cursor-server/data/User/workspaceStorage/6cff2fadbb261528f91ee4f787fadc39/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-06-05 00:20:01.726 [error] Canceled: Canceled
+	at new rLt (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:157159)
+	at Hrt.U (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:161797)
+	at n.<computed>.a.charCodeAt.n.<computed> (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:159289)
+	at Wet.g (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32584)
+	at Wet.executeCommand (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32088)
+	at e.registerCommand.description (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:31418)
+	at Wet.h (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:33105)
+	at Wet.g (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32181)
+	at Wet.executeCommand (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32088)
+	at Object.executeCommand (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:175:42859)
+	at UG.N [as value] (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:978108)
+	at x.B (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2391)
+	at x.C (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2461)
+	at x.fire (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2678)
+	at Object.f [as dispose] (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:999684)
+	at /root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1005806
+	at Array.forEach (<anonymous>)
+	at C.dispose (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1005792)
+	at lZ.<anonymous> (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20157)
+	at lZ.dispose (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20253)
+	at lZ.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:980587)
+	at lZ.dispose (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20253)
+	at Vi (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:25:706)
+	at file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:137:15464
+	at file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:25:1018
+	at Object.dispose (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:8:711)
+	at cfe.eb (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:137:12244)
+	at file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10198
+	at Array.map (<anonymous>)
+	at cfe.$ (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10186)
+	at cfe.terminate (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10429)
+	at fSt.terminate (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:138:1435)
+	at Zr (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:193:15254)
+	at UG.value (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:193:13402)
+	at x.B (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2391)
+	at x.fire (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2609)
+	at ro.fire (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:9489)
+	at QQ.A (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:12615)
+	at UG.value (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:11033)
+	at x.B (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2391)
+	at x.fire (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2609)
+	at Ect.acceptChunk (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:7970)
+	at file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:7255
+	at Socket.t (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:15498)
+	at Socket.emit (node:events:518:28)
+	at addChunk (node:internal/streams/readable:561:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+	at Readable.push (node:internal/streams/readable:392:5)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2025-06-05 00:20:01.728 [error] Canceled: Canceled
+	at new rLt (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:157159)
+	at Hrt.U (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:161797)
+	at n.<computed>.a.charCodeAt.n.<computed> (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:159289)
+	at Wet.g (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32584)
+	at Wet.executeCommand (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32088)
+	at e.registerCommand.description (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:31418)
+	at Wet.h (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:33105)
+	at Wet.g (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32181)
+	at Wet.executeCommand (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32088)
+	at Object.executeCommand (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:175:42859)
+	at UG.N [as value] (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:978108)
+	at x.B (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2391)
+	at x.C (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2461)
+	at x.fire (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2678)
+	at Object.f [as dispose] (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:999684)
+	at /root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1005806
+	at Array.forEach (<anonymous>)
+	at C.dispose (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1005792)
+	at lZ.<anonymous> (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20157)
+	at lZ.dispose (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20253)
+	at lZ.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:980587)
+	at lZ.dispose (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20253)
+	at Vi (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:25:706)
+	at file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:137:15464
+	at file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:25:1018
+	at Object.dispose (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:8:711)
+	at cfe.eb (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:137:12244)
+	at file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10198
+	at Array.map (<anonymous>)
+	at cfe.$ (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10186)
+	at cfe.terminate (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10429)
+	at fSt.terminate (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:138:1435)
+	at Zr (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:193:15254)
+	at UG.value (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:193:13402)
+	at x.B (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2391)
+	at x.fire (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2609)
+	at ro.fire (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:9489)
+	at QQ.A (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:12615)
+	at UG.value (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:11033)
+	at x.B (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2391)
+	at x.fire (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2609)
+	at Ect.acceptChunk (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:7970)
+	at file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:7255
+	at Socket.t (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:15498)
+	at Socket.emit (node:events:518:28)
+	at addChunk (node:internal/streams/readable:561:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+	at Readable.push (node:internal/streams/readable:392:5)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2025-06-05 00:20:01.728 [error] Canceled: Canceled
+	at new rLt (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:157159)
+	at Hrt.U (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:161797)
+	at n.<computed>.a.charCodeAt.n.<computed> (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:159289)
+	at Wet.g (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32584)
+	at Wet.executeCommand (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32088)
+	at e.registerCommand.description (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:31418)
+	at Wet.h (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:33105)
+	at Wet.g (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32181)
+	at Wet.executeCommand (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32088)
+	at Object.executeCommand (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:175:42859)
+	at UG.N [as value] (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:978108)
+	at x.B (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2391)
+	at x.C (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2461)
+	at x.fire (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2678)
+	at Object.f [as dispose] (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:999684)
+	at /root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1005806
+	at Array.forEach (<anonymous>)
+	at C.dispose (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1005792)
+	at lZ.<anonymous> (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20157)
+	at lZ.dispose (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20253)
+	at lZ.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:980587)
+	at lZ.dispose (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20253)
+	at Vi (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:25:706)
+	at file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:137:15464
+	at file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:25:1018
+	at Object.dispose (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:8:711)
+	at cfe.eb (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:137:12244)
+	at file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10198
+	at Array.map (<anonymous>)
+	at cfe.$ (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10186)
+	at cfe.terminate (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10429)
+	at fSt.terminate (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:138:1435)
+	at Zr (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:193:15254)
+	at UG.value (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:193:13402)
+	at x.B (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2391)
+	at x.fire (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2609)
+	at ro.fire (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:9489)
+	at QQ.A (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:12615)
+	at UG.value (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:11033)
+	at x.B (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2391)
+	at x.fire (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2609)
+	at Ect.acceptChunk (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:7970)
+	at file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:7255
+	at Socket.t (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:15498)
+	at Socket.emit (node:events:518:28)
+	at addChunk (node:internal/streams/readable:561:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+	at Readable.push (node:internal/streams/readable:392:5)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2025-06-05 00:20:01.729 [error] Canceled: Canceled
+	at new rLt (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:157159)
+	at Hrt.U (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:161797)
+	at n.<computed>.a.charCodeAt.n.<computed> (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:159289)
+	at Wet.g (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32584)
+	at Wet.executeCommand (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32088)
+	at e.registerCommand.description (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:31418)
+	at Wet.h (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:33105)
+	at Wet.g (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32181)
+	at Wet.executeCommand (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32088)
+	at Object.executeCommand (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:175:42859)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/github/dist/extension.js:2:328629)
+	at /root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/github/dist/extension.js:2:329588
+	at UG.value (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1096223)
+	at x.B (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2391)
+	at x.C (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2461)
+	at x.fire (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2678)
+	at Object.f [as dispose] (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:999684)
+	at /root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1005806
+	at Array.forEach (<anonymous>)
+	at C.dispose (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:1005792)
+	at lZ.<anonymous> (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20157)
+	at lZ.dispose (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20253)
+	at lZ.<anonymous> (/root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/extensions/git/dist/main.js:2:980587)
+	at lZ.dispose (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20253)
+	at Vi (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:25:706)
+	at file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:137:15464
+	at file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:25:1018
+	at Object.dispose (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:8:711)
+	at cfe.eb (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:137:12244)
+	at file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10198
+	at Array.map (<anonymous>)
+	at cfe.$ (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10186)
+	at cfe.terminate (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10429)
+	at fSt.terminate (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:138:1435)
+	at Zr (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:193:15254)
+	at UG.value (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:193:13402)
+	at x.B (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2391)
+	at x.fire (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2609)
+	at ro.fire (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:9489)
+	at QQ.A (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:12615)
+	at UG.value (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:11033)
+	at x.B (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2391)
+	at x.fire (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2609)
+	at Ect.acceptChunk (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:7970)
+	at file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:7255
+	at Socket.t (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/vs/workbench/api/node/extensionHostProcess.js:42:15498)
+	at Socket.emit (node:events:518:28)
+	at addChunk (node:internal/streams/readable:561:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+	at Readable.push (node:internal/streams/readable:392:5)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2025-06-05 00:20:01.729 [info] Extension host with pid 186269 exiting with code 0

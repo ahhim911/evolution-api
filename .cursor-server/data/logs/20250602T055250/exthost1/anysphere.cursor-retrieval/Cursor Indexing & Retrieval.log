@@ -1242,3 +1242,1108 @@ fatal: not a git repository (or any of the parent directories): .git
 2025-06-02 10:54:53.179 [error] We currently do not allow indexing the home directory.
 2025-06-02 10:54:53.179 [info] Indexing job successfully done or aborted.
 2025-06-02 10:55:24.780 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 10:57:35.489 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 10:59:02.629 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 10:59:04.383 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 10:59:29.571 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 10:59:53.179 [info] multiCodebaseIndexingJob dispose
+2025-06-02 10:59:53.179 [info] Aborting indexing job.
+2025-06-02 10:59:53.179 [error] We currently do not allow indexing the home directory.
+2025-06-02 10:59:53.179 [info] Indexing job successfully done or aborted.
+2025-06-02 11:00:30.735 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 11:02:34.876 [info] Get user commits took 7.704620998352766ms for 10 commits
+2025-06-02 11:02:35.470 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 11:02:42.036 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 11:04:53.180 [info] multiCodebaseIndexingJob dispose
+2025-06-02 11:04:53.180 [info] Aborting indexing job.
+2025-06-02 11:04:53.180 [error] We currently do not allow indexing the home directory.
+2025-06-02 11:04:53.180 [info] Indexing job successfully done or aborted.
+2025-06-02 11:07:35.463 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 11:09:53.180 [info] multiCodebaseIndexingJob dispose
+2025-06-02 11:09:53.180 [info] Aborting indexing job.
+2025-06-02 11:09:53.180 [error] We currently do not allow indexing the home directory.
+2025-06-02 11:09:53.180 [info] Indexing job successfully done or aborted.
+2025-06-02 11:14:04.782 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 11:14:04.782 [info] Get user commits took 17.127062000334263ms for 10 commits
+2025-06-02 11:14:53.181 [info] multiCodebaseIndexingJob dispose
+2025-06-02 11:14:53.181 [info] Aborting indexing job.
+2025-06-02 11:14:53.181 [error] We currently do not allow indexing the home directory.
+2025-06-02 11:14:53.181 [info] Indexing job successfully done or aborted.
+2025-06-02 11:19:04.807 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 11:19:53.183 [info] multiCodebaseIndexingJob dispose
+2025-06-02 11:19:53.183 [info] Aborting indexing job.
+2025-06-02 11:19:53.183 [error] We currently do not allow indexing the home directory.
+2025-06-02 11:19:53.183 [info] Indexing job successfully done or aborted.
+2025-06-02 11:24:04.774 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 11:24:04.774 [info] Get user commits took 16.511410001665354ms for 10 commits
+2025-06-02 11:24:53.183 [info] multiCodebaseIndexingJob dispose
+2025-06-02 11:24:53.183 [info] Aborting indexing job.
+2025-06-02 11:24:53.183 [error] We currently do not allow indexing the home directory.
+2025-06-02 11:24:53.183 [info] Indexing job successfully done or aborted.
+2025-06-02 11:29:04.758 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 11:29:53.184 [info] multiCodebaseIndexingJob dispose
+2025-06-02 11:29:53.184 [info] Aborting indexing job.
+2025-06-02 11:29:53.184 [error] We currently do not allow indexing the home directory.
+2025-06-02 11:29:53.184 [info] Indexing job successfully done or aborted.
+2025-06-02 11:34:04.738 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 11:34:04.739 [info] Get user commits took 15.890441998839378ms for 10 commits
+2025-06-02 11:34:53.185 [info] multiCodebaseIndexingJob dispose
+2025-06-02 11:34:53.185 [info] Aborting indexing job.
+2025-06-02 11:34:53.185 [error] We currently do not allow indexing the home directory.
+2025-06-02 11:34:53.185 [info] Indexing job successfully done or aborted.
+2025-06-02 11:39:04.739 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 11:39:53.185 [info] multiCodebaseIndexingJob dispose
+2025-06-02 11:39:53.185 [info] Aborting indexing job.
+2025-06-02 11:39:53.185 [error] We currently do not allow indexing the home directory.
+2025-06-02 11:39:53.185 [info] Indexing job successfully done or aborted.
+2025-06-02 11:44:04.706 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 11:44:04.706 [info] Get user commits took 16.184821002185345ms for 10 commits
+2025-06-02 11:44:53.185 [info] multiCodebaseIndexingJob dispose
+2025-06-02 11:44:53.185 [info] Aborting indexing job.
+2025-06-02 11:44:53.185 [error] We currently do not allow indexing the home directory.
+2025-06-02 11:44:53.185 [info] Indexing job successfully done or aborted.
+2025-06-02 11:49:04.725 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 11:49:53.186 [info] multiCodebaseIndexingJob dispose
+2025-06-02 11:49:53.186 [info] Aborting indexing job.
+2025-06-02 11:49:53.186 [error] We currently do not allow indexing the home directory.
+2025-06-02 11:49:53.186 [info] Indexing job successfully done or aborted.
+2025-06-02 11:54:04.714 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 11:54:04.714 [info] Get user commits took 15.761158000677824ms for 10 commits
+2025-06-02 11:54:53.186 [info] multiCodebaseIndexingJob dispose
+2025-06-02 11:54:53.186 [info] Aborting indexing job.
+2025-06-02 11:54:53.186 [error] We currently do not allow indexing the home directory.
+2025-06-02 11:54:53.186 [info] Indexing job successfully done or aborted.
+2025-06-02 11:59:04.671 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 11:59:53.187 [info] multiCodebaseIndexingJob dispose
+2025-06-02 11:59:53.187 [info] Aborting indexing job.
+2025-06-02 11:59:53.187 [error] We currently do not allow indexing the home directory.
+2025-06-02 11:59:53.187 [info] Indexing job successfully done or aborted.
+2025-06-02 12:04:04.682 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 12:04:04.682 [info] Get user commits took 15.892781000584364ms for 10 commits
+2025-06-02 12:04:53.188 [info] multiCodebaseIndexingJob dispose
+2025-06-02 12:04:53.188 [info] Aborting indexing job.
+2025-06-02 12:04:53.188 [error] We currently do not allow indexing the home directory.
+2025-06-02 12:04:53.188 [info] Indexing job successfully done or aborted.
+2025-06-02 12:09:04.650 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 12:09:53.189 [info] multiCodebaseIndexingJob dispose
+2025-06-02 12:09:53.189 [info] Aborting indexing job.
+2025-06-02 12:09:53.189 [error] We currently do not allow indexing the home directory.
+2025-06-02 12:09:53.189 [info] Indexing job successfully done or aborted.
+2025-06-02 12:14:04.653 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 12:14:04.654 [info] Get user commits took 14.849332999438047ms for 10 commits
+2025-06-02 12:14:53.190 [info] multiCodebaseIndexingJob dispose
+2025-06-02 12:14:53.190 [info] Aborting indexing job.
+2025-06-02 12:14:53.190 [error] We currently do not allow indexing the home directory.
+2025-06-02 12:14:53.190 [info] Indexing job successfully done or aborted.
+2025-06-02 12:19:04.651 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 12:19:53.191 [info] multiCodebaseIndexingJob dispose
+2025-06-02 12:19:53.191 [info] Aborting indexing job.
+2025-06-02 12:19:53.191 [error] We currently do not allow indexing the home directory.
+2025-06-02 12:19:53.191 [info] Indexing job successfully done or aborted.
+2025-06-02 12:24:04.622 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 12:24:04.623 [info] Get user commits took 15.431358002126217ms for 10 commits
+2025-06-02 12:24:53.193 [info] multiCodebaseIndexingJob dispose
+2025-06-02 12:24:53.193 [info] Aborting indexing job.
+2025-06-02 12:24:53.193 [error] We currently do not allow indexing the home directory.
+2025-06-02 12:24:53.193 [info] Indexing job successfully done or aborted.
+2025-06-02 12:29:04.591 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 12:29:53.194 [info] multiCodebaseIndexingJob dispose
+2025-06-02 12:29:53.194 [info] Aborting indexing job.
+2025-06-02 12:29:53.194 [error] We currently do not allow indexing the home directory.
+2025-06-02 12:29:53.194 [info] Indexing job successfully done or aborted.
+2025-06-02 12:34:04.598 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 12:34:04.599 [info] Get user commits took 14.636916000396013ms for 10 commits
+2025-06-02 12:34:53.194 [info] multiCodebaseIndexingJob dispose
+2025-06-02 12:34:53.194 [info] Aborting indexing job.
+2025-06-02 12:34:53.194 [error] We currently do not allow indexing the home directory.
+2025-06-02 12:34:53.194 [info] Indexing job successfully done or aborted.
+2025-06-02 12:39:04.575 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 12:39:53.196 [info] multiCodebaseIndexingJob dispose
+2025-06-02 12:39:53.196 [info] Aborting indexing job.
+2025-06-02 12:39:53.196 [error] We currently do not allow indexing the home directory.
+2025-06-02 12:39:53.196 [info] Indexing job successfully done or aborted.
+2025-06-02 12:44:04.582 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 12:44:04.582 [info] Get user commits took 16.14070099964738ms for 10 commits
+2025-06-02 12:44:53.197 [info] multiCodebaseIndexingJob dispose
+2025-06-02 12:44:53.197 [info] Aborting indexing job.
+2025-06-02 12:44:53.197 [error] We currently do not allow indexing the home directory.
+2025-06-02 12:44:53.197 [info] Indexing job successfully done or aborted.
+2025-06-02 12:49:04.578 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 12:49:53.197 [info] multiCodebaseIndexingJob dispose
+2025-06-02 12:49:53.197 [info] Aborting indexing job.
+2025-06-02 12:49:53.197 [error] We currently do not allow indexing the home directory.
+2025-06-02 12:49:53.197 [info] Indexing job successfully done or aborted.
+2025-06-02 12:54:04.749 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 12:54:04.749 [info] Get user commits took 15.547627002000809ms for 10 commits
+2025-06-02 12:54:53.197 [info] multiCodebaseIndexingJob dispose
+2025-06-02 12:54:53.197 [info] Aborting indexing job.
+2025-06-02 12:54:53.197 [error] We currently do not allow indexing the home directory.
+2025-06-02 12:54:53.197 [info] Indexing job successfully done or aborted.
+2025-06-02 12:59:04.547 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 12:59:53.198 [info] multiCodebaseIndexingJob dispose
+2025-06-02 12:59:53.198 [info] Aborting indexing job.
+2025-06-02 12:59:53.198 [error] We currently do not allow indexing the home directory.
+2025-06-02 12:59:53.198 [info] Indexing job successfully done or aborted.
+2025-06-02 13:04:04.527 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 13:04:04.528 [info] Get user commits took 15.296176999807358ms for 10 commits
+2025-06-02 13:04:53.198 [info] multiCodebaseIndexingJob dispose
+2025-06-02 13:04:53.198 [info] Aborting indexing job.
+2025-06-02 13:04:53.198 [error] We currently do not allow indexing the home directory.
+2025-06-02 13:04:53.198 [info] Indexing job successfully done or aborted.
+2025-06-02 13:09:04.531 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 13:09:53.198 [info] multiCodebaseIndexingJob dispose
+2025-06-02 13:09:53.198 [info] Aborting indexing job.
+2025-06-02 13:09:53.198 [error] We currently do not allow indexing the home directory.
+2025-06-02 13:09:53.198 [info] Indexing job successfully done or aborted.
+2025-06-02 13:14:04.524 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 13:14:04.524 [info] Get user commits took 15.788455996662378ms for 10 commits
+2025-06-02 13:14:53.198 [info] multiCodebaseIndexingJob dispose
+2025-06-02 13:14:53.198 [info] Aborting indexing job.
+2025-06-02 13:14:53.198 [error] We currently do not allow indexing the home directory.
+2025-06-02 13:14:53.198 [info] Indexing job successfully done or aborted.
+2025-06-02 13:19:04.507 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 13:19:53.199 [info] multiCodebaseIndexingJob dispose
+2025-06-02 13:19:53.199 [info] Aborting indexing job.
+2025-06-02 13:19:53.199 [error] We currently do not allow indexing the home directory.
+2025-06-02 13:19:53.199 [info] Indexing job successfully done or aborted.
+2025-06-02 13:24:04.484 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 13:24:04.484 [info] Get user commits took 16.235096000134945ms for 10 commits
+2025-06-02 13:24:53.198 [info] multiCodebaseIndexingJob dispose
+2025-06-02 13:24:53.198 [info] Aborting indexing job.
+2025-06-02 13:24:53.198 [error] We currently do not allow indexing the home directory.
+2025-06-02 13:24:53.198 [info] Indexing job successfully done or aborted.
+2025-06-02 13:29:04.497 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 13:29:53.199 [info] multiCodebaseIndexingJob dispose
+2025-06-02 13:29:53.199 [info] Aborting indexing job.
+2025-06-02 13:29:53.199 [error] We currently do not allow indexing the home directory.
+2025-06-02 13:29:53.199 [info] Indexing job successfully done or aborted.
+2025-06-02 13:34:04.463 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 13:34:04.463 [info] Get user commits took 15.020327001810074ms for 10 commits
+2025-06-02 13:34:53.200 [info] multiCodebaseIndexingJob dispose
+2025-06-02 13:34:53.200 [info] Aborting indexing job.
+2025-06-02 13:34:53.200 [error] We currently do not allow indexing the home directory.
+2025-06-02 13:34:53.200 [info] Indexing job successfully done or aborted.
+2025-06-02 13:39:04.459 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 13:39:53.201 [info] multiCodebaseIndexingJob dispose
+2025-06-02 13:39:53.201 [info] Aborting indexing job.
+2025-06-02 13:39:53.201 [error] We currently do not allow indexing the home directory.
+2025-06-02 13:39:53.201 [info] Indexing job successfully done or aborted.
+2025-06-02 13:44:04.431 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 13:44:04.432 [info] Get user commits took 18.33193499967456ms for 10 commits
+2025-06-02 13:44:53.201 [info] multiCodebaseIndexingJob dispose
+2025-06-02 13:44:53.201 [info] Aborting indexing job.
+2025-06-02 13:44:53.201 [error] We currently do not allow indexing the home directory.
+2025-06-02 13:44:53.201 [info] Indexing job successfully done or aborted.
+2025-06-02 13:49:04.438 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 13:49:53.203 [info] multiCodebaseIndexingJob dispose
+2025-06-02 13:49:53.203 [info] Aborting indexing job.
+2025-06-02 13:49:53.203 [error] We currently do not allow indexing the home directory.
+2025-06-02 13:49:53.203 [info] Indexing job successfully done or aborted.
+2025-06-02 13:54:04.437 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 13:54:04.437 [info] Get user commits took 16.52147400006652ms for 10 commits
+2025-06-02 13:54:53.203 [info] multiCodebaseIndexingJob dispose
+2025-06-02 13:54:53.203 [info] Aborting indexing job.
+2025-06-02 13:54:53.203 [error] We currently do not allow indexing the home directory.
+2025-06-02 13:54:53.203 [info] Indexing job successfully done or aborted.
+2025-06-02 13:59:04.415 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 13:59:53.204 [info] multiCodebaseIndexingJob dispose
+2025-06-02 13:59:53.204 [info] Aborting indexing job.
+2025-06-02 13:59:53.204 [error] We currently do not allow indexing the home directory.
+2025-06-02 13:59:53.204 [info] Indexing job successfully done or aborted.
+2025-06-02 14:04:04.371 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 14:04:04.371 [info] Get user commits took 16.198166999965906ms for 10 commits
+2025-06-02 14:04:53.204 [info] multiCodebaseIndexingJob dispose
+2025-06-02 14:04:53.204 [info] Aborting indexing job.
+2025-06-02 14:04:53.204 [error] We currently do not allow indexing the home directory.
+2025-06-02 14:04:53.204 [info] Indexing job successfully done or aborted.
+2025-06-02 14:09:04.377 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-02 14:09:53.205 [info] multiCodebaseIndexingJob dispose
+2025-06-02 14:09:53.205 [info] Aborting indexing job.
+2025-06-02 14:09:53.205 [error] We currently do not allow indexing the home directory.
+2025-06-02 14:09:53.205 [info] Indexing job successfully done or aborted.
+2025-06-02 14:14:53.205 [info] multiCodebaseIndexingJob dispose
+2025-06-02 14:14:53.205 [info] Aborting indexing job.
+2025-06-02 14:14:53.205 [error] We currently do not allow indexing the home directory.
+2025-06-02 14:14:53.205 [info] Indexing job successfully done or aborted.
+2025-06-02 14:19:53.205 [info] multiCodebaseIndexingJob dispose
+2025-06-02 14:19:53.205 [info] Aborting indexing job.
+2025-06-02 14:19:53.205 [error] We currently do not allow indexing the home directory.
+2025-06-02 14:19:53.205 [info] Indexing job successfully done or aborted.
+2025-06-02 14:24:53.206 [info] multiCodebaseIndexingJob dispose
+2025-06-02 14:24:53.206 [info] Aborting indexing job.
+2025-06-02 14:24:53.206 [error] We currently do not allow indexing the home directory.
+2025-06-02 14:24:53.206 [info] Indexing job successfully done or aborted.
+2025-06-02 14:29:53.206 [info] multiCodebaseIndexingJob dispose
+2025-06-02 14:29:53.206 [info] Aborting indexing job.
+2025-06-02 14:29:53.206 [error] We currently do not allow indexing the home directory.
+2025-06-02 14:29:53.206 [info] Indexing job successfully done or aborted.
+2025-06-02 14:34:53.206 [info] multiCodebaseIndexingJob dispose
+2025-06-02 14:34:53.206 [info] Aborting indexing job.
+2025-06-02 14:34:53.206 [error] We currently do not allow indexing the home directory.
+2025-06-02 14:34:53.206 [info] Indexing job successfully done or aborted.
+2025-06-02 14:39:53.206 [info] multiCodebaseIndexingJob dispose
+2025-06-02 14:39:53.206 [info] Aborting indexing job.
+2025-06-02 14:39:53.206 [error] We currently do not allow indexing the home directory.
+2025-06-02 14:39:53.206 [info] Indexing job successfully done or aborted.
+2025-06-02 14:44:53.206 [info] multiCodebaseIndexingJob dispose
+2025-06-02 14:44:53.206 [info] Aborting indexing job.
+2025-06-02 14:44:53.206 [error] We currently do not allow indexing the home directory.
+2025-06-02 14:44:53.206 [info] Indexing job successfully done or aborted.
+2025-06-02 14:49:53.208 [info] multiCodebaseIndexingJob dispose
+2025-06-02 14:49:53.208 [info] Aborting indexing job.
+2025-06-02 14:49:53.208 [error] We currently do not allow indexing the home directory.
+2025-06-02 14:49:53.208 [info] Indexing job successfully done or aborted.
+2025-06-02 14:54:53.208 [info] multiCodebaseIndexingJob dispose
+2025-06-02 14:54:53.208 [info] Aborting indexing job.
+2025-06-02 14:54:53.208 [error] We currently do not allow indexing the home directory.
+2025-06-02 14:54:53.208 [info] Indexing job successfully done or aborted.
+2025-06-02 14:59:53.209 [info] multiCodebaseIndexingJob dispose
+2025-06-02 14:59:53.210 [info] Aborting indexing job.
+2025-06-02 14:59:53.210 [error] We currently do not allow indexing the home directory.
+2025-06-02 14:59:53.210 [info] Indexing job successfully done or aborted.
+2025-06-02 15:04:53.210 [info] multiCodebaseIndexingJob dispose
+2025-06-02 15:04:53.210 [info] Aborting indexing job.
+2025-06-02 15:04:53.210 [error] We currently do not allow indexing the home directory.
+2025-06-02 15:04:53.210 [info] Indexing job successfully done or aborted.
+2025-06-02 15:09:53.210 [info] multiCodebaseIndexingJob dispose
+2025-06-02 15:09:53.210 [info] Aborting indexing job.
+2025-06-02 15:09:53.210 [error] We currently do not allow indexing the home directory.
+2025-06-02 15:09:53.210 [info] Indexing job successfully done or aborted.
+2025-06-02 15:14:53.210 [info] multiCodebaseIndexingJob dispose
+2025-06-02 15:14:53.211 [info] Aborting indexing job.
+2025-06-02 15:14:53.211 [error] We currently do not allow indexing the home directory.
+2025-06-02 15:14:53.211 [info] Indexing job successfully done or aborted.
+2025-06-02 15:19:53.212 [info] multiCodebaseIndexingJob dispose
+2025-06-02 15:19:53.212 [info] Aborting indexing job.
+2025-06-02 15:19:53.212 [error] We currently do not allow indexing the home directory.
+2025-06-02 15:19:53.212 [info] Indexing job successfully done or aborted.
+2025-06-02 15:24:53.212 [info] multiCodebaseIndexingJob dispose
+2025-06-02 15:24:53.212 [info] Aborting indexing job.
+2025-06-02 15:24:53.212 [error] We currently do not allow indexing the home directory.
+2025-06-02 15:24:53.212 [info] Indexing job successfully done or aborted.
+2025-06-02 15:29:53.213 [info] multiCodebaseIndexingJob dispose
+2025-06-02 15:29:53.213 [info] Aborting indexing job.
+2025-06-02 15:29:53.213 [error] We currently do not allow indexing the home directory.
+2025-06-02 15:29:53.213 [info] Indexing job successfully done or aborted.
+2025-06-02 15:34:53.213 [info] multiCodebaseIndexingJob dispose
+2025-06-02 15:34:53.213 [info] Aborting indexing job.
+2025-06-02 15:34:53.213 [error] We currently do not allow indexing the home directory.
+2025-06-02 15:34:53.213 [info] Indexing job successfully done or aborted.
+2025-06-02 15:39:53.213 [info] multiCodebaseIndexingJob dispose
+2025-06-02 15:39:53.213 [info] Aborting indexing job.
+2025-06-02 15:39:53.213 [error] We currently do not allow indexing the home directory.
+2025-06-02 15:39:53.213 [info] Indexing job successfully done or aborted.
+2025-06-02 15:44:53.213 [info] multiCodebaseIndexingJob dispose
+2025-06-02 15:44:53.213 [info] Aborting indexing job.
+2025-06-02 15:44:53.213 [error] We currently do not allow indexing the home directory.
+2025-06-02 15:44:53.213 [info] Indexing job successfully done or aborted.
+2025-06-02 15:49:53.213 [info] multiCodebaseIndexingJob dispose
+2025-06-02 15:49:53.213 [info] Aborting indexing job.
+2025-06-02 15:49:53.213 [error] We currently do not allow indexing the home directory.
+2025-06-02 15:49:53.213 [info] Indexing job successfully done or aborted.
+2025-06-02 15:54:53.214 [info] multiCodebaseIndexingJob dispose
+2025-06-02 15:54:53.214 [info] Aborting indexing job.
+2025-06-02 15:54:53.214 [error] We currently do not allow indexing the home directory.
+2025-06-02 15:54:53.214 [info] Indexing job successfully done or aborted.
+2025-06-02 15:59:53.215 [info] multiCodebaseIndexingJob dispose
+2025-06-02 15:59:53.215 [info] Aborting indexing job.
+2025-06-02 15:59:53.215 [error] We currently do not allow indexing the home directory.
+2025-06-02 15:59:53.215 [info] Indexing job successfully done or aborted.
+2025-06-02 16:04:53.215 [info] multiCodebaseIndexingJob dispose
+2025-06-02 16:04:53.215 [info] Aborting indexing job.
+2025-06-02 16:04:53.215 [error] We currently do not allow indexing the home directory.
+2025-06-02 16:04:53.215 [info] Indexing job successfully done or aborted.
+2025-06-02 16:09:53.216 [info] multiCodebaseIndexingJob dispose
+2025-06-02 16:09:53.216 [info] Aborting indexing job.
+2025-06-02 16:09:53.216 [error] We currently do not allow indexing the home directory.
+2025-06-02 16:09:53.216 [info] Indexing job successfully done or aborted.
+2025-06-02 16:14:53.216 [info] multiCodebaseIndexingJob dispose
+2025-06-02 16:14:53.216 [info] Aborting indexing job.
+2025-06-02 16:14:53.216 [error] We currently do not allow indexing the home directory.
+2025-06-02 16:14:53.216 [info] Indexing job successfully done or aborted.
+2025-06-02 16:19:53.216 [info] multiCodebaseIndexingJob dispose
+2025-06-02 16:19:53.216 [info] Aborting indexing job.
+2025-06-02 16:19:53.216 [error] We currently do not allow indexing the home directory.
+2025-06-02 16:19:53.216 [info] Indexing job successfully done or aborted.
+2025-06-02 16:24:53.215 [info] multiCodebaseIndexingJob dispose
+2025-06-02 16:24:53.215 [info] Aborting indexing job.
+2025-06-02 16:24:53.215 [error] We currently do not allow indexing the home directory.
+2025-06-02 16:24:53.215 [info] Indexing job successfully done or aborted.
+2025-06-02 16:29:53.216 [info] multiCodebaseIndexingJob dispose
+2025-06-02 16:29:53.216 [info] Aborting indexing job.
+2025-06-02 16:29:53.216 [error] We currently do not allow indexing the home directory.
+2025-06-02 16:29:53.216 [info] Indexing job successfully done or aborted.
+2025-06-02 16:34:53.217 [info] multiCodebaseIndexingJob dispose
+2025-06-02 16:34:53.217 [info] Aborting indexing job.
+2025-06-02 16:34:53.217 [error] We currently do not allow indexing the home directory.
+2025-06-02 16:34:53.217 [info] Indexing job successfully done or aborted.
+2025-06-02 16:39:53.219 [info] multiCodebaseIndexingJob dispose
+2025-06-02 16:39:53.219 [info] Aborting indexing job.
+2025-06-02 16:39:53.219 [error] We currently do not allow indexing the home directory.
+2025-06-02 16:39:53.219 [info] Indexing job successfully done or aborted.
+2025-06-02 16:44:53.219 [info] multiCodebaseIndexingJob dispose
+2025-06-02 16:44:53.219 [info] Aborting indexing job.
+2025-06-02 16:44:53.219 [error] We currently do not allow indexing the home directory.
+2025-06-02 16:44:53.219 [info] Indexing job successfully done or aborted.
+2025-06-02 16:49:53.221 [info] multiCodebaseIndexingJob dispose
+2025-06-02 16:49:53.221 [info] Aborting indexing job.
+2025-06-02 16:49:53.221 [error] We currently do not allow indexing the home directory.
+2025-06-02 16:49:53.221 [info] Indexing job successfully done or aborted.
+2025-06-02 16:54:53.221 [info] multiCodebaseIndexingJob dispose
+2025-06-02 16:54:53.221 [info] Aborting indexing job.
+2025-06-02 16:54:53.221 [error] We currently do not allow indexing the home directory.
+2025-06-02 16:54:53.221 [info] Indexing job successfully done or aborted.
+2025-06-02 16:59:53.221 [info] multiCodebaseIndexingJob dispose
+2025-06-02 16:59:53.221 [info] Aborting indexing job.
+2025-06-02 16:59:53.221 [error] We currently do not allow indexing the home directory.
+2025-06-02 16:59:53.221 [info] Indexing job successfully done or aborted.
+2025-06-02 17:04:53.221 [info] multiCodebaseIndexingJob dispose
+2025-06-02 17:04:53.221 [info] Aborting indexing job.
+2025-06-02 17:04:53.221 [error] We currently do not allow indexing the home directory.
+2025-06-02 17:04:53.221 [info] Indexing job successfully done or aborted.
+2025-06-02 17:09:53.222 [info] multiCodebaseIndexingJob dispose
+2025-06-02 17:09:53.222 [info] Aborting indexing job.
+2025-06-02 17:09:53.222 [error] We currently do not allow indexing the home directory.
+2025-06-02 17:09:53.222 [info] Indexing job successfully done or aborted.
+2025-06-02 17:14:53.223 [info] multiCodebaseIndexingJob dispose
+2025-06-02 17:14:53.223 [info] Aborting indexing job.
+2025-06-02 17:14:53.223 [error] We currently do not allow indexing the home directory.
+2025-06-02 17:14:53.223 [info] Indexing job successfully done or aborted.
+2025-06-02 17:19:53.223 [info] multiCodebaseIndexingJob dispose
+2025-06-02 17:19:53.223 [info] Aborting indexing job.
+2025-06-02 17:19:53.223 [error] We currently do not allow indexing the home directory.
+2025-06-02 17:19:53.223 [info] Indexing job successfully done or aborted.
+2025-06-02 17:24:53.223 [info] multiCodebaseIndexingJob dispose
+2025-06-02 17:24:53.223 [info] Aborting indexing job.
+2025-06-02 17:24:53.223 [error] We currently do not allow indexing the home directory.
+2025-06-02 17:24:53.223 [info] Indexing job successfully done or aborted.
+2025-06-02 17:29:53.223 [info] multiCodebaseIndexingJob dispose
+2025-06-02 17:29:53.223 [info] Aborting indexing job.
+2025-06-02 17:29:53.223 [error] We currently do not allow indexing the home directory.
+2025-06-02 17:29:53.223 [info] Indexing job successfully done or aborted.
+2025-06-02 17:34:53.224 [info] multiCodebaseIndexingJob dispose
+2025-06-02 17:34:53.224 [info] Aborting indexing job.
+2025-06-02 17:34:53.224 [error] We currently do not allow indexing the home directory.
+2025-06-02 17:34:53.224 [info] Indexing job successfully done or aborted.
+2025-06-02 17:39:53.225 [info] multiCodebaseIndexingJob dispose
+2025-06-02 17:39:53.225 [info] Aborting indexing job.
+2025-06-02 17:39:53.225 [error] We currently do not allow indexing the home directory.
+2025-06-02 17:39:53.225 [info] Indexing job successfully done or aborted.
+2025-06-02 17:44:53.225 [info] multiCodebaseIndexingJob dispose
+2025-06-02 17:44:53.225 [info] Aborting indexing job.
+2025-06-02 17:44:53.225 [error] We currently do not allow indexing the home directory.
+2025-06-02 17:44:53.225 [info] Indexing job successfully done or aborted.
+2025-06-02 17:49:53.225 [info] multiCodebaseIndexingJob dispose
+2025-06-02 17:49:53.225 [info] Aborting indexing job.
+2025-06-02 17:49:53.225 [error] We currently do not allow indexing the home directory.
+2025-06-02 17:49:53.225 [info] Indexing job successfully done or aborted.
+2025-06-02 17:54:53.225 [info] multiCodebaseIndexingJob dispose
+2025-06-02 17:54:53.226 [info] Aborting indexing job.
+2025-06-02 17:54:53.226 [error] We currently do not allow indexing the home directory.
+2025-06-02 17:54:53.226 [info] Indexing job successfully done or aborted.
+2025-06-02 17:59:53.226 [info] multiCodebaseIndexingJob dispose
+2025-06-02 17:59:53.226 [info] Aborting indexing job.
+2025-06-02 17:59:53.226 [error] We currently do not allow indexing the home directory.
+2025-06-02 17:59:53.226 [info] Indexing job successfully done or aborted.
+2025-06-02 18:04:53.227 [info] multiCodebaseIndexingJob dispose
+2025-06-02 18:04:53.227 [info] Aborting indexing job.
+2025-06-02 18:04:53.227 [error] We currently do not allow indexing the home directory.
+2025-06-02 18:04:53.227 [info] Indexing job successfully done or aborted.
+2025-06-02 18:09:53.229 [info] multiCodebaseIndexingJob dispose
+2025-06-02 18:09:53.229 [info] Aborting indexing job.
+2025-06-02 18:09:53.229 [error] We currently do not allow indexing the home directory.
+2025-06-02 18:09:53.229 [info] Indexing job successfully done or aborted.
+2025-06-02 18:14:53.229 [info] multiCodebaseIndexingJob dispose
+2025-06-02 18:14:53.229 [info] Aborting indexing job.
+2025-06-02 18:14:53.229 [error] We currently do not allow indexing the home directory.
+2025-06-02 18:14:53.229 [info] Indexing job successfully done or aborted.
+2025-06-02 18:19:53.229 [info] multiCodebaseIndexingJob dispose
+2025-06-02 18:19:53.230 [info] Aborting indexing job.
+2025-06-02 18:19:53.230 [error] We currently do not allow indexing the home directory.
+2025-06-02 18:19:53.230 [info] Indexing job successfully done or aborted.
+2025-06-02 18:24:53.229 [info] multiCodebaseIndexingJob dispose
+2025-06-02 18:24:53.229 [info] Aborting indexing job.
+2025-06-02 18:24:53.229 [error] We currently do not allow indexing the home directory.
+2025-06-02 18:24:53.229 [info] Indexing job successfully done or aborted.
+2025-06-02 18:29:53.230 [info] multiCodebaseIndexingJob dispose
+2025-06-02 18:29:53.230 [info] Aborting indexing job.
+2025-06-02 18:29:53.230 [error] We currently do not allow indexing the home directory.
+2025-06-02 18:29:53.230 [info] Indexing job successfully done or aborted.
+2025-06-02 18:34:53.232 [info] multiCodebaseIndexingJob dispose
+2025-06-02 18:34:53.232 [info] Aborting indexing job.
+2025-06-02 18:34:53.232 [error] We currently do not allow indexing the home directory.
+2025-06-02 18:34:53.232 [info] Indexing job successfully done or aborted.
+2025-06-02 18:39:53.231 [info] multiCodebaseIndexingJob dispose
+2025-06-02 18:39:53.231 [info] Aborting indexing job.
+2025-06-02 18:39:53.231 [error] We currently do not allow indexing the home directory.
+2025-06-02 18:39:53.231 [info] Indexing job successfully done or aborted.
+2025-06-02 18:44:53.232 [info] multiCodebaseIndexingJob dispose
+2025-06-02 18:44:53.232 [info] Aborting indexing job.
+2025-06-02 18:44:53.232 [error] We currently do not allow indexing the home directory.
+2025-06-02 18:44:53.232 [info] Indexing job successfully done or aborted.
+2025-06-02 18:49:53.233 [info] multiCodebaseIndexingJob dispose
+2025-06-02 18:49:53.233 [info] Aborting indexing job.
+2025-06-02 18:49:53.233 [error] We currently do not allow indexing the home directory.
+2025-06-02 18:49:53.233 [info] Indexing job successfully done or aborted.
+2025-06-02 18:54:53.234 [info] multiCodebaseIndexingJob dispose
+2025-06-02 18:54:53.234 [info] Aborting indexing job.
+2025-06-02 18:54:53.234 [error] We currently do not allow indexing the home directory.
+2025-06-02 18:54:53.234 [info] Indexing job successfully done or aborted.
+2025-06-02 18:59:53.235 [info] multiCodebaseIndexingJob dispose
+2025-06-02 18:59:53.235 [info] Aborting indexing job.
+2025-06-02 18:59:53.235 [error] We currently do not allow indexing the home directory.
+2025-06-02 18:59:53.235 [info] Indexing job successfully done or aborted.
+2025-06-02 19:04:53.236 [info] multiCodebaseIndexingJob dispose
+2025-06-02 19:04:53.236 [info] Aborting indexing job.
+2025-06-02 19:04:53.236 [error] We currently do not allow indexing the home directory.
+2025-06-02 19:04:53.236 [info] Indexing job successfully done or aborted.
+2025-06-02 19:09:53.236 [info] multiCodebaseIndexingJob dispose
+2025-06-02 19:09:53.236 [info] Aborting indexing job.
+2025-06-02 19:09:53.236 [error] We currently do not allow indexing the home directory.
+2025-06-02 19:09:53.236 [info] Indexing job successfully done or aborted.
+2025-06-02 19:14:53.236 [info] multiCodebaseIndexingJob dispose
+2025-06-02 19:14:53.236 [info] Aborting indexing job.
+2025-06-02 19:14:53.236 [error] We currently do not allow indexing the home directory.
+2025-06-02 19:14:53.236 [info] Indexing job successfully done or aborted.
+2025-06-02 19:19:53.237 [info] multiCodebaseIndexingJob dispose
+2025-06-02 19:19:53.237 [info] Aborting indexing job.
+2025-06-02 19:19:53.237 [error] We currently do not allow indexing the home directory.
+2025-06-02 19:19:53.237 [info] Indexing job successfully done or aborted.
+2025-06-02 19:24:53.237 [info] multiCodebaseIndexingJob dispose
+2025-06-02 19:24:53.237 [info] Aborting indexing job.
+2025-06-02 19:24:53.237 [error] We currently do not allow indexing the home directory.
+2025-06-02 19:24:53.237 [info] Indexing job successfully done or aborted.
+2025-06-02 19:29:53.237 [info] multiCodebaseIndexingJob dispose
+2025-06-02 19:29:53.238 [info] Aborting indexing job.
+2025-06-02 19:29:53.238 [error] We currently do not allow indexing the home directory.
+2025-06-02 19:29:53.238 [info] Indexing job successfully done or aborted.
+2025-06-02 19:34:53.237 [info] multiCodebaseIndexingJob dispose
+2025-06-02 19:34:53.237 [info] Aborting indexing job.
+2025-06-02 19:34:53.237 [error] We currently do not allow indexing the home directory.
+2025-06-02 19:34:53.237 [info] Indexing job successfully done or aborted.
+2025-06-02 19:39:53.238 [info] multiCodebaseIndexingJob dispose
+2025-06-02 19:39:53.238 [info] Aborting indexing job.
+2025-06-02 19:39:53.238 [error] We currently do not allow indexing the home directory.
+2025-06-02 19:39:53.238 [info] Indexing job successfully done or aborted.
+2025-06-02 19:44:53.239 [info] multiCodebaseIndexingJob dispose
+2025-06-02 19:44:53.239 [info] Aborting indexing job.
+2025-06-02 19:44:53.239 [error] We currently do not allow indexing the home directory.
+2025-06-02 19:44:53.239 [info] Indexing job successfully done or aborted.
+2025-06-02 19:49:53.241 [info] multiCodebaseIndexingJob dispose
+2025-06-02 19:49:53.241 [info] Aborting indexing job.
+2025-06-02 19:49:53.241 [error] We currently do not allow indexing the home directory.
+2025-06-02 19:49:53.241 [info] Indexing job successfully done or aborted.
+2025-06-02 19:54:53.241 [info] multiCodebaseIndexingJob dispose
+2025-06-02 19:54:53.241 [info] Aborting indexing job.
+2025-06-02 19:54:53.241 [error] We currently do not allow indexing the home directory.
+2025-06-02 19:54:53.241 [info] Indexing job successfully done or aborted.
+2025-06-02 19:59:53.242 [info] multiCodebaseIndexingJob dispose
+2025-06-02 19:59:53.242 [info] Aborting indexing job.
+2025-06-02 19:59:53.242 [error] We currently do not allow indexing the home directory.
+2025-06-02 19:59:53.242 [info] Indexing job successfully done or aborted.
+2025-06-02 20:04:53.243 [info] multiCodebaseIndexingJob dispose
+2025-06-02 20:04:53.243 [info] Aborting indexing job.
+2025-06-02 20:04:53.243 [error] We currently do not allow indexing the home directory.
+2025-06-02 20:04:53.243 [info] Indexing job successfully done or aborted.
+2025-06-02 20:09:53.244 [info] multiCodebaseIndexingJob dispose
+2025-06-02 20:09:53.244 [info] Aborting indexing job.
+2025-06-02 20:09:53.244 [error] We currently do not allow indexing the home directory.
+2025-06-02 20:09:53.244 [info] Indexing job successfully done or aborted.
+2025-06-02 20:14:53.244 [info] multiCodebaseIndexingJob dispose
+2025-06-02 20:14:53.244 [info] Aborting indexing job.
+2025-06-02 20:14:53.244 [error] We currently do not allow indexing the home directory.
+2025-06-02 20:14:53.244 [info] Indexing job successfully done or aborted.
+2025-06-02 20:19:53.244 [info] multiCodebaseIndexingJob dispose
+2025-06-02 20:19:53.244 [info] Aborting indexing job.
+2025-06-02 20:19:53.244 [error] We currently do not allow indexing the home directory.
+2025-06-02 20:19:53.244 [info] Indexing job successfully done or aborted.
+2025-06-02 20:24:53.245 [info] multiCodebaseIndexingJob dispose
+2025-06-02 20:24:53.245 [info] Aborting indexing job.
+2025-06-02 20:24:53.245 [error] We currently do not allow indexing the home directory.
+2025-06-02 20:24:53.245 [info] Indexing job successfully done or aborted.
+2025-06-02 20:29:53.246 [info] multiCodebaseIndexingJob dispose
+2025-06-02 20:29:53.246 [info] Aborting indexing job.
+2025-06-02 20:29:53.246 [error] We currently do not allow indexing the home directory.
+2025-06-02 20:29:53.246 [info] Indexing job successfully done or aborted.
+2025-06-02 20:34:53.245 [info] multiCodebaseIndexingJob dispose
+2025-06-02 20:34:53.245 [info] Aborting indexing job.
+2025-06-02 20:34:53.245 [error] We currently do not allow indexing the home directory.
+2025-06-02 20:34:53.245 [info] Indexing job successfully done or aborted.
+2025-06-02 20:39:53.246 [info] multiCodebaseIndexingJob dispose
+2025-06-02 20:39:53.246 [info] Aborting indexing job.
+2025-06-02 20:39:53.246 [error] We currently do not allow indexing the home directory.
+2025-06-02 20:39:53.246 [info] Indexing job successfully done or aborted.
+2025-06-02 20:44:53.246 [info] multiCodebaseIndexingJob dispose
+2025-06-02 20:44:53.246 [info] Aborting indexing job.
+2025-06-02 20:44:53.246 [error] We currently do not allow indexing the home directory.
+2025-06-02 20:44:53.246 [info] Indexing job successfully done or aborted.
+2025-06-02 20:49:53.247 [info] multiCodebaseIndexingJob dispose
+2025-06-02 20:49:53.247 [info] Aborting indexing job.
+2025-06-02 20:49:53.247 [error] We currently do not allow indexing the home directory.
+2025-06-02 20:49:53.247 [info] Indexing job successfully done or aborted.
+2025-06-02 20:54:53.247 [info] multiCodebaseIndexingJob dispose
+2025-06-02 20:54:53.247 [info] Aborting indexing job.
+2025-06-02 20:54:53.247 [error] We currently do not allow indexing the home directory.
+2025-06-02 20:54:53.247 [info] Indexing job successfully done or aborted.
+2025-06-02 20:59:53.249 [info] multiCodebaseIndexingJob dispose
+2025-06-02 20:59:53.249 [info] Aborting indexing job.
+2025-06-02 20:59:53.249 [error] We currently do not allow indexing the home directory.
+2025-06-02 20:59:53.249 [info] Indexing job successfully done or aborted.
+2025-06-02 21:04:53.249 [info] multiCodebaseIndexingJob dispose
+2025-06-02 21:04:53.249 [info] Aborting indexing job.
+2025-06-02 21:04:53.249 [error] We currently do not allow indexing the home directory.
+2025-06-02 21:04:53.249 [info] Indexing job successfully done or aborted.
+2025-06-02 21:09:53.250 [info] multiCodebaseIndexingJob dispose
+2025-06-02 21:09:53.250 [info] Aborting indexing job.
+2025-06-02 21:09:53.250 [error] We currently do not allow indexing the home directory.
+2025-06-02 21:09:53.250 [info] Indexing job successfully done or aborted.
+2025-06-02 21:14:53.250 [info] multiCodebaseIndexingJob dispose
+2025-06-02 21:14:53.250 [info] Aborting indexing job.
+2025-06-02 21:14:53.250 [error] We currently do not allow indexing the home directory.
+2025-06-02 21:14:53.250 [info] Indexing job successfully done or aborted.
+2025-06-02 21:19:53.251 [info] multiCodebaseIndexingJob dispose
+2025-06-02 21:19:53.251 [info] Aborting indexing job.
+2025-06-02 21:19:53.251 [error] We currently do not allow indexing the home directory.
+2025-06-02 21:19:53.251 [info] Indexing job successfully done or aborted.
+2025-06-02 21:24:53.250 [info] multiCodebaseIndexingJob dispose
+2025-06-02 21:24:53.250 [info] Aborting indexing job.
+2025-06-02 21:24:53.250 [error] We currently do not allow indexing the home directory.
+2025-06-02 21:24:53.250 [info] Indexing job successfully done or aborted.
+2025-06-02 21:29:53.251 [info] multiCodebaseIndexingJob dispose
+2025-06-02 21:29:53.251 [info] Aborting indexing job.
+2025-06-02 21:29:53.251 [error] We currently do not allow indexing the home directory.
+2025-06-02 21:29:53.251 [info] Indexing job successfully done or aborted.
+2025-06-02 21:34:53.251 [info] multiCodebaseIndexingJob dispose
+2025-06-02 21:34:53.251 [info] Aborting indexing job.
+2025-06-02 21:34:53.251 [error] We currently do not allow indexing the home directory.
+2025-06-02 21:34:53.251 [info] Indexing job successfully done or aborted.
+2025-06-02 21:39:53.251 [info] multiCodebaseIndexingJob dispose
+2025-06-02 21:39:53.251 [info] Aborting indexing job.
+2025-06-02 21:39:53.251 [error] We currently do not allow indexing the home directory.
+2025-06-02 21:39:53.251 [info] Indexing job successfully done or aborted.
+2025-06-02 21:44:53.252 [info] multiCodebaseIndexingJob dispose
+2025-06-02 21:44:53.252 [info] Aborting indexing job.
+2025-06-02 21:44:53.252 [error] We currently do not allow indexing the home directory.
+2025-06-02 21:44:53.252 [info] Indexing job successfully done or aborted.
+2025-06-02 21:49:53.253 [info] multiCodebaseIndexingJob dispose
+2025-06-02 21:49:53.253 [info] Aborting indexing job.
+2025-06-02 21:49:53.253 [error] We currently do not allow indexing the home directory.
+2025-06-02 21:49:53.253 [info] Indexing job successfully done or aborted.
+2025-06-02 21:54:53.253 [info] multiCodebaseIndexingJob dispose
+2025-06-02 21:54:53.253 [info] Aborting indexing job.
+2025-06-02 21:54:53.253 [error] We currently do not allow indexing the home directory.
+2025-06-02 21:54:53.253 [info] Indexing job successfully done or aborted.
+2025-06-02 21:59:53.254 [info] multiCodebaseIndexingJob dispose
+2025-06-02 21:59:53.254 [info] Aborting indexing job.
+2025-06-02 21:59:53.254 [error] We currently do not allow indexing the home directory.
+2025-06-02 21:59:53.254 [info] Indexing job successfully done or aborted.
+2025-06-02 22:04:53.255 [info] multiCodebaseIndexingJob dispose
+2025-06-02 22:04:53.255 [info] Aborting indexing job.
+2025-06-02 22:04:53.255 [error] We currently do not allow indexing the home directory.
+2025-06-02 22:04:53.255 [info] Indexing job successfully done or aborted.
+2025-06-02 22:09:53.256 [info] multiCodebaseIndexingJob dispose
+2025-06-02 22:09:53.256 [info] Aborting indexing job.
+2025-06-02 22:09:53.256 [error] We currently do not allow indexing the home directory.
+2025-06-02 22:09:53.256 [info] Indexing job successfully done or aborted.
+2025-06-02 22:14:53.256 [info] multiCodebaseIndexingJob dispose
+2025-06-02 22:14:53.256 [info] Aborting indexing job.
+2025-06-02 22:14:53.256 [error] We currently do not allow indexing the home directory.
+2025-06-02 22:14:53.256 [info] Indexing job successfully done or aborted.
+2025-06-02 22:19:53.257 [info] multiCodebaseIndexingJob dispose
+2025-06-02 22:19:53.257 [info] Aborting indexing job.
+2025-06-02 22:19:53.257 [error] We currently do not allow indexing the home directory.
+2025-06-02 22:19:53.257 [info] Indexing job successfully done or aborted.
+2025-06-02 22:24:53.257 [info] multiCodebaseIndexingJob dispose
+2025-06-02 22:24:53.257 [info] Aborting indexing job.
+2025-06-02 22:24:53.257 [error] We currently do not allow indexing the home directory.
+2025-06-02 22:24:53.257 [info] Indexing job successfully done or aborted.
+2025-06-02 22:29:53.257 [info] multiCodebaseIndexingJob dispose
+2025-06-02 22:29:53.257 [info] Aborting indexing job.
+2025-06-02 22:29:53.257 [error] We currently do not allow indexing the home directory.
+2025-06-02 22:29:53.257 [info] Indexing job successfully done or aborted.
+2025-06-02 22:34:53.258 [info] multiCodebaseIndexingJob dispose
+2025-06-02 22:34:53.258 [info] Aborting indexing job.
+2025-06-02 22:34:53.258 [error] We currently do not allow indexing the home directory.
+2025-06-02 22:34:53.258 [info] Indexing job successfully done or aborted.
+2025-06-02 22:39:53.260 [info] multiCodebaseIndexingJob dispose
+2025-06-02 22:39:53.260 [info] Aborting indexing job.
+2025-06-02 22:39:53.260 [error] We currently do not allow indexing the home directory.
+2025-06-02 22:39:53.260 [info] Indexing job successfully done or aborted.
+2025-06-02 22:44:53.260 [info] multiCodebaseIndexingJob dispose
+2025-06-02 22:44:53.260 [info] Aborting indexing job.
+2025-06-02 22:44:53.260 [error] We currently do not allow indexing the home directory.
+2025-06-02 22:44:53.260 [info] Indexing job successfully done or aborted.
+2025-06-02 22:49:53.261 [info] multiCodebaseIndexingJob dispose
+2025-06-02 22:49:53.261 [info] Aborting indexing job.
+2025-06-02 22:49:53.262 [error] We currently do not allow indexing the home directory.
+2025-06-02 22:49:53.262 [info] Indexing job successfully done or aborted.
+2025-06-02 22:54:53.261 [info] multiCodebaseIndexingJob dispose
+2025-06-02 22:54:53.261 [info] Aborting indexing job.
+2025-06-02 22:54:53.261 [error] We currently do not allow indexing the home directory.
+2025-06-02 22:54:53.261 [info] Indexing job successfully done or aborted.
+2025-06-02 22:59:53.264 [info] multiCodebaseIndexingJob dispose
+2025-06-02 22:59:53.264 [info] Aborting indexing job.
+2025-06-02 22:59:53.264 [error] We currently do not allow indexing the home directory.
+2025-06-02 22:59:53.264 [info] Indexing job successfully done or aborted.
+2025-06-02 23:04:53.263 [info] multiCodebaseIndexingJob dispose
+2025-06-02 23:04:53.264 [info] Aborting indexing job.
+2025-06-02 23:04:53.264 [error] We currently do not allow indexing the home directory.
+2025-06-02 23:04:53.264 [info] Indexing job successfully done or aborted.
+2025-06-02 23:09:53.265 [info] multiCodebaseIndexingJob dispose
+2025-06-02 23:09:53.265 [info] Aborting indexing job.
+2025-06-02 23:09:53.265 [error] We currently do not allow indexing the home directory.
+2025-06-02 23:09:53.265 [info] Indexing job successfully done or aborted.
+2025-06-02 23:14:53.264 [info] multiCodebaseIndexingJob dispose
+2025-06-02 23:14:53.264 [info] Aborting indexing job.
+2025-06-02 23:14:53.264 [error] We currently do not allow indexing the home directory.
+2025-06-02 23:14:53.264 [info] Indexing job successfully done or aborted.
+2025-06-02 23:19:53.266 [info] multiCodebaseIndexingJob dispose
+2025-06-02 23:19:53.266 [info] Aborting indexing job.
+2025-06-02 23:19:53.266 [error] We currently do not allow indexing the home directory.
+2025-06-02 23:19:53.266 [info] Indexing job successfully done or aborted.
+2025-06-02 23:24:53.266 [info] multiCodebaseIndexingJob dispose
+2025-06-02 23:24:53.266 [info] Aborting indexing job.
+2025-06-02 23:24:53.266 [error] We currently do not allow indexing the home directory.
+2025-06-02 23:24:53.266 [info] Indexing job successfully done or aborted.
+2025-06-02 23:29:53.268 [info] multiCodebaseIndexingJob dispose
+2025-06-02 23:29:53.268 [info] Aborting indexing job.
+2025-06-02 23:29:53.268 [error] We currently do not allow indexing the home directory.
+2025-06-02 23:29:53.268 [info] Indexing job successfully done or aborted.
+2025-06-02 23:34:53.267 [info] multiCodebaseIndexingJob dispose
+2025-06-02 23:34:53.267 [info] Aborting indexing job.
+2025-06-02 23:34:53.267 [error] We currently do not allow indexing the home directory.
+2025-06-02 23:34:53.267 [info] Indexing job successfully done or aborted.
+2025-06-02 23:39:53.268 [info] multiCodebaseIndexingJob dispose
+2025-06-02 23:39:53.268 [info] Aborting indexing job.
+2025-06-02 23:39:53.268 [error] We currently do not allow indexing the home directory.
+2025-06-02 23:39:53.268 [info] Indexing job successfully done or aborted.
+2025-06-02 23:44:53.268 [info] multiCodebaseIndexingJob dispose
+2025-06-02 23:44:53.268 [info] Aborting indexing job.
+2025-06-02 23:44:53.268 [error] We currently do not allow indexing the home directory.
+2025-06-02 23:44:53.268 [info] Indexing job successfully done or aborted.
+2025-06-02 23:49:53.267 [info] multiCodebaseIndexingJob dispose
+2025-06-02 23:49:53.267 [info] Aborting indexing job.
+2025-06-02 23:49:53.267 [error] We currently do not allow indexing the home directory.
+2025-06-02 23:49:53.267 [info] Indexing job successfully done or aborted.
+2025-06-02 23:54:53.268 [info] multiCodebaseIndexingJob dispose
+2025-06-02 23:54:53.268 [info] Aborting indexing job.
+2025-06-02 23:54:53.268 [error] We currently do not allow indexing the home directory.
+2025-06-02 23:54:53.268 [info] Indexing job successfully done or aborted.
+2025-06-02 23:59:53.269 [info] multiCodebaseIndexingJob dispose
+2025-06-02 23:59:53.269 [info] Aborting indexing job.
+2025-06-02 23:59:53.269 [error] We currently do not allow indexing the home directory.
+2025-06-02 23:59:53.269 [info] Indexing job successfully done or aborted.
+2025-06-03 00:04:53.269 [info] multiCodebaseIndexingJob dispose
+2025-06-03 00:04:53.269 [info] Aborting indexing job.
+2025-06-03 00:04:53.269 [error] We currently do not allow indexing the home directory.
+2025-06-03 00:04:53.269 [info] Indexing job successfully done or aborted.
+2025-06-03 00:09:53.269 [info] multiCodebaseIndexingJob dispose
+2025-06-03 00:09:53.269 [info] Aborting indexing job.
+2025-06-03 00:09:53.269 [error] We currently do not allow indexing the home directory.
+2025-06-03 00:09:53.269 [info] Indexing job successfully done or aborted.
+2025-06-03 00:14:53.269 [info] multiCodebaseIndexingJob dispose
+2025-06-03 00:14:53.269 [info] Aborting indexing job.
+2025-06-03 00:14:53.269 [error] We currently do not allow indexing the home directory.
+2025-06-03 00:14:53.269 [info] Indexing job successfully done or aborted.
+2025-06-03 00:19:53.270 [info] multiCodebaseIndexingJob dispose
+2025-06-03 00:19:53.270 [info] Aborting indexing job.
+2025-06-03 00:19:53.270 [error] We currently do not allow indexing the home directory.
+2025-06-03 00:19:53.270 [info] Indexing job successfully done or aborted.
+2025-06-03 00:24:53.270 [info] multiCodebaseIndexingJob dispose
+2025-06-03 00:24:53.270 [info] Aborting indexing job.
+2025-06-03 00:24:53.270 [error] We currently do not allow indexing the home directory.
+2025-06-03 00:24:53.270 [info] Indexing job successfully done or aborted.
+2025-06-03 00:29:53.270 [info] multiCodebaseIndexingJob dispose
+2025-06-03 00:29:53.270 [info] Aborting indexing job.
+2025-06-03 00:29:53.270 [error] We currently do not allow indexing the home directory.
+2025-06-03 00:29:53.270 [info] Indexing job successfully done or aborted.
+2025-06-03 00:34:02.902 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 00:34:02.903 [info] Get user commits took 5.357815995812416ms for 10 commits
+2025-06-03 00:34:53.271 [info] multiCodebaseIndexingJob dispose
+2025-06-03 00:34:53.271 [info] Aborting indexing job.
+2025-06-03 00:34:53.271 [error] We currently do not allow indexing the home directory.
+2025-06-03 00:34:53.271 [info] Indexing job successfully done or aborted.
+2025-06-03 00:39:02.790 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 00:39:53.270 [info] multiCodebaseIndexingJob dispose
+2025-06-03 00:39:53.270 [info] Aborting indexing job.
+2025-06-03 00:39:53.270 [error] We currently do not allow indexing the home directory.
+2025-06-03 00:39:53.270 [info] Indexing job successfully done or aborted.
+2025-06-03 00:44:02.730 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 00:44:02.730 [info] Get user commits took 15.798291012644768ms for 10 commits
+2025-06-03 00:44:53.269 [info] multiCodebaseIndexingJob dispose
+2025-06-03 00:44:53.269 [info] Aborting indexing job.
+2025-06-03 00:44:53.269 [error] We currently do not allow indexing the home directory.
+2025-06-03 00:44:53.269 [info] Indexing job successfully done or aborted.
+2025-06-03 00:49:02.734 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 00:49:53.270 [info] multiCodebaseIndexingJob dispose
+2025-06-03 00:49:53.270 [info] Aborting indexing job.
+2025-06-03 00:49:53.270 [error] We currently do not allow indexing the home directory.
+2025-06-03 00:49:53.270 [info] Indexing job successfully done or aborted.
+2025-06-03 00:54:02.709 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 00:54:02.709 [info] Get user commits took 16.89257800579071ms for 10 commits
+2025-06-03 00:54:53.272 [info] multiCodebaseIndexingJob dispose
+2025-06-03 00:54:53.272 [info] Aborting indexing job.
+2025-06-03 00:54:53.272 [error] We currently do not allow indexing the home directory.
+2025-06-03 00:54:53.272 [info] Indexing job successfully done or aborted.
+2025-06-03 00:59:02.710 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 00:59:53.273 [info] multiCodebaseIndexingJob dispose
+2025-06-03 00:59:53.273 [info] Aborting indexing job.
+2025-06-03 00:59:53.273 [error] We currently do not allow indexing the home directory.
+2025-06-03 00:59:53.273 [info] Indexing job successfully done or aborted.
+2025-06-03 01:04:02.730 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 01:04:02.730 [info] Get user commits took 16.29195000231266ms for 10 commits
+2025-06-03 01:04:53.273 [info] multiCodebaseIndexingJob dispose
+2025-06-03 01:04:53.273 [info] Aborting indexing job.
+2025-06-03 01:04:53.273 [error] We currently do not allow indexing the home directory.
+2025-06-03 01:04:53.273 [info] Indexing job successfully done or aborted.
+2025-06-03 01:09:02.669 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 01:09:53.273 [info] multiCodebaseIndexingJob dispose
+2025-06-03 01:09:53.273 [info] Aborting indexing job.
+2025-06-03 01:09:53.273 [error] We currently do not allow indexing the home directory.
+2025-06-03 01:09:53.273 [info] Indexing job successfully done or aborted.
+2025-06-03 01:14:02.672 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 01:14:02.673 [info] Get user commits took 16.096684992313385ms for 10 commits
+2025-06-03 01:14:53.275 [info] multiCodebaseIndexingJob dispose
+2025-06-03 01:14:53.275 [info] Aborting indexing job.
+2025-06-03 01:14:53.275 [error] We currently do not allow indexing the home directory.
+2025-06-03 01:14:53.275 [info] Indexing job successfully done or aborted.
+2025-06-03 01:19:02.651 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 01:19:53.276 [info] multiCodebaseIndexingJob dispose
+2025-06-03 01:19:53.276 [info] Aborting indexing job.
+2025-06-03 01:19:53.276 [error] We currently do not allow indexing the home directory.
+2025-06-03 01:19:53.276 [info] Indexing job successfully done or aborted.
+2025-06-03 01:24:02.677 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 01:24:02.677 [info] Get user commits took 16.81682500243187ms for 10 commits
+2025-06-03 01:24:53.276 [info] multiCodebaseIndexingJob dispose
+2025-06-03 01:24:53.276 [info] Aborting indexing job.
+2025-06-03 01:24:53.276 [error] We currently do not allow indexing the home directory.
+2025-06-03 01:24:53.276 [info] Indexing job successfully done or aborted.
+2025-06-03 01:29:04.124 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 01:29:53.277 [info] multiCodebaseIndexingJob dispose
+2025-06-03 01:29:53.277 [info] Aborting indexing job.
+2025-06-03 01:29:53.277 [error] We currently do not allow indexing the home directory.
+2025-06-03 01:29:53.277 [info] Indexing job successfully done or aborted.
+2025-06-03 01:34:03.727 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 01:34:03.728 [info] Get user commits took 15.977017000317574ms for 10 commits
+2025-06-03 01:34:53.278 [info] multiCodebaseIndexingJob dispose
+2025-06-03 01:34:53.278 [info] Aborting indexing job.
+2025-06-03 01:34:53.278 [error] We currently do not allow indexing the home directory.
+2025-06-03 01:34:53.278 [info] Indexing job successfully done or aborted.
+2025-06-03 01:39:02.594 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 01:39:53.278 [info] multiCodebaseIndexingJob dispose
+2025-06-03 01:39:53.278 [info] Aborting indexing job.
+2025-06-03 01:39:53.278 [error] We currently do not allow indexing the home directory.
+2025-06-03 01:39:53.278 [info] Indexing job successfully done or aborted.
+2025-06-03 01:44:02.590 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 01:44:02.591 [info] Get user commits took 16.999075010418892ms for 10 commits
+2025-06-03 01:44:53.278 [info] multiCodebaseIndexingJob dispose
+2025-06-03 01:44:53.278 [info] Aborting indexing job.
+2025-06-03 01:44:53.278 [error] We currently do not allow indexing the home directory.
+2025-06-03 01:44:53.278 [info] Indexing job successfully done or aborted.
+2025-06-03 01:49:02.641 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 01:49:53.278 [info] multiCodebaseIndexingJob dispose
+2025-06-03 01:49:53.278 [info] Aborting indexing job.
+2025-06-03 01:49:53.278 [error] We currently do not allow indexing the home directory.
+2025-06-03 01:49:53.278 [info] Indexing job successfully done or aborted.
+2025-06-03 01:54:02.587 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 01:54:02.587 [info] Get user commits took 15.66228298842907ms for 10 commits
+2025-06-03 01:54:53.279 [info] multiCodebaseIndexingJob dispose
+2025-06-03 01:54:53.279 [info] Aborting indexing job.
+2025-06-03 01:54:53.279 [error] We currently do not allow indexing the home directory.
+2025-06-03 01:54:53.279 [info] Indexing job successfully done or aborted.
+2025-06-03 01:59:02.567 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 01:59:53.280 [info] multiCodebaseIndexingJob dispose
+2025-06-03 01:59:53.280 [info] Aborting indexing job.
+2025-06-03 01:59:53.280 [error] We currently do not allow indexing the home directory.
+2025-06-03 01:59:53.280 [info] Indexing job successfully done or aborted.
+2025-06-03 02:04:02.570 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 02:04:02.570 [info] Get user commits took 15.398276999592781ms for 10 commits
+2025-06-03 02:04:53.282 [info] multiCodebaseIndexingJob dispose
+2025-06-03 02:04:53.282 [info] Aborting indexing job.
+2025-06-03 02:04:53.282 [error] We currently do not allow indexing the home directory.
+2025-06-03 02:04:53.282 [info] Indexing job successfully done or aborted.
+2025-06-03 02:09:02.541 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 02:09:53.283 [info] multiCodebaseIndexingJob dispose
+2025-06-03 02:09:53.283 [info] Aborting indexing job.
+2025-06-03 02:09:53.283 [error] We currently do not allow indexing the home directory.
+2025-06-03 02:09:53.283 [info] Indexing job successfully done or aborted.
+2025-06-03 02:14:02.536 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 02:14:02.536 [info] Get user commits took 16.605265006422997ms for 10 commits
+2025-06-03 02:14:53.283 [info] multiCodebaseIndexingJob dispose
+2025-06-03 02:14:53.283 [info] Aborting indexing job.
+2025-06-03 02:14:53.283 [error] We currently do not allow indexing the home directory.
+2025-06-03 02:14:53.283 [info] Indexing job successfully done or aborted.
+2025-06-03 02:19:02.552 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 02:19:53.284 [info] multiCodebaseIndexingJob dispose
+2025-06-03 02:19:53.284 [info] Aborting indexing job.
+2025-06-03 02:19:53.284 [error] We currently do not allow indexing the home directory.
+2025-06-03 02:19:53.284 [info] Indexing job successfully done or aborted.
+2025-06-03 02:24:02.507 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 02:24:02.508 [info] Get user commits took 16.141115993261337ms for 10 commits
+2025-06-03 02:24:53.284 [info] multiCodebaseIndexingJob dispose
+2025-06-03 02:24:53.284 [info] Aborting indexing job.
+2025-06-03 02:24:53.284 [error] We currently do not allow indexing the home directory.
+2025-06-03 02:24:53.284 [info] Indexing job successfully done or aborted.
+2025-06-03 02:29:02.524 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 02:29:53.285 [info] multiCodebaseIndexingJob dispose
+2025-06-03 02:29:53.285 [info] Aborting indexing job.
+2025-06-03 02:29:53.285 [error] We currently do not allow indexing the home directory.
+2025-06-03 02:29:53.285 [info] Indexing job successfully done or aborted.
+2025-06-03 02:34:02.481 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 02:34:02.481 [info] Get user commits took 15.458099007606506ms for 10 commits
+2025-06-03 02:34:53.285 [info] multiCodebaseIndexingJob dispose
+2025-06-03 02:34:53.285 [info] Aborting indexing job.
+2025-06-03 02:34:53.285 [error] We currently do not allow indexing the home directory.
+2025-06-03 02:34:53.285 [info] Indexing job successfully done or aborted.
+2025-06-03 02:39:02.473 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 02:39:53.286 [info] multiCodebaseIndexingJob dispose
+2025-06-03 02:39:53.286 [info] Aborting indexing job.
+2025-06-03 02:39:53.286 [error] We currently do not allow indexing the home directory.
+2025-06-03 02:39:53.286 [info] Indexing job successfully done or aborted.
+2025-06-03 02:44:02.460 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 02:44:02.461 [info] Get user commits took 15.544299989938736ms for 10 commits
+2025-06-03 02:44:53.286 [info] multiCodebaseIndexingJob dispose
+2025-06-03 02:44:53.286 [info] Aborting indexing job.
+2025-06-03 02:44:53.286 [error] We currently do not allow indexing the home directory.
+2025-06-03 02:44:53.286 [info] Indexing job successfully done or aborted.
+2025-06-03 02:49:02.460 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 02:49:53.286 [info] multiCodebaseIndexingJob dispose
+2025-06-03 02:49:53.286 [info] Aborting indexing job.
+2025-06-03 02:49:53.286 [error] We currently do not allow indexing the home directory.
+2025-06-03 02:49:53.286 [info] Indexing job successfully done or aborted.
+2025-06-03 02:54:02.434 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 02:54:02.435 [info] Get user commits took 15.49176600575447ms for 10 commits
+2025-06-03 02:54:53.286 [info] multiCodebaseIndexingJob dispose
+2025-06-03 02:54:53.286 [info] Aborting indexing job.
+2025-06-03 02:54:53.286 [error] We currently do not allow indexing the home directory.
+2025-06-03 02:54:53.286 [info] Indexing job successfully done or aborted.
+2025-06-03 02:59:02.437 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-03 02:59:02.437 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-03 02:59:02.437 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 02:59:02.438 [info] multiCodebaseIndexingJob dispose
+2025-06-03 02:59:02.438 [info] Aborting indexing job.
+2025-06-03 02:59:02.438 [info] Using existing keys for an index
+2025-06-03 02:59:02.438 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-06-03 03:00:02.466 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-03 03:00:02.466 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-03 03:00:02.467 [error] We currently do not allow indexing the home directory.
+2025-06-03 03:00:02.467 [info] Indexing job successfully done or aborted.
+2025-06-03 03:00:02.467 [info] multiCodebaseIndexingJob dispose
+2025-06-03 03:00:02.467 [info] Aborting indexing job.
+2025-06-03 03:00:02.467 [info] Using existing keys for an index
+2025-06-03 03:00:02.467 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-06-03 03:01:02.443 [error] We currently do not allow indexing the home directory.
+2025-06-03 03:01:02.443 [info] Indexing job successfully done or aborted.
+2025-06-03 03:04:02.447 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 03:04:02.447 [info] Get user commits took 16.067869007587433ms for 10 commits
+2025-06-03 03:06:02.442 [info] multiCodebaseIndexingJob dispose
+2025-06-03 03:06:02.442 [info] Aborting indexing job.
+2025-06-03 03:06:02.442 [error] We currently do not allow indexing the home directory.
+2025-06-03 03:06:02.442 [info] Indexing job successfully done or aborted.
+2025-06-03 03:09:02.401 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 03:11:02.444 [info] multiCodebaseIndexingJob dispose
+2025-06-03 03:11:02.444 [info] Aborting indexing job.
+2025-06-03 03:11:02.444 [error] We currently do not allow indexing the home directory.
+2025-06-03 03:11:02.444 [info] Indexing job successfully done or aborted.
+2025-06-03 03:16:02.445 [info] multiCodebaseIndexingJob dispose
+2025-06-03 03:16:02.445 [info] Aborting indexing job.
+2025-06-03 03:16:02.445 [error] We currently do not allow indexing the home directory.
+2025-06-03 03:16:02.445 [info] Indexing job successfully done or aborted.
+2025-06-03 03:20:02.523 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 03:20:02.546 [info] Get user commits took 63.65554800629616ms for 10 commits
+2025-06-03 03:21:02.445 [info] multiCodebaseIndexingJob dispose
+2025-06-03 03:21:02.445 [info] Aborting indexing job.
+2025-06-03 03:21:02.445 [error] We currently do not allow indexing the home directory.
+2025-06-03 03:21:02.445 [info] Indexing job successfully done or aborted.
+2025-06-03 03:24:02.398 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 03:24:02.398 [info] Get user commits took 14.852677002549171ms for 10 commits
+2025-06-03 03:26:02.447 [info] multiCodebaseIndexingJob dispose
+2025-06-03 03:26:02.447 [info] Aborting indexing job.
+2025-06-03 03:26:02.447 [error] We currently do not allow indexing the home directory.
+2025-06-03 03:26:02.447 [info] Indexing job successfully done or aborted.
+2025-06-03 03:29:02.358 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 03:31:02.447 [info] multiCodebaseIndexingJob dispose
+2025-06-03 03:31:02.447 [info] Aborting indexing job.
+2025-06-03 03:31:02.447 [error] We currently do not allow indexing the home directory.
+2025-06-03 03:31:02.447 [info] Indexing job successfully done or aborted.
+2025-06-03 03:34:02.352 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 03:34:02.352 [info] Get user commits took 14.824496001005173ms for 10 commits
+2025-06-03 03:36:02.449 [info] multiCodebaseIndexingJob dispose
+2025-06-03 03:36:02.449 [info] Aborting indexing job.
+2025-06-03 03:36:02.449 [error] We currently do not allow indexing the home directory.
+2025-06-03 03:36:02.449 [info] Indexing job successfully done or aborted.
+2025-06-03 03:39:02.335 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 03:41:02.449 [info] multiCodebaseIndexingJob dispose
+2025-06-03 03:41:02.449 [info] Aborting indexing job.
+2025-06-03 03:41:02.449 [error] We currently do not allow indexing the home directory.
+2025-06-03 03:41:02.449 [info] Indexing job successfully done or aborted.
+2025-06-03 03:44:02.347 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-03 03:44:02.348 [info] Get user commits took 15.094140008091927ms for 10 commits
+2025-06-03 03:46:02.449 [info] multiCodebaseIndexingJob dispose
+2025-06-03 03:46:02.449 [info] Aborting indexing job.
+2025-06-03 03:46:02.449 [error] We currently do not allow indexing the home directory.
+2025-06-03 03:46:02.449 [info] Indexing job successfully done or aborted.
+2025-06-03 03:51:02.450 [info] multiCodebaseIndexingJob dispose
+2025-06-03 03:51:02.450 [info] Aborting indexing job.
+2025-06-03 03:51:02.450 [error] We currently do not allow indexing the home directory.
+2025-06-03 03:51:02.450 [info] Indexing job successfully done or aborted.
+2025-06-03 03:56:02.450 [info] multiCodebaseIndexingJob dispose
+2025-06-03 03:56:02.450 [info] Aborting indexing job.
+2025-06-03 03:56:02.450 [error] We currently do not allow indexing the home directory.
+2025-06-03 03:56:02.450 [info] Indexing job successfully done or aborted.
+2025-06-03 04:01:02.451 [info] multiCodebaseIndexingJob dispose
+2025-06-03 04:01:02.451 [info] Aborting indexing job.
+2025-06-03 04:01:02.451 [error] We currently do not allow indexing the home directory.
+2025-06-03 04:01:02.451 [info] Indexing job successfully done or aborted.
+2025-06-03 04:06:02.452 [info] multiCodebaseIndexingJob dispose
+2025-06-03 04:06:02.452 [info] Aborting indexing job.
+2025-06-03 04:06:02.452 [error] We currently do not allow indexing the home directory.
+2025-06-03 04:06:02.452 [info] Indexing job successfully done or aborted.
+2025-06-03 04:11:02.452 [info] multiCodebaseIndexingJob dispose
+2025-06-03 04:11:02.452 [info] Aborting indexing job.
+2025-06-03 04:11:02.452 [error] We currently do not allow indexing the home directory.
+2025-06-03 04:11:02.452 [info] Indexing job successfully done or aborted.
+2025-06-03 04:16:02.454 [info] multiCodebaseIndexingJob dispose
+2025-06-03 04:16:02.454 [info] Aborting indexing job.
+2025-06-03 04:16:02.454 [error] We currently do not allow indexing the home directory.
+2025-06-03 04:16:02.454 [info] Indexing job successfully done or aborted.
+2025-06-03 04:21:02.456 [info] multiCodebaseIndexingJob dispose
+2025-06-03 04:21:02.456 [info] Aborting indexing job.
+2025-06-03 04:21:02.456 [error] We currently do not allow indexing the home directory.
+2025-06-03 04:21:02.456 [info] Indexing job successfully done or aborted.
+2025-06-03 04:26:02.456 [info] multiCodebaseIndexingJob dispose
+2025-06-03 04:26:02.456 [info] Aborting indexing job.
+2025-06-03 04:26:02.456 [error] We currently do not allow indexing the home directory.
+2025-06-03 04:26:02.456 [info] Indexing job successfully done or aborted.
+2025-06-03 04:31:02.458 [info] multiCodebaseIndexingJob dispose
+2025-06-03 04:31:02.458 [info] Aborting indexing job.
+2025-06-03 04:31:02.458 [error] We currently do not allow indexing the home directory.
+2025-06-03 04:31:02.458 [info] Indexing job successfully done or aborted.
+2025-06-03 04:36:02.458 [info] multiCodebaseIndexingJob dispose
+2025-06-03 04:36:02.458 [info] Aborting indexing job.
+2025-06-03 04:36:02.458 [error] We currently do not allow indexing the home directory.
+2025-06-03 04:36:02.458 [info] Indexing job successfully done or aborted.
+2025-06-03 04:41:02.458 [info] multiCodebaseIndexingJob dispose
+2025-06-03 04:41:02.458 [info] Aborting indexing job.
+2025-06-03 04:41:02.458 [error] We currently do not allow indexing the home directory.
+2025-06-03 04:41:02.458 [info] Indexing job successfully done or aborted.
+2025-06-03 04:46:02.459 [info] multiCodebaseIndexingJob dispose
+2025-06-03 04:46:02.459 [info] Aborting indexing job.
+2025-06-03 04:46:02.459 [error] We currently do not allow indexing the home directory.
+2025-06-03 04:46:02.459 [info] Indexing job successfully done or aborted.
+2025-06-03 04:51:02.461 [info] multiCodebaseIndexingJob dispose
+2025-06-03 04:51:02.461 [info] Aborting indexing job.
+2025-06-03 04:51:02.461 [error] We currently do not allow indexing the home directory.
+2025-06-03 04:51:02.461 [info] Indexing job successfully done or aborted.
+2025-06-03 04:56:02.463 [info] multiCodebaseIndexingJob dispose
+2025-06-03 04:56:02.463 [info] Aborting indexing job.
+2025-06-03 04:56:02.463 [error] We currently do not allow indexing the home directory.
+2025-06-03 04:56:02.463 [info] Indexing job successfully done or aborted.
+2025-06-03 05:01:02.464 [info] multiCodebaseIndexingJob dispose
+2025-06-03 05:01:02.464 [info] Aborting indexing job.
+2025-06-03 05:01:02.464 [error] We currently do not allow indexing the home directory.
+2025-06-03 05:01:02.464 [info] Indexing job successfully done or aborted.
+2025-06-03 05:06:02.464 [info] multiCodebaseIndexingJob dispose
+2025-06-03 05:06:02.464 [info] Aborting indexing job.
+2025-06-03 05:06:02.464 [error] We currently do not allow indexing the home directory.
+2025-06-03 05:06:02.464 [info] Indexing job successfully done or aborted.
+2025-06-03 05:11:02.464 [info] multiCodebaseIndexingJob dispose
+2025-06-03 05:11:02.464 [info] Aborting indexing job.
+2025-06-03 05:11:02.464 [error] We currently do not allow indexing the home directory.
+2025-06-03 05:11:02.464 [info] Indexing job successfully done or aborted.
+2025-06-03 05:16:02.466 [info] multiCodebaseIndexingJob dispose
+2025-06-03 05:16:02.466 [info] Aborting indexing job.
+2025-06-03 05:16:02.466 [error] We currently do not allow indexing the home directory.
+2025-06-03 05:16:02.466 [info] Indexing job successfully done or aborted.
+2025-06-03 05:21:02.468 [info] multiCodebaseIndexingJob dispose
+2025-06-03 05:21:02.468 [info] Aborting indexing job.
+2025-06-03 05:21:02.468 [error] We currently do not allow indexing the home directory.
+2025-06-03 05:21:02.468 [info] Indexing job successfully done or aborted.
+2025-06-03 05:26:02.468 [info] multiCodebaseIndexingJob dispose
+2025-06-03 05:26:02.468 [info] Aborting indexing job.
+2025-06-03 05:26:02.469 [error] We currently do not allow indexing the home directory.
+2025-06-03 05:26:02.469 [info] Indexing job successfully done or aborted.
+2025-06-03 05:31:02.470 [info] multiCodebaseIndexingJob dispose
+2025-06-03 05:31:02.470 [info] Aborting indexing job.
+2025-06-03 05:31:02.470 [error] We currently do not allow indexing the home directory.
+2025-06-03 05:31:02.470 [info] Indexing job successfully done or aborted.
+2025-06-03 05:36:02.470 [info] multiCodebaseIndexingJob dispose
+2025-06-03 05:36:02.470 [info] Aborting indexing job.
+2025-06-03 05:36:02.470 [error] We currently do not allow indexing the home directory.
+2025-06-03 05:36:02.470 [info] Indexing job successfully done or aborted.
+2025-06-03 05:41:02.471 [info] multiCodebaseIndexingJob dispose
+2025-06-03 05:41:02.471 [info] Aborting indexing job.
+2025-06-03 05:41:02.471 [error] We currently do not allow indexing the home directory.
+2025-06-03 05:41:02.471 [info] Indexing job successfully done or aborted.
+2025-06-03 05:46:02.472 [info] multiCodebaseIndexingJob dispose
+2025-06-03 05:46:02.472 [info] Aborting indexing job.
+2025-06-03 05:46:02.472 [error] We currently do not allow indexing the home directory.
+2025-06-03 05:46:02.472 [info] Indexing job successfully done or aborted.
+2025-06-03 05:51:02.472 [info] multiCodebaseIndexingJob dispose
+2025-06-03 05:51:02.472 [info] Aborting indexing job.
+2025-06-03 05:51:02.472 [error] We currently do not allow indexing the home directory.
+2025-06-03 05:51:02.472 [info] Indexing job successfully done or aborted.
+2025-06-03 05:56:02.473 [info] multiCodebaseIndexingJob dispose
+2025-06-03 05:56:02.473 [info] Aborting indexing job.
+2025-06-03 05:56:02.473 [error] We currently do not allow indexing the home directory.
+2025-06-03 05:56:02.473 [info] Indexing job successfully done or aborted.
+2025-06-03 06:01:02.474 [info] multiCodebaseIndexingJob dispose
+2025-06-03 06:01:02.474 [info] Aborting indexing job.
+2025-06-03 06:01:02.474 [error] We currently do not allow indexing the home directory.
+2025-06-03 06:01:02.474 [info] Indexing job successfully done or aborted.
+2025-06-03 06:06:02.475 [info] multiCodebaseIndexingJob dispose
+2025-06-03 06:06:02.475 [info] Aborting indexing job.
+2025-06-03 06:06:02.475 [error] We currently do not allow indexing the home directory.
+2025-06-03 06:06:02.475 [info] Indexing job successfully done or aborted.
+2025-06-03 06:11:02.476 [info] multiCodebaseIndexingJob dispose
+2025-06-03 06:11:02.476 [info] Aborting indexing job.
+2025-06-03 06:11:02.476 [error] We currently do not allow indexing the home directory.
+2025-06-03 06:11:02.476 [info] Indexing job successfully done or aborted.
+2025-06-03 06:16:02.476 [info] multiCodebaseIndexingJob dispose
+2025-06-03 06:16:02.476 [info] Aborting indexing job.
+2025-06-03 06:16:02.476 [error] We currently do not allow indexing the home directory.
+2025-06-03 06:16:02.476 [info] Indexing job successfully done or aborted.
+2025-06-03 06:21:02.478 [info] multiCodebaseIndexingJob dispose
+2025-06-03 06:21:02.478 [info] Aborting indexing job.
+2025-06-03 06:21:02.478 [error] We currently do not allow indexing the home directory.
+2025-06-03 06:21:02.478 [info] Indexing job successfully done or aborted.
+2025-06-03 06:26:02.477 [info] multiCodebaseIndexingJob dispose
+2025-06-03 06:26:02.477 [info] Aborting indexing job.
+2025-06-03 06:26:02.477 [error] We currently do not allow indexing the home directory.
+2025-06-03 06:26:02.477 [info] Indexing job successfully done or aborted.
+2025-06-03 06:31:02.479 [info] multiCodebaseIndexingJob dispose
+2025-06-03 06:31:02.479 [info] Aborting indexing job.
+2025-06-03 06:31:02.479 [error] We currently do not allow indexing the home directory.
+2025-06-03 06:31:02.479 [info] Indexing job successfully done or aborted.
+2025-06-03 06:36:02.480 [info] multiCodebaseIndexingJob dispose
+2025-06-03 06:36:02.480 [info] Aborting indexing job.
+2025-06-03 06:36:02.480 [error] We currently do not allow indexing the home directory.
+2025-06-03 06:36:02.480 [info] Indexing job successfully done or aborted.
+2025-06-03 06:41:02.482 [info] multiCodebaseIndexingJob dispose
+2025-06-03 06:41:02.482 [info] Aborting indexing job.
+2025-06-03 06:41:02.482 [error] We currently do not allow indexing the home directory.
+2025-06-03 06:41:02.482 [info] Indexing job successfully done or aborted.
+2025-06-03 06:46:02.483 [info] multiCodebaseIndexingJob dispose
+2025-06-03 06:46:02.483 [info] Aborting indexing job.
+2025-06-03 06:46:02.483 [error] We currently do not allow indexing the home directory.
+2025-06-03 06:46:02.483 [info] Indexing job successfully done or aborted.
+2025-06-03 06:49:18.596 [info] multiCodebaseIndexingJob dispose
+2025-06-03 06:49:18.596 [info] Aborting indexing job.
+2025-06-03 06:49:18.596 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled
+2025-06-03 06:49:18.597 [error] Error getting server config, using proto default config Canceled

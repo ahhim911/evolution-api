@@ -1,0 +1,17 @@
+2025-06-05 00:19:40.525 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-06-05 00:19:40.525 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-06-05 00:19:40.542 [info] Using existing keys for an index
+2025-06-05 00:19:40.542 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-06-05 00:19:40.733 [info] Using existing keys for an index
+2025-06-05 00:19:40.733 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-06-05 00:19:40.828 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-05 00:19:40.834 [warning] Failed to get symbolic ref: Failed to execute git
+2025-06-05 00:19:40.837 [error] We currently do not allow indexing the home directory.
+2025-06-05 00:19:40.837 [info] Indexing job successfully done or aborted.
+2025-06-05 00:19:41.105 [info] Picked default branch from method 1.
+2025-06-05 00:19:41.376 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-05 00:19:45.339 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-05 00:19:45.358 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-05 00:19:45.381 [error] Git command failed: git rev-parse --show-toplevel A system error occurred (spawn /bin/sh ENOENT)
+2025-06-05 00:20:01.726 [info] multiCodebaseIndexingJob dispose
+2025-06-05 00:20:01.726 [info] Aborting indexing job.

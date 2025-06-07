@@ -1,0 +1,76 @@
+2025-06-05 00:19:40.433 [info] [main] Log level: Info
+2025-06-05 00:19:40.433 [info] [main] Validating found git in: "git"
+2025-06-05 00:19:40.433 [info] [main] Using git "2.43.0" from "git"
+2025-06-05 00:19:40.433 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-05 00:19:40.433 [info] > git rev-parse --show-toplevel [12ms]
+2025-06-05 00:19:40.433 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-06-05 00:19:40.433 [info] [Model][openRepository] Opened repository: /root
+2025-06-05 00:19:40.433 [info] > git config --get commit.template [3ms]
+2025-06-05 00:19:40.462 [info] > git rev-parse --show-toplevel [31ms]
+2025-06-05 00:19:40.465 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-06-05 00:19:40.467 [info] [Model][openRepository] Opened repository: /root/evolution-api
+2025-06-05 00:19:40.467 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-06-05 00:19:40.478 [info] > git rev-parse --show-toplevel [5ms]
+2025-06-05 00:19:40.479 [info] > git config --get commit.template [7ms]
+2025-06-05 00:19:40.493 [info] > git rev-parse --show-toplevel [12ms]
+2025-06-05 00:19:40.511 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [19ms]
+2025-06-05 00:19:40.511 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2025-06-05 00:19:40.519 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/evolution-api/.git/refs/remotes/origin/main'
+2025-06-05 00:19:40.520 [info] > git rev-parse --show-toplevel [11ms]
+2025-06-05 00:19:40.526 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-05 00:19:40.526 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2025-06-05 00:19:40.542 [info] > git status -z -uall [9ms]
+2025-06-05 00:19:40.543 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-06-05 00:19:40.554 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-06-05 00:19:40.560 [info] > git rev-parse --show-toplevel [20ms]
+2025-06-05 00:19:40.560 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2025-06-05 00:19:40.563 [info] > git config --get commit.template [8ms]
+2025-06-05 00:19:40.565 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2025-06-05 00:19:40.579 [info] > git merge-base refs/heads/main refs/remotes/origin/main [10ms]
+2025-06-05 00:19:40.583 [info] > git rev-parse --show-toplevel [18ms]
+2025-06-05 00:19:40.586 [info] > git diff --name-status -z --diff-filter=ADMR 427c99499394d3894e4b065626323c45e91022e4...refs/remotes/origin/main [3ms]
+2025-06-05 00:19:40.586 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-06-05 00:19:40.588 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/evolution-api/.git/refs/remotes/origin/main'
+2025-06-05 00:19:40.589 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-06-05 00:19:40.591 [info] [Model][openRepository] Opened repository: /root/.nvm
+2025-06-05 00:19:40.596 [info] > git rev-parse refs/remotes/origin/main [8ms]
+2025-06-05 00:19:40.603 [info] > git rev-parse --show-toplevel [6ms]
+2025-06-05 00:19:40.603 [info] > git config --get commit.template [9ms]
+2025-06-05 00:19:40.610 [info] > git status -z -uall [10ms]
+2025-06-05 00:19:40.610 [info] > git rev-parse --show-toplevel [3ms]
+2025-06-05 00:19:40.612 [info] [Model][doInitialScan] Initial repository scan completed - repositories (3), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-05 00:19:40.612 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2025-06-05 00:19:40.614 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [5ms]
+2025-06-05 00:19:40.619 [info] > git status -z -uall [3ms]
+2025-06-05 00:19:40.621 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-05 00:19:40.626 [info] > git config --get commit.template [0ms]
+2025-06-05 00:19:40.628 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [0ms]
+2025-06-05 00:19:40.635 [info] > git status -z -uall [3ms]
+2025-06-05 00:19:40.635 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-06-05 00:19:40.748 [info] > git status -z -uall [260ms]
+2025-06-05 00:19:40.828 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2025-06-05 00:19:40.833 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [6ms]
+2025-06-05 00:19:40.833 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-06-05 00:19:40.834 [info] > git config --get commit.template [15ms]
+2025-06-05 00:19:40.837 [info] > git config --local branch.master.vscode-merge-base [7ms]
+2025-06-05 00:19:40.837 [warning] [Git][config] git config failed: Failed to execute git
+2025-06-05 00:19:40.847 [info] > git reflog master --grep-reflog=branch: Created from *. [5ms]
+2025-06-05 00:19:40.865 [info] > git show --textconv :.env [11ms]
+2025-06-05 00:19:40.865 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [15ms]
+2025-06-05 00:19:40.865 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-06-05 00:19:40.865 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-06-05 00:19:40.868 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [23ms]
+2025-06-05 00:19:41.099 [info] > git merge-base refs/heads/master refs/remotes/origin/master [231ms]
+2025-06-05 00:19:41.101 [info] > git ls-files --stage -- /root/evolution-api/.env [244ms]
+2025-06-05 00:19:41.104 [info] > git diff --name-status -z --diff-filter=ADMR 6dc89ccec324e613e5fbfdb04402a3aea94557ff...refs/remotes/origin/master [3ms]
+2025-06-05 00:19:41.105 [info] > git rev-parse --verify origin/master [7ms]
+2025-06-05 00:19:41.291 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2025-06-05 00:19:41.365 [info] > git check-ignore -v -z --stdin [24ms]
+2025-06-05 00:19:41.367 [info] > git check-ignore -v -z --stdin [21ms]
+2025-06-05 00:19:41.368 [info] > git check-ignore -v -z --stdin [18ms]
+2025-06-05 00:19:41.392 [info] > git status -z -uall [117ms]
+2025-06-05 00:19:41.461 [info] > git blame --root --incremental 427c99499394d3894e4b065626323c45e91022e4 -- /root/evolution-api/.env [2ms]
+2025-06-05 00:19:41.461 [info] fatal: no such path .env in 427c99499394d3894e4b065626323c45e91022e4
+2025-06-05 00:19:49.909 [info] > git config --global user.name [1ms]
+2025-06-05 00:19:49.911 [info] > git config --global user.email [0ms]
+2025-06-05 00:19:49.911 [info] [main] Stored git author name in global state:  <>

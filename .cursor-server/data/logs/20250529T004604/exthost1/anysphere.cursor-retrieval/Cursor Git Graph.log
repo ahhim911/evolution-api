@@ -1,5 +1,0 @@
-2025-05-29 00:46:08.081 [info] Using repo backend url https://repo42.cursor.sh
-2025-05-29 00:46:08.603 [info] Using repo backend url https://repo42.cursor.sh
-2025-05-29 00:46:12.486 [info] Git graph is disabled. shouldIndex: true isEnabled: false
-2025-05-29 01:14:03.754 [error] Error getting server config, using proto default config Canceled
-2025-05-29 01:14:03.754 [error] Error getting server config, using proto default config Canceled

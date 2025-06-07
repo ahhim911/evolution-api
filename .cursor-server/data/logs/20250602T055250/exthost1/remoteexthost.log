@@ -20,3 +20,161 @@
 2025-06-02 06:06:39.189 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
 2025-06-02 10:55:24.121 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 2025-06-02 10:55:24.914 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-06-02 10:59:02.096 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001
+2025-06-03 06:49:18.530 [info] Extension host terminating: renderer disconnected for too long (1)
+2025-06-03 06:49:18.531 [info] Lock '/root/.cursor-server/data/User/workspaceStorage/6cff2fadbb261528f91ee4f787fadc39/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-06-03 06:49:18.598 [error] Canceled: Canceled
+	at new sNt (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:42:157312)
+	at met.U (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:42:161950)
+	at n.<computed>.a.charCodeAt.n.<computed> (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:42:159442)
+	at dK.g (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32527)
+	at dK.executeCommand (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32031)
+	at e.registerCommand.description (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:31361)
+	at dK.h (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:33048)
+	at dK.g (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32124)
+	at dK.executeCommand (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32031)
+	at Object.executeCommand (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:175:42605)
+	at h2.N [as value] (/root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/main.js:2:978108)
+	at C.B (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2391)
+	at C (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2461)
+	at C.fire (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2678)
+	at Object.f [as dispose] (/root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/main.js:2:999684)
+	at /root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/main.js:2:1005806
+	at Array.forEach (<anonymous>)
+	at C.dispose (/root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/main.js:2:1005792)
+	at RY.<anonymous> (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20157)
+	at RY.dispose (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20253)
+	at RY.<anonymous> (/root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/main.js:2:980587)
+	at RY.dispose (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20253)
+	at ji (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:25:706)
+	at file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:137:15392
+	at file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:25:1018
+	at Object.dispose (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:8:711)
+	at Noe.eb (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:137:12173)
+	at file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10127
+	at Array.map (<anonymous>)
+	at Noe.$ (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10115)
+	at Noe.terminate (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10358)
+	at dyt.terminate (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:138:1435)
+	at Xr (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:193:15189)
+	at lit.a (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:193:12022)
+	at lit.h (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:28:76423)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) setContext undefined
+2025-06-03 06:49:18.599 [error] Canceled: Canceled
+	at new sNt (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:42:157312)
+	at met.U (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:42:161950)
+	at n.<computed>.a.charCodeAt.n.<computed> (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:42:159442)
+	at dK.g (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32527)
+	at dK.executeCommand (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32031)
+	at e.registerCommand.description (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:31361)
+	at dK.h (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:33048)
+	at dK.g (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32124)
+	at dK.executeCommand (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32031)
+	at Object.executeCommand (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:175:42605)
+	at h2.N [as value] (/root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/main.js:2:978108)
+	at C.B (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2391)
+	at C (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2461)
+	at C.fire (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2678)
+	at Object.f [as dispose] (/root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/main.js:2:999684)
+	at /root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/main.js:2:1005806
+	at Array.forEach (<anonymous>)
+	at C.dispose (/root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/main.js:2:1005792)
+	at RY.<anonymous> (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20157)
+	at RY.dispose (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20253)
+	at RY.<anonymous> (/root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/main.js:2:980587)
+	at RY.dispose (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20253)
+	at ji (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:25:706)
+	at file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:137:15392
+	at file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:25:1018
+	at Object.dispose (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:8:711)
+	at Noe.eb (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:137:12173)
+	at file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10127
+	at Array.map (<anonymous>)
+	at Noe.$ (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10115)
+	at Noe.terminate (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10358)
+	at dyt.terminate (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:138:1435)
+	at Xr (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:193:15189)
+	at lit.a (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:193:12022)
+	at lit.h (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:28:76423)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) setContext undefined
+2025-06-03 06:49:18.599 [error] Canceled: Canceled
+	at new sNt (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:42:157312)
+	at met.U (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:42:161950)
+	at n.<computed>.a.charCodeAt.n.<computed> (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:42:159442)
+	at dK.g (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32527)
+	at dK.executeCommand (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32031)
+	at e.registerCommand.description (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:31361)
+	at dK.h (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:33048)
+	at dK.g (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32124)
+	at dK.executeCommand (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32031)
+	at Object.executeCommand (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:175:42605)
+	at h2.N [as value] (/root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/main.js:2:978108)
+	at C.B (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2391)
+	at C (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2461)
+	at C.fire (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2678)
+	at Object.f [as dispose] (/root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/main.js:2:999684)
+	at /root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/main.js:2:1005806
+	at Array.forEach (<anonymous>)
+	at C.dispose (/root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/main.js:2:1005792)
+	at RY.<anonymous> (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20157)
+	at RY.dispose (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20253)
+	at RY.<anonymous> (/root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/main.js:2:980587)
+	at RY.dispose (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20253)
+	at ji (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:25:706)
+	at file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:137:15392
+	at file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:25:1018
+	at Object.dispose (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:8:711)
+	at Noe.eb (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:137:12173)
+	at file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10127
+	at Array.map (<anonymous>)
+	at Noe.$ (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10115)
+	at Noe.terminate (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10358)
+	at dyt.terminate (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:138:1435)
+	at Xr (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:193:15189)
+	at lit.a (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:193:12022)
+	at lit.h (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:28:76423)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) setContext undefined
+2025-06-03 06:49:18.602 [error] Canceled: Canceled
+	at new sNt (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:42:157312)
+	at met.U (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:42:161950)
+	at n.<computed>.a.charCodeAt.n.<computed> (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:42:159442)
+	at dK.g (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32527)
+	at dK.executeCommand (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32031)
+	at e.registerCommand.description (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:31361)
+	at dK.h (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:33048)
+	at dK.g (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32124)
+	at dK.executeCommand (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:133:32031)
+	at Object.executeCommand (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:175:42605)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/github/dist/extension.js:2:328629)
+	at /root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/github/dist/extension.js:2:329588
+	at h2.value (/root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/main.js:2:1096223)
+	at C.B (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2391)
+	at C (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2461)
+	at C.fire (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2678)
+	at Object.f [as dispose] (/root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/main.js:2:999684)
+	at /root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/main.js:2:1005806
+	at Array.forEach (<anonymous>)
+	at C.dispose (/root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/main.js:2:1005792)
+	at RY.<anonymous> (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20157)
+	at RY.dispose (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20253)
+	at RY.<anonymous> (/root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/main.js:2:980587)
+	at RY.dispose (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:126:20253)
+	at ji (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:25:706)
+	at file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:137:15392
+	at file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:25:1018
+	at Object.dispose (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:8:711)
+	at Noe.eb (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:137:12173)
+	at file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10127
+	at Array.map (<anonymous>)
+	at Noe.$ (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10115)
+	at Noe.terminate (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:137:10358)
+	at dyt.terminate (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:138:1435)
+	at Xr (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:193:15189)
+	at lit.a (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:193:12022)
+	at lit.h (file:///root/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/out/vs/workbench/api/node/extensionHostProcess.js:28:76423)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) setContext undefined
+2025-06-03 06:49:18.604 [info] Extension host with pid 22297 exiting with code 0

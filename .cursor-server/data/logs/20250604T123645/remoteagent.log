@@ -1,0 +1,18 @@
+2025-06-04 12:36:45.770 [info] 
+
+
+
+
+2025-06-04 12:36:45.775 [info] Extension host agent started.
+2025-06-04 12:36:45.818 [info] [<unknown>][62e342d6][ManagementConnection] New connection established.
+2025-06-04 12:36:45.826 [info] [<unknown>][0b2d0e33][ExtensionHostConnection] New connection established.
+2025-06-04 12:36:45.947 [info] [<unknown>][0b2d0e33][ExtensionHostConnection] <181756> Launched Extension Host Process.
+2025-06-04 12:41:45.775 [info] New EH opened, aborting shutdown
+2025-06-04 13:28:35.552 [info] [<unknown>][62e342d6][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-06-04 16:28:17.743 [info] [<unknown>][0b2d0e33][ExtensionHostConnection] <181756> Extension Host Process exited with code: 0, signal: null.
+2025-06-04 16:28:17.744 [info] Last EH closed, waiting before shutting down
+2025-06-04 16:28:17.745 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/server/out/server-main.js:178:1060)
+    at process.emit (node:events:530:35)
+2025-06-04 16:28:42.562 [info] [<unknown>][62e342d6][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2025-06-04 16:33:17.745 [info] Last EH closed, shutting down

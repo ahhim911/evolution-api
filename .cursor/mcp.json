@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "Notion": {
+      "url": "https://mcp.notion.com/mcp"
+    },
+    "GitHub": {
+      "command": "docker run -i --rm -e GITHUB_PERSONAL_ACCESS_TOKEN ghcr.io/github/github-mcp-server",
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN}"
+      }
+    },
+    "Figma": {
+      "url": "http://127.0.0.1:3845/sse"
+    }
+  }
+}

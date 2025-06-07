@@ -1,0 +1,14 @@
+2025-06-04 00:24:40.414 [info] 
+
+
+
+
+2025-06-04 00:24:40.415 [info] Extension host agent started.
+2025-06-04 00:24:40.472 [info] [<unknown>][6be318e0][ExtensionHostConnection] New connection established.
+2025-06-04 00:24:40.478 [info] [<unknown>][fbe66bc2][ManagementConnection] New connection established.
+2025-06-04 00:24:40.598 [info] [<unknown>][6be318e0][ExtensionHostConnection] <146203> Launched Extension Host Process.
+2025-06-04 00:29:40.411 [info] New EH opened, aborting shutdown
+2025-06-04 06:43:02.474 [info] [<unknown>][fbe66bc2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-06-04 06:43:02.513 [info] [<unknown>][6be318e0][ExtensionHostConnection] <146203> Extension Host Process exited with code: 0, signal: null.
+2025-06-04 06:43:02.513 [info] Last EH closed, waiting before shutting down
+2025-06-04 06:48:02.514 [info] Last EH closed, shutting down

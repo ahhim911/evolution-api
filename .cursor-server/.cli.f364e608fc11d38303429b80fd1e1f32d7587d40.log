@@ -1,0 +1,6 @@
+Listening on 127.0.0.1:33359
+[2025-06-05 00:19:37] info Disposed of connection to running server.
+[2025-06-05 00:19:37] info Checking /root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/log.txt and /root/.cursor-server/cli/servers/Stable-f364e608fc11d38303429b80fd1e1f32d7587d40/pid.txt for a running server...
+[2025-06-05 00:19:37] info Starting server...
+[2025-06-05 00:19:37] info Server started
+[2025-06-05 00:20:01] info Disposed of connection to running server.

@@ -1,0 +1,669 @@
+2025-06-07 01:29:37.611 [info] Extension host with pid 308717 started
+2025-06-07 01:29:37.611 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2025-06-07 01:29:37.612 [info] Lock '/root/.cursor-server/data/User/workspaceStorage/6cff2fadbb261528f91ee4f787fadc39/vscode.lock': Lock acquired.
+2025-06-07 01:29:37.640 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-07 01:29:37.706 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-07 01:29:37.707 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-07 01:29:38.236 [info] Eager extensions activated
+2025-06-07 01:29:38.237 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 01:29:38.237 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 01:29:38.237 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 01:29:38.237 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 01:29:38.237 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 01:29:38.708 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-06-07 01:29:38.708 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-06-07 01:29:38.708 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-06-07 01:29:38.708 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-06-07 01:29:38.708 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-07 01:29:39.250 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9827
+2025-06-07 01:29:40.155 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9828
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:41.262 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.263 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.264 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.264 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.265 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.265 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.265 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.265 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.265 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.266 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.266 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.266 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.266 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.267 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.267 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.267 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.267 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.267 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.268 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.269 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.269 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.269 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.269 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.269 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.269 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.269 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.269 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.269 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.269 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.269 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.270 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.270 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.270 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.270 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.270 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.270 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.270 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.270 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.270 [error] Error: Git error
+	at ChildProcess.<anonymous> (/root/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/main.js:2:1062665)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-07 01:29:42.596 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9828
+2025-06-07 01:29:42.607 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2025-06-07 01:29:48.518 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:29:53.714 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:29:58.913 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:30:04.113 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:30:09.404 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:31:51.146 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:31:56.340 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:32:01.531 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:32:06.726 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:32:11.923 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:32:17.118 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:32:22.315 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:32:27.505 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:32:32.694 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:32:37.895 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:32:43.085 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:32:48.277 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:32:53.470 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:32:58.665 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:33:03.864 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:33:09.061 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:33:14.253 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:33:19.450 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:33:24.640 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:33:29.837 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9867
+2025-06-07 01:33:36.582 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:33:41.775 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:33:46.987 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:33:52.191 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:33:57.383 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:34:02.575 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:34:07.771 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:34:12.963 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:34:35.234 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:34:46.617 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:34:51.811 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:35:00.321 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:35:05.517 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:35:10.710 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:37:17.442 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:37:22.632 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:37:27.829 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:37:33.020 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:37:38.209 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:37:44.112 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:37:49.304 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:38:36.643 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:38:41.861 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:38:47.053 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:39:07.631 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:39:12.826 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:39:21.275 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:39:26.470 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:39:31.665 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:39:36.857 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:39:43.600 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:39:48.790 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:39:53.984 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:39:59.179 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:40:57.728 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:41:02.937 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:41:08.126 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:41:23.413 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:41:28.612 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:41:33.807 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:41:44.550 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9869
+2025-06-07 01:41:49.744 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9870
+2025-06-07 01:41:57.549 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9870
+2025-06-07 01:42:02.744 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9870
+2025-06-07 01:42:07.938 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9870
+2025-06-07 01:42:16.679 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:42:21.871 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:43:51.537 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:43:56.735 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:44:01.930 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:44:07.127 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:44:12.318 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:44:17.513 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:44:22.705 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:44:27.897 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:44:33.090 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:44:38.286 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:44:44.027 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:44:58.003 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:45:03.192 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:45:08.390 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:45:13.585 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:45:18.779 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:45:23.980 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:45:29.176 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:45:34.545 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:45:39.747 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:45:44.943 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:45:50.161 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:45:55.359 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:45:56.880 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:46:00.557 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:46:05.753 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:46:09.662 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9872
+2025-06-07 01:46:10.779 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9871
+2025-06-07 01:46:11.331 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9871
+2025-06-07 01:46:20.160 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9871
+2025-06-07 01:46:20.714 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9871
+2025-06-07 01:46:25.914 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9871
+2025-06-07 01:46:31.110 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9871
+2025-06-07 01:46:36.377 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9871
+2025-06-07 01:46:43.099 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9871
+2025-06-07 01:46:49.086 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:46:54.277 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:46:59.474 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:47:04.665 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:47:09.857 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:47:15.055 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:48:19.930 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:48:25.131 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:48:30.326 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:48:35.529 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:48:43.274 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:48:48.470 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:48:53.663 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:48:58.863 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:49:04.057 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:49:09.255 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:49:14.452 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:49:19.649 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:49:24.841 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:49:30.039 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:49:42.923 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:49:48.112 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:49:53.310 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:49:58.506 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:50:03.706 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:50:08.900 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:50:14.098 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:50:19.298 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9873
+2025-06-07 01:50:27.045 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9875
+2025-06-07 01:50:32.239 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9875
+2025-06-07 01:50:37.433 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9875
+2025-06-07 01:50:42.628 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9875
+2025-06-07 01:50:47.815 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9875
+2025-06-07 01:50:53.983 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9875
+2025-06-07 01:50:59.175 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9875
+2025-06-07 01:51:04.376 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9875
+2025-06-07 01:51:12.118 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9877
+2025-06-07 01:51:17.317 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9879
+2025-06-07 01:51:22.530 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9879
+2025-06-07 01:51:27.721 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9879
+2025-06-07 01:51:32.914 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9879
+2025-06-07 01:51:38.115 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9879
+2025-06-07 01:51:43.310 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9879
+2025-06-07 01:51:48.508 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9879
+2025-06-07 01:51:53.707 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9879
+2025-06-07 01:51:59.447 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9879
+2025-06-07 01:52:04.648 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9879
+2025-06-07 01:52:09.845 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9879
+2025-06-07 01:52:15.047 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9879
+2025-06-07 01:52:20.244 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9879
+2025-06-07 01:52:25.446 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9879
+2025-06-07 01:52:30.648 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9879
+2025-06-07 01:52:35.875 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9879

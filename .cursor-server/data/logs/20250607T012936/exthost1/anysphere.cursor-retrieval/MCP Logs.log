@@ -1,0 +1,431 @@
+2025-06-07 01:34:53.311 [info] tion: Handling CreateClient action
+2025-06-07 01:34:53.311 [info] tion: Creating streamableHttp transport
+2025-06-07 01:34:53.311 [info] tion: Connecting to streamableHttp server
+2025-06-07 01:34:54.895 [info] tion: OAuth provider needs auth callback during connection
+2025-06-07 01:34:54.896 [error] tion: Error connecting to streamableHttp server, falling back to SSE: Unauthorized
+2025-06-07 01:34:54.896 [warning] tion: Unauthorized error connecting to streamableHttp server, returning transport
+2025-06-07 01:34:54.896 [info] tion: Successfully connected to streamableHttp server
+2025-06-07 01:34:54.896 [info] tion: Storing streamableHttp client
+2025-06-07 01:34:54.913 [info] tion: Handling ListOfferings action
+2025-06-07 01:34:54.913 [info] tion: Listing offerings
+2025-06-07 01:34:54.913 [info] tion: Handling ListOfferings action
+2025-06-07 01:34:54.913 [info] tion: Listing offerings
+2025-06-07 01:34:54.913 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:34:54.913 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:34:54.913 [info] tion: Found 0 tools
+2025-06-07 01:34:54.913 [info] tion: Found 0 tools
+2025-06-07 01:34:54.922 [info] tion: Handling ListOfferings action
+2025-06-07 01:34:54.922 [error] tion: No server info found
+2025-06-07 01:34:54.922 [info] tion: Handling ListOfferings action
+2025-06-07 01:34:54.922 [error] tion: No server info found
+2025-06-07 01:37:18.607 [info] tion: Handling CreateClient action
+2025-06-07 01:37:18.632 [info] tion: Handling ListOfferings action
+2025-06-07 01:37:18.632 [info] tion: Listing offerings
+2025-06-07 01:37:18.632 [info] tHub: Handling CreateClient action
+2025-06-07 01:37:18.632 [info] tHub: Starting new stdio process with command: docker run -i --rm -e GITHUB_PERSONAL_ACCESS_TOKEN ghcr.io/github/github-mcp-server
+2025-06-07 01:37:18.632 [error] tHub: Client error for command A system error occurred (spawn docker ENOENT)
+2025-06-07 01:37:18.632 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:37:18.632 [info] tion: Found 0 tools
+2025-06-07 01:37:18.633 [info] tHub: Client closed for command
+2025-06-07 01:37:18.640 [info] tHub: Handling ListOfferings action
+2025-06-07 01:37:18.640 [error] tHub: No server info found
+2025-06-07 01:37:18.640 [info] tion: Handling ListOfferings action
+2025-06-07 01:37:18.640 [info] tion: Listing offerings
+2025-06-07 01:37:18.640 [info] tion: Handling ListOfferings action
+2025-06-07 01:37:18.640 [info] tion: Listing offerings
+2025-06-07 01:37:18.640 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:37:18.640 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:37:18.640 [info] tion: Found 0 tools
+2025-06-07 01:37:18.640 [info] tion: Found 0 tools
+2025-06-07 01:37:18.654 [info] tion: Handling ListOfferings action
+2025-06-07 01:37:18.654 [error] tion: No server info found
+2025-06-07 01:37:18.654 [info] tHub: Handling ListOfferings action
+2025-06-07 01:37:18.654 [error] tHub: No server info found
+2025-06-07 01:37:18.654 [info] tHub: Handling ListOfferings action
+2025-06-07 01:37:18.654 [error] tHub: No server info found
+2025-06-07 01:37:18.659 [info] tHub: Handling ListOfferings action
+2025-06-07 01:37:18.659 [error] tHub: No server info found
+2025-06-07 01:37:18.659 [info] tion: Handling ListOfferings action
+2025-06-07 01:37:18.659 [error] tion: No server info found
+2025-06-07 01:37:18.659 [info] tion: Handling ListOfferings action
+2025-06-07 01:37:18.659 [error] tion: No server info found
+2025-06-07 01:37:18.668 [info] tHub: Handling ListOfferings action
+2025-06-07 01:37:18.668 [error] tHub: No server info found
+2025-06-07 01:37:18.668 [info] tHub: Handling ListOfferings action
+2025-06-07 01:37:18.668 [error] tHub: No server info found
+2025-06-07 01:37:23.653 [info] tHub: Handling CreateClient action
+2025-06-07 01:37:23.653 [info] tHub: Starting new stdio process with command: docker run -i --rm -e GITHUB_PERSONAL_ACCESS_TOKEN ghcr.io/github/github-mcp-server
+2025-06-07 01:37:23.653 [info] tHub: Handling ReloadClient action
+2025-06-07 01:37:23.653 [info] tHub: Starting new stdio process with command: docker run -i --rm -e GITHUB_PERSONAL_ACCESS_TOKEN ghcr.io/github/github-mcp-server
+2025-06-07 01:37:23.653 [error] tHub: Client error for command A system error occurred (spawn docker ENOENT)
+2025-06-07 01:37:23.654 [error] tHub: Client error for command A system error occurred (spawn docker ENOENT)
+2025-06-07 01:37:23.654 [error] tHub: Failed to reload client: A system error occurred (spawn docker ENOENT)
+2025-06-07 01:37:23.654 [info] tHub: Client closed for command
+2025-06-07 01:37:23.654 [info] tHub: Client closed for command
+2025-06-07 01:37:23.660 [info] tion: Handling ListOfferings action
+2025-06-07 01:37:23.660 [info] tion: Listing offerings
+2025-06-07 01:37:23.660 [info] tion: Handling ListOfferings action
+2025-06-07 01:37:23.660 [info] tion: Listing offerings
+2025-06-07 01:37:23.660 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:37:23.661 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:37:23.661 [info] tion: Found 0 tools
+2025-06-07 01:37:23.661 [info] tion: Found 0 tools
+2025-06-07 01:37:23.666 [info] tHub: Handling ListOfferings action
+2025-06-07 01:37:23.666 [error] tHub: No server info found
+2025-06-07 01:37:23.666 [info] tHub: Handling ListOfferings action
+2025-06-07 01:37:23.666 [error] tHub: No server info found
+2025-06-07 01:37:23.671 [info] tion: Handling ListOfferings action
+2025-06-07 01:37:23.671 [error] tion: No server info found
+2025-06-07 01:37:23.671 [info] tion: Handling ListOfferings action
+2025-06-07 01:37:23.671 [error] tion: No server info found
+2025-06-07 01:37:23.682 [info] tHub: Handling ListOfferings action
+2025-06-07 01:37:23.682 [error] tHub: No server info found
+2025-06-07 01:37:23.682 [info] tHub: Handling ListOfferings action
+2025-06-07 01:37:23.682 [error] tHub: No server info found
+2025-06-07 01:37:25.337 [info] tion: Handling CreateClient action
+2025-06-07 01:37:25.337 [info] tion: Creating streamableHttp transport
+2025-06-07 01:37:25.337 [info] tion: Connecting to streamableHttp server
+2025-06-07 01:37:25.337 [info] tion: Handling ReloadClient action
+2025-06-07 01:37:25.337 [info] tion: Creating streamableHttp transport
+2025-06-07 01:37:25.337 [info] tion: Connecting to streamableHttp server
+2025-06-07 01:37:26.688 [info] tion: OAuth provider needs auth callback during connection
+2025-06-07 01:37:26.688 [error] tion: Error connecting to streamableHttp server, falling back to SSE: Unauthorized
+2025-06-07 01:37:26.688 [warning] tion: Unauthorized error connecting to streamableHttp server, returning transport
+2025-06-07 01:37:26.688 [info] tion: Successfully connected to streamableHttp server
+2025-06-07 01:37:26.688 [info] tion: Storing streamableHttp client
+2025-06-07 01:37:26.702 [info] tion: Handling ListOfferings action
+2025-06-07 01:37:26.702 [info] tion: Listing offerings
+2025-06-07 01:37:26.702 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:37:26.702 [info] tion: Found 0 tools
+2025-06-07 01:37:26.707 [info] tHub: Handling ListOfferings action
+2025-06-07 01:37:26.707 [error] tHub: No server info found
+2025-06-07 01:37:26.719 [info] tion: Handling ListOfferings action
+2025-06-07 01:37:26.719 [info] tion: Listing offerings
+2025-06-07 01:37:26.719 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:37:26.719 [info] tion: Found 0 tools
+2025-06-07 01:37:26.727 [info] tHub: Handling ListOfferings action
+2025-06-07 01:37:26.727 [error] tHub: No server info found
+2025-06-07 01:37:26.782 [info] tion: OAuth provider needs auth callback during connection
+2025-06-07 01:37:26.782 [error] tion: Error connecting to streamableHttp server, falling back to SSE: Unauthorized
+2025-06-07 01:37:26.782 [warning] tion: Unauthorized error connecting to streamableHttp server, returning transport
+2025-06-07 01:37:26.782 [info] tion: Successfully connected to streamableHttp server
+2025-06-07 01:37:26.782 [info] tion: Another SSE client was created while connecting, using that one
+2025-06-07 01:37:26.782 [info] tion: Successfully reloaded client
+2025-06-07 01:37:26.788 [info] tion: Handling ListOfferings action
+2025-06-07 01:37:26.788 [info] tion: Listing offerings
+2025-06-07 01:37:26.788 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:37:26.788 [info] tion: Found 0 tools
+2025-06-07 01:37:26.796 [info] tHub: Handling ListOfferings action
+2025-06-07 01:37:26.796 [error] tHub: No server info found
+2025-06-07 01:37:26.803 [info] tion: Handling ListOfferings action
+2025-06-07 01:37:26.803 [info] tion: Listing offerings
+2025-06-07 01:37:26.803 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:37:26.803 [info] tion: Found 0 tools
+2025-06-07 01:37:26.809 [info] tHub: Handling ListOfferings action
+2025-06-07 01:37:26.809 [error] tHub: No server info found
+2025-06-07 01:37:43.985 [info] tion: Handling DeleteClient action
+2025-06-07 01:37:43.985 [info] tion: Cleaning up
+2025-06-07 01:37:52.032 [info] tHub: Handling DeleteClient action
+2025-06-07 01:38:36.402 [info] [project-0-root-Notion] Received OAuth callback with code
+2025-06-07 01:38:39.234 [info] [project-0-root-Notion] OAuth authorization completed
+2025-06-07 01:38:39.247 [info] tion: Handling ReloadClient action
+2025-06-07 01:38:39.247 [info] tion: Cleaning up
+2025-06-07 01:38:39.247 [info] tion: Creating streamableHttp transport
+2025-06-07 01:38:39.247 [info] tion: Connecting to streamableHttp server
+2025-06-07 01:38:41.042 [info] tion: Successfully connected to streamableHttp server
+2025-06-07 01:38:41.042 [info] tion: Storing streamableHttp client
+2025-06-07 01:38:41.042 [info] tion: Successfully reloaded client
+2025-06-07 01:38:41.051 [info] tion: Handling ListOfferings action
+2025-06-07 01:38:41.051 [error] tion: No server info found
+2025-06-07 01:38:41.098 [info] tHub: Handling ListOfferings action
+2025-06-07 01:38:41.098 [error] tHub: No server info found
+2025-06-07 01:38:41.105 [info] tion: Handling ListOfferings action
+2025-06-07 01:38:41.105 [info] tion: Listing offerings
+2025-06-07 01:38:41.105 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:38:41.305 [info] listOfferings: Found 10 tools
+2025-06-07 01:38:41.305 [info] tion: Found 10 tools
+2025-06-07 01:38:41.339 [info] tHub: Handling ListOfferings action
+2025-06-07 01:38:41.339 [error] tHub: No server info found
+2025-06-07 01:39:30.719 [info] igma: Handling CreateClient action
+2025-06-07 01:39:30.720 [info] igma: Creating streamableHttp transport
+2025-06-07 01:39:30.720 [info] igma: Connecting to streamableHttp server
+2025-06-07 01:39:30.733 [error] igma: Client error for command fetch failed
+2025-06-07 01:39:30.733 [info] igma: Client closed for command
+2025-06-07 01:39:30.734 [error] igma: Error connecting to streamableHttp server, falling back to SSE: fetch failed
+2025-06-07 01:39:30.734 [error] igma: Error connecting to streamableHttp server, falling back to SSE: fetch failed
+2025-06-07 01:39:30.734 [info] igma: Connecting to SSE server
+2025-06-07 01:39:30.743 [error] igma: Client error for command SSE error: TypeError: fetch failed: connect ECONNREFUSED 127.0.0.1:3845
+2025-06-07 01:39:30.743 [error] igma: Error connecting to SSE server after fallback: SSE error: TypeError: fetch failed: connect ECONNREFUSED 127.0.0.1:3845
+2025-06-07 01:39:30.743 [info] igma: Client closed for command
+2025-06-07 01:39:30.750 [info] tion: Handling ListOfferings action
+2025-06-07 01:39:30.750 [error] tion: No server info found
+2025-06-07 01:39:30.750 [info] tion: Handling CreateClient action
+2025-06-07 01:39:30.763 [info] tion: Handling ListOfferings action
+2025-06-07 01:39:30.763 [error] tion: No server info found
+2025-06-07 01:39:30.763 [info] tHub: Handling ListOfferings action
+2025-06-07 01:39:30.763 [error] tHub: No server info found
+2025-06-07 01:39:30.763 [info] tHub: Handling CreateClient action
+2025-06-07 01:39:30.763 [info] tHub: Starting new stdio process with command: docker run -i --rm -e GITHUB_PERSONAL_ACCESS_TOKEN ghcr.io/github/github-mcp-server
+2025-06-07 01:39:30.763 [error] tHub: Client error for command A system error occurred (spawn docker ENOENT)
+2025-06-07 01:39:30.763 [info] tHub: Client closed for command
+2025-06-07 01:39:30.771 [info] tHub: Handling ListOfferings action
+2025-06-07 01:39:30.771 [error] tHub: No server info found
+2025-06-07 01:39:30.771 [info] igma: Handling ListOfferings action
+2025-06-07 01:39:30.771 [error] igma: No server info found
+2025-06-07 01:39:30.771 [info] tion: Handling ListOfferings action
+2025-06-07 01:39:30.771 [error] tion: No server info found
+2025-06-07 01:39:30.771 [info] tion: Handling ListOfferings action
+2025-06-07 01:39:30.771 [error] tion: No server info found
+2025-06-07 01:39:30.783 [info] igma: Handling ListOfferings action
+2025-06-07 01:39:30.783 [error] igma: No server info found
+2025-06-07 01:39:30.783 [info] tion: Handling ListOfferings action
+2025-06-07 01:39:30.783 [info] tion: Listing offerings
+2025-06-07 01:39:30.783 [info] tHub: Handling ListOfferings action
+2025-06-07 01:39:30.783 [error] tHub: No server info found
+2025-06-07 01:39:30.783 [info] tHub: Handling ListOfferings action
+2025-06-07 01:39:30.783 [error] tHub: No server info found
+2025-06-07 01:39:30.783 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:39:30.792 [info] tion: Handling ListOfferings action
+2025-06-07 01:39:30.792 [info] tion: Listing offerings
+2025-06-07 01:39:30.792 [info] igma: Handling ListOfferings action
+2025-06-07 01:39:30.792 [error] igma: No server info found
+2025-06-07 01:39:30.792 [info] igma: Handling ListOfferings action
+2025-06-07 01:39:30.792 [error] igma: No server info found
+2025-06-07 01:39:30.792 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:39:30.836 [info] tion: Handling ListOfferings action
+2025-06-07 01:39:30.836 [info] tion: Listing offerings
+2025-06-07 01:39:30.836 [info] tion: Handling ListOfferings action
+2025-06-07 01:39:30.836 [info] tion: Listing offerings
+2025-06-07 01:39:30.836 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:39:30.836 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:39:31.073 [info] listOfferings: Found 10 tools
+2025-06-07 01:39:31.073 [info] tion: Found 10 tools
+2025-06-07 01:39:31.081 [info] tHub: Handling ListOfferings action
+2025-06-07 01:39:31.081 [error] tHub: No server info found
+2025-06-07 01:39:31.087 [info] igma: Handling ListOfferings action
+2025-06-07 01:39:31.087 [error] igma: No server info found
+2025-06-07 01:39:31.106 [info] listOfferings: Found 10 tools
+2025-06-07 01:39:31.106 [info] tion: Found 10 tools
+2025-06-07 01:39:31.114 [info] tHub: Handling ListOfferings action
+2025-06-07 01:39:31.114 [error] tHub: No server info found
+2025-06-07 01:39:31.118 [info] listOfferings: Found 10 tools
+2025-06-07 01:39:31.118 [info] tion: Found 10 tools
+2025-06-07 01:39:31.120 [info] igma: Handling ListOfferings action
+2025-06-07 01:39:31.120 [error] igma: No server info found
+2025-06-07 01:39:31.130 [info] tHub: Handling ListOfferings action
+2025-06-07 01:39:31.130 [error] tHub: No server info found
+2025-06-07 01:39:31.177 [info] igma: Handling ListOfferings action
+2025-06-07 01:39:31.177 [error] igma: No server info found
+2025-06-07 01:39:31.536 [info] listOfferings: Found 10 tools
+2025-06-07 01:39:31.536 [info] tion: Found 10 tools
+2025-06-07 01:39:31.544 [info] tHub: Handling ListOfferings action
+2025-06-07 01:39:31.544 [error] tHub: No server info found
+2025-06-07 01:39:31.549 [info] igma: Handling ListOfferings action
+2025-06-07 01:39:31.549 [error] igma: No server info found
+2025-06-07 01:39:41.186 [info] igma: Handling CreateClient action
+2025-06-07 01:39:41.186 [info] igma: Creating streamableHttp transport
+2025-06-07 01:39:41.186 [info] igma: Connecting to streamableHttp server
+2025-06-07 01:39:41.186 [info] igma: Handling ReloadClient action
+2025-06-07 01:39:41.186 [info] igma: Creating streamableHttp transport
+2025-06-07 01:39:41.186 [info] igma: Connecting to streamableHttp server
+2025-06-07 01:39:41.196 [error] igma: Client error for command fetch failed
+2025-06-07 01:39:41.197 [info] igma: Client closed for command
+2025-06-07 01:39:41.197 [error] igma: Error connecting to streamableHttp server, falling back to SSE: fetch failed
+2025-06-07 01:39:41.197 [error] igma: Error connecting to streamableHttp server, falling back to SSE: fetch failed
+2025-06-07 01:39:41.197 [info] igma: Connecting to SSE server
+2025-06-07 01:39:41.197 [error] igma: Client error for command fetch failed
+2025-06-07 01:39:41.197 [info] igma: Client closed for command
+2025-06-07 01:39:41.197 [error] igma: Error connecting to streamableHttp server, falling back to SSE: fetch failed
+2025-06-07 01:39:41.197 [error] igma: Error connecting to streamableHttp server, falling back to SSE: fetch failed
+2025-06-07 01:39:41.197 [info] igma: Connecting to SSE server
+2025-06-07 01:39:41.249 [error] igma: Client error for command SSE error: TypeError: fetch failed: connect ECONNREFUSED 127.0.0.1:3845
+2025-06-07 01:39:41.249 [error] igma: Error connecting to SSE server after fallback: SSE error: TypeError: fetch failed: connect ECONNREFUSED 127.0.0.1:3845
+2025-06-07 01:39:41.249 [info] igma: Client closed for command
+2025-06-07 01:39:41.249 [error] igma: Client error for command SSE error: TypeError: fetch failed: connect ECONNREFUSED 127.0.0.1:3845
+2025-06-07 01:39:41.249 [error] igma: Error connecting to SSE server after fallback: SSE error: TypeError: fetch failed: connect ECONNREFUSED 127.0.0.1:3845
+2025-06-07 01:39:41.249 [info] igma: Client closed for command
+2025-06-07 01:39:41.249 [error] igma: Failed to reload client: SSE error: TypeError: fetch failed: connect ECONNREFUSED 127.0.0.1:3845
+2025-06-07 01:39:41.264 [info] tion: Handling ListOfferings action
+2025-06-07 01:39:41.264 [error] tion: No server info found
+2025-06-07 01:39:41.264 [info] tion: Handling ListOfferings action
+2025-06-07 01:39:41.264 [error] tion: No server info found
+2025-06-07 01:39:41.278 [info] tHub: Handling ListOfferings action
+2025-06-07 01:39:41.278 [error] tHub: No server info found
+2025-06-07 01:39:41.278 [info] tHub: Handling ListOfferings action
+2025-06-07 01:39:41.278 [error] tHub: No server info found
+2025-06-07 01:39:41.329 [info] igma: Handling ListOfferings action
+2025-06-07 01:39:41.329 [error] igma: No server info found
+2025-06-07 01:39:41.329 [info] igma: Handling ListOfferings action
+2025-06-07 01:39:41.329 [error] igma: No server info found
+2025-06-07 01:39:41.335 [info] tion: Handling ListOfferings action
+2025-06-07 01:39:41.335 [info] tion: Listing offerings
+2025-06-07 01:39:41.335 [info] tion: Handling ListOfferings action
+2025-06-07 01:39:41.335 [info] tion: Listing offerings
+2025-06-07 01:39:41.335 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:39:41.335 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:39:41.523 [info] listOfferings: Found 10 tools
+2025-06-07 01:39:41.523 [info] tion: Found 10 tools
+2025-06-07 01:39:41.532 [info] tHub: Handling ListOfferings action
+2025-06-07 01:39:41.532 [error] tHub: No server info found
+2025-06-07 01:39:41.538 [info] igma: Handling ListOfferings action
+2025-06-07 01:39:41.538 [error] igma: No server info found
+2025-06-07 01:39:41.601 [info] listOfferings: Found 10 tools
+2025-06-07 01:39:41.601 [info] tion: Found 10 tools
+2025-06-07 01:39:41.614 [info] tHub: Handling ListOfferings action
+2025-06-07 01:39:41.614 [error] tHub: No server info found
+2025-06-07 01:39:41.619 [info] igma: Handling ListOfferings action
+2025-06-07 01:39:41.619 [error] igma: No server info found
+2025-06-07 01:39:48.548 [info] igma: Handling DeleteClient action
+2025-06-07 01:50:22.407 [info] tHub: Handling DeleteClient action
+2025-06-07 01:50:22.419 [info] tion: Handling CreateClient action
+2025-06-07 01:50:22.432 [info] tion: Handling ListOfferings action
+2025-06-07 01:50:22.432 [error] tion: No server info found
+2025-06-07 01:50:22.432 [info] tHub: Handling CreateClient action
+2025-06-07 01:50:22.432 [info] tHub: Starting new stdio process with command: docker run -i --rm -e GITHUB_PERSONAL_ACCESS_TOKEN ghcr.io/github/github-mcp-server
+2025-06-07 01:50:22.432 [error] tHub: Client error for command A system error occurred (spawn docker ENOENT)
+2025-06-07 01:50:22.433 [info] tHub: Client closed for command
+2025-06-07 01:50:22.453 [info] tHub: Handling ListOfferings action
+2025-06-07 01:50:22.453 [error] tHub: No server info found
+2025-06-07 01:50:22.453 [info] tion: Handling ListOfferings action
+2025-06-07 01:50:22.453 [error] tion: No server info found
+2025-06-07 01:50:22.453 [info] igma: Handling CreateClient action
+2025-06-07 01:50:22.453 [info] igma: Creating streamableHttp transport
+2025-06-07 01:50:22.453 [info] igma: Connecting to streamableHttp server
+2025-06-07 01:50:22.502 [info] igma: Handling ListOfferings action
+2025-06-07 01:50:22.502 [error] igma: No server info found
+2025-06-07 01:50:22.502 [info] tHub: Handling ListOfferings action
+2025-06-07 01:50:22.502 [error] tHub: No server info found
+2025-06-07 01:50:22.505 [error] igma: Client error for command fetch failed
+2025-06-07 01:50:22.505 [info] igma: Client closed for command
+2025-06-07 01:50:22.505 [error] igma: Error connecting to streamableHttp server, falling back to SSE: fetch failed
+2025-06-07 01:50:22.506 [error] igma: Error connecting to streamableHttp server, falling back to SSE: fetch failed
+2025-06-07 01:50:22.506 [info] igma: Connecting to SSE server
+2025-06-07 01:50:22.517 [info] tion: Handling ListOfferings action
+2025-06-07 01:50:22.517 [info] tion: Listing offerings
+2025-06-07 01:50:22.517 [info] igma: Handling ListOfferings action
+2025-06-07 01:50:22.517 [error] igma: No server info found
+2025-06-07 01:50:22.517 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:50:22.523 [error] igma: Client error for command SSE error: TypeError: fetch failed: connect ECONNREFUSED 127.0.0.1:3845
+2025-06-07 01:50:22.523 [error] igma: Error connecting to SSE server after fallback: SSE error: TypeError: fetch failed: connect ECONNREFUSED 127.0.0.1:3845
+2025-06-07 01:50:22.523 [info] igma: Client closed for command
+2025-06-07 01:50:22.525 [info] tion: Handling ListOfferings action
+2025-06-07 01:50:22.525 [info] tion: Listing offerings
+2025-06-07 01:50:22.525 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:50:22.563 [info] tion: Handling ListOfferings action
+2025-06-07 01:50:22.563 [error] tion: No server info found
+2025-06-07 01:50:22.563 [info] tion: Handling ListOfferings action
+2025-06-07 01:50:22.563 [error] tion: No server info found
+2025-06-07 01:50:22.605 [info] tHub: Handling ListOfferings action
+2025-06-07 01:50:22.605 [error] tHub: No server info found
+2025-06-07 01:50:22.605 [info] tHub: Handling ListOfferings action
+2025-06-07 01:50:22.605 [error] tHub: No server info found
+2025-06-07 01:50:22.611 [info] igma: Handling ListOfferings action
+2025-06-07 01:50:22.611 [error] igma: No server info found
+2025-06-07 01:50:22.611 [info] igma: Handling ListOfferings action
+2025-06-07 01:50:22.611 [error] igma: No server info found
+2025-06-07 01:50:22.617 [info] tion: Handling ListOfferings action
+2025-06-07 01:50:22.617 [info] tion: Listing offerings
+2025-06-07 01:50:22.617 [info] tion: Handling ListOfferings action
+2025-06-07 01:50:22.617 [info] tion: Listing offerings
+2025-06-07 01:50:22.617 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:50:22.617 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:50:23.398 [info] tion: Handling CreateClient action
+2025-06-07 01:50:23.408 [info] tion: Handling ListOfferings action
+2025-06-07 01:50:23.408 [error] tion: No server info found
+2025-06-07 01:50:23.408 [info] tHub: Handling CreateClient action
+2025-06-07 01:50:23.408 [info] tHub: Starting new stdio process with command: docker run -i --rm -e GITHUB_PERSONAL_ACCESS_TOKEN ghcr.io/github/github-mcp-server
+2025-06-07 01:50:23.408 [error] tHub: Client error for command A system error occurred (spawn docker ENOENT)
+2025-06-07 01:50:23.408 [info] tHub: Client closed for command
+2025-06-07 01:50:23.415 [info] tHub: Handling ListOfferings action
+2025-06-07 01:50:23.415 [error] tHub: No server info found
+2025-06-07 01:50:23.415 [info] tion: Handling ListOfferings action
+2025-06-07 01:50:23.415 [error] tion: No server info found
+2025-06-07 01:50:23.415 [info] igma: Handling CreateClient action
+2025-06-07 01:50:23.415 [info] igma: Creating streamableHttp transport
+2025-06-07 01:50:23.415 [info] igma: Connecting to streamableHttp server
+2025-06-07 01:50:23.422 [info] igma: Handling ListOfferings action
+2025-06-07 01:50:23.422 [error] igma: No server info found
+2025-06-07 01:50:23.422 [info] tHub: Handling ListOfferings action
+2025-06-07 01:50:23.422 [error] tHub: No server info found
+2025-06-07 01:50:23.423 [error] igma: Client error for command fetch failed
+2025-06-07 01:50:23.423 [info] igma: Client closed for command
+2025-06-07 01:50:23.423 [error] igma: Error connecting to streamableHttp server, falling back to SSE: fetch failed
+2025-06-07 01:50:23.423 [error] igma: Error connecting to streamableHttp server, falling back to SSE: fetch failed
+2025-06-07 01:50:23.423 [info] igma: Connecting to SSE server
+2025-06-07 01:50:23.427 [info] tion: Handling ListOfferings action
+2025-06-07 01:50:23.427 [info] tion: Listing offerings
+2025-06-07 01:50:23.427 [info] igma: Handling ListOfferings action
+2025-06-07 01:50:23.427 [error] igma: No server info found
+2025-06-07 01:50:23.427 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:50:23.432 [error] igma: Client error for command SSE error: TypeError: fetch failed: connect ECONNREFUSED 127.0.0.1:3845
+2025-06-07 01:50:23.432 [error] igma: Error connecting to SSE server after fallback: SSE error: TypeError: fetch failed: connect ECONNREFUSED 127.0.0.1:3845
+2025-06-07 01:50:23.432 [info] igma: Client closed for command
+2025-06-07 01:50:23.437 [info] tion: Handling ListOfferings action
+2025-06-07 01:50:23.437 [info] tion: Listing offerings
+2025-06-07 01:50:23.437 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:50:23.473 [info] tion: Handling ListOfferings action
+2025-06-07 01:50:23.473 [error] tion: No server info found
+2025-06-07 01:50:23.473 [info] tion: Handling ListOfferings action
+2025-06-07 01:50:23.473 [error] tion: No server info found
+2025-06-07 01:50:23.628 [info] tHub: Handling ListOfferings action
+2025-06-07 01:50:23.628 [error] tHub: No server info found
+2025-06-07 01:50:23.628 [info] tHub: Handling ListOfferings action
+2025-06-07 01:50:23.628 [error] tHub: No server info found
+2025-06-07 01:50:23.635 [info] igma: Handling ListOfferings action
+2025-06-07 01:50:23.635 [error] igma: No server info found
+2025-06-07 01:50:23.635 [info] igma: Handling ListOfferings action
+2025-06-07 01:50:23.635 [error] igma: No server info found
+2025-06-07 01:50:23.640 [info] tion: Handling ListOfferings action
+2025-06-07 01:50:23.640 [info] tion: Listing offerings
+2025-06-07 01:50:23.640 [info] tion: Handling ListOfferings action
+2025-06-07 01:50:23.640 [info] tion: Listing offerings
+2025-06-07 01:50:23.640 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:50:23.640 [info] tion: Connected to streamableHttp server, fetching offerings
+2025-06-07 01:50:25.683 [info] listOfferings: Found 10 tools
+2025-06-07 01:50:25.683 [info] tion: Found 10 tools
+2025-06-07 01:50:25.686 [info] listOfferings: Found 10 tools
+2025-06-07 01:50:25.686 [info] tion: Found 10 tools
+2025-06-07 01:50:25.687 [info] listOfferings: Found 10 tools
+2025-06-07 01:50:25.687 [info] tion: Found 10 tools
+2025-06-07 01:50:25.689 [info] listOfferings: Found 10 tools
+2025-06-07 01:50:25.689 [info] tion: Found 10 tools
+2025-06-07 01:50:25.692 [info] listOfferings: Found 10 tools
+2025-06-07 01:50:25.692 [info] tion: Found 10 tools
+2025-06-07 01:50:25.693 [info] listOfferings: Found 10 tools
+2025-06-07 01:50:25.693 [info] tion: Found 10 tools
+2025-06-07 01:50:25.696 [info] listOfferings: Found 10 tools
+2025-06-07 01:50:25.696 [info] tion: Found 10 tools
+2025-06-07 01:50:25.698 [info] listOfferings: Found 10 tools
+2025-06-07 01:50:25.698 [info] tion: Found 10 tools
+2025-06-07 01:50:25.698 [info] tHub: Handling ListOfferings action
+2025-06-07 01:50:25.698 [error] tHub: No server info found
+2025-06-07 01:50:25.698 [info] tHub: Handling ListOfferings action
+2025-06-07 01:50:25.698 [error] tHub: No server info found
+2025-06-07 01:50:25.698 [info] tHub: Handling ListOfferings action
+2025-06-07 01:50:25.698 [error] tHub: No server info found
+2025-06-07 01:50:25.698 [info] tHub: Handling ListOfferings action
+2025-06-07 01:50:25.698 [error] tHub: No server info found
+2025-06-07 01:50:25.701 [info] tHub: Handling ListOfferings action
+2025-06-07 01:50:25.701 [error] tHub: No server info found
+2025-06-07 01:50:25.701 [info] tHub: Handling ListOfferings action
+2025-06-07 01:50:25.701 [error] tHub: No server info found
+2025-06-07 01:50:25.703 [info] tHub: Handling ListOfferings action
+2025-06-07 01:50:25.703 [error] tHub: No server info found
+2025-06-07 01:50:25.704 [info] tHub: Handling ListOfferings action
+2025-06-07 01:50:25.704 [error] tHub: No server info found
+2025-06-07 01:50:25.706 [info] igma: Handling ListOfferings action
+2025-06-07 01:50:25.706 [error] igma: No server info found
+2025-06-07 01:50:25.706 [info] igma: Handling ListOfferings action
+2025-06-07 01:50:25.706 [error] igma: No server info found
+2025-06-07 01:50:25.706 [info] igma: Handling ListOfferings action
+2025-06-07 01:50:25.706 [error] igma: No server info found
+2025-06-07 01:50:25.706 [info] igma: Handling ListOfferings action
+2025-06-07 01:50:25.706 [error] igma: No server info found
+2025-06-07 01:50:25.706 [info] igma: Handling ListOfferings action
+2025-06-07 01:50:25.706 [error] igma: No server info found
+2025-06-07 01:50:25.706 [info] igma: Handling ListOfferings action
+2025-06-07 01:50:25.706 [error] igma: No server info found
+2025-06-07 01:50:25.708 [info] igma: Handling ListOfferings action
+2025-06-07 01:50:25.708 [error] igma: No server info found
+2025-06-07 01:50:25.708 [info] igma: Handling ListOfferings action
+2025-06-07 01:50:25.708 [error] igma: No server info found

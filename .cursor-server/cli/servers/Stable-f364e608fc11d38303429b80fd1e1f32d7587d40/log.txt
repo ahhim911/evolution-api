@@ -1,0 +1,18 @@
+Server bound to /tmp/cursor-edf395f9-0477-4a12-bf98-57306a1fad8c
+Extension host agent listening on /tmp/cursor-edf395f9-0477-4a12-bf98-57306a1fad8c
+
+[00:19:37] 
+
+
+
+
+[00:19:37] Extension host agent started.
+[00:19:37] [<unknown>][a9c46a0e][ExtensionHostConnection] New connection established.
+[00:19:37] [<unknown>][4edb6b8c][ManagementConnection] New connection established.
+[00:19:38] [<unknown>][a9c46a0e][ExtensionHostConnection] <186269> Launched Extension Host Process.
+[00:20:01] [<unknown>][4edb6b8c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[00:20:01] [<unknown>][a9c46a0e][ExtensionHostConnection] <186269> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[00:20:01] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[00:20:01] Last EH closed, waiting before shutting down
